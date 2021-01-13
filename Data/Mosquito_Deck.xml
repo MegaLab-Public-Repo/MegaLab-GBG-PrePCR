@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DeckLayout xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/BioSero.GreenButtonGo.LiquidHandler.Deck">
+  <Error i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/EdgyCode.ApplicationManager" />
+  <DeckImageUri>pack://application:,,,/SPTLabtech.MosquitoSequence.Driver;component/Images/TopDown_Mosquito1.png</DeckImageUri>
+  <HeightInMM>690</HeightInMM>
+  <Name i:nil="true" />
+  <NestHeight>24</NestHeight>
+  <NestWidth>35</NestWidth>
+  <Nests>
+    <Nest>
+      <Error i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/EdgyCode.ApplicationManager" />
+      <BuildTeachPoints>true</BuildTeachPoints>
+      <Height>24</Height>
+      <Name>Position 1</Name>
+      <Width>34</Width>
+      <X>48</X>
+      <Y>19.5</Y>
+    </Nest>
+    <Nest>
+      <Error i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/EdgyCode.ApplicationManager" />
+      <BuildTeachPoints>true</BuildTeachPoints>
+      <Height>24</Height>
+      <Name>Position 2</Name>
+      <Width>34</Width>
+      <X>87.5</X>
+      <Y>19.5</Y>
+    </Nest>
+    <Nest>
+      <Error i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/EdgyCode.ApplicationManager" />
+      <BuildTeachPoints>true</BuildTeachPoints>
+      <Height>24</Height>
+      <Name>Position 3</Name>
+      <Width>34</Width>
+      <X>127</X>
+      <Y>19.5</Y>
+    </Nest>
+    <Nest>
+      <Error i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/EdgyCode.ApplicationManager" />
+      <BuildTeachPoints>true</BuildTeachPoints>
+      <Height>24</Height>
+      <Name>Position 4</Name>
+      <Width>34</Width>
+      <X>167</X>
+      <Y>19.5</Y>
+    </Nest>
+    <Nest>
+      <Error i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/EdgyCode.ApplicationManager" />
+      <BuildTeachPoints>true</BuildTeachPoints>
+      <Height>24</Height>
+      <Name>Position 5</Name>
+      <Width>34</Width>
+      <X>207</X>
+      <Y>19.5</Y>
+    </Nest>
+  </Nests>
+  <WidthInMM>1250</WidthInMM>
+</DeckLayout>

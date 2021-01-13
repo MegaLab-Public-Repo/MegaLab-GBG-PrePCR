@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Procedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" IsStartupProcedure="false" FileName="ShowScreen.SPT Dragonfly.procedure" Id="2b4e0c9f-b2c4-4f31-952e-35e8466221e3">
+  <IsBookmarked>false</IsBookmarked>
+  <WorkFlow xsi:type="SequentialWorkflow" BackgroundImageLocation="" Guid="0c7e366c-461a-4d2a-b6b2-6d33e22a004b" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+    <SkipLogging>false</SkipLogging>
+    <Sequence>
+      <WorkFlow xsi:type="ShowScreenWorkflow" BackgroundImageLocation="" Guid="3705f996-b17b-4645-be95-1a3cd315ed84" CanBeExecutedOutOfSequence="false" Name="Show Screen" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/screen64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" ScreenName="SPT Dragonfly">
+        <SkipLogging>false</SkipLogging>
+        <IsSelected>false</IsSelected>
+      </WorkFlow>
+    </Sequence>
+  </WorkFlow>
+  <HasBeenModified>false</HasBeenModified>
+</Procedure>

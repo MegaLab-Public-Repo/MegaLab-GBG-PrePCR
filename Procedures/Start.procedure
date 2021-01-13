@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Procedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" IsStartupProcedure="true" FileName="Start.procedure" Id="132c9715-2ec8-4d36-aad8-e4d0272ea1aa">
+  <IsBookmarked>false</IsBookmarked>
+  <WorkFlow xsi:type="SequentialWorkflow" BackgroundImageLocation="" Guid="fb975e9b-130f-4edd-9666-9e10b578d008" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+    <SkipLogging>false</SkipLogging>
+    <Sequence>
+      <WorkFlow xsi:type="WhileLoopWorkflow" BackgroundImageLocation="" Guid="4e160fed-bf43-4b1b-a622-a59fbb976626" CanBeExecutedOutOfSequence="false" Name="Loop" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/loop64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" LoopCount="5" EvaluateAtEnd="false" LoopType="While" CountDown="false" ShowAdvanced="false" StartNumber="0" CountBy="1" ForeachDelimiter=",">
+        <SkipLogging>false</SkipLogging>
+        <Sequence BackgroundImageLocation="" Guid="a79d4f9f-921b-4b4c-a63f-90ce6014c244" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+          <SkipLogging>false</SkipLogging>
+          <Sequence>
+            <WorkFlow xsi:type="RoundRobbinScheduler" BackgroundImageLocation="" Guid="4e5b7a7d-0e9c-4ae1-bbf6-f6cec5b599ad" CanBeExecutedOutOfSequence="false" Name="Run Scheduler" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/schedule.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+              <SkipLogging>false</SkipLogging>
+            </WorkFlow>
+          </Sequence>
+        </Sequence>
+        <Evaluation Left="All Workcell Processes Complete" Right="False" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+      </WorkFlow>
+    </Sequence>
+  </WorkFlow>
+  <HasBeenModified>false</HasBeenModified>
+</Procedure>

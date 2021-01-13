@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Procedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" IsStartupProcedure="false" FileName="Trash Chute.Trash Plate.procedure" Id="dcf92575-4e73-4b54-9821-c8b1d9b435d4">
+  <IsBookmarked>false</IsBookmarked>
+  <WorkFlow xsi:type="SequentialWorkflow" BackgroundImageLocation="" Guid="d2c4272d-7d2e-4fa7-baa4-b792952509de" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+    <SkipLogging>false</SkipLogging>
+    <Sequence>
+      <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\PalePurple.png" Guid="61f6a22a-8bda-4b52-a675-8c4cda67e718" CanBeExecutedOutOfSequence="false" Name="Trash" ImageLocation="pack://application:,,,/BioSero.TrashChute.Driver.v2;component/Images/TrashChute.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+        <SkipLogging>false</SkipLogging>
+        <Command xsi:type="InstrumentCommand" Guid="61f6a22a-8bda-4b52-a675-8c4cda67e718" IsDisabled="false" IsAsyncronous="true" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="true" Name="Trash" ImageLocation="pack://application:,,,/BioSero.TrashChute.Driver.v2;component/Images/TrashChute.png" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\PalePurple.png" EstimatedCommandDuration="00:00:03" AllowErrorSimulation="true" SimulateError="false" HasBreakPointSet="false" AlwaysRunLocal="false" InstrumentInstanceName="Trash Chute" WaitForInstrumentToBeReadyBeforeExecution="true" IgnoreBusy="false" DoNotLogUtilization="false">
+          <SecondsToSimulate>3</SecondsToSimulate>
+          <UseProcessTimeForEstimatedDuration>true</UseProcessTimeForEstimatedDuration>
+          <SimulationOutput />
+          <SimulatableErrorTexts />
+          <InputParameters>
+            <Variables />
+          </InputParameters>
+          <OutputParameters>
+            <Variables />
+          </OutputParameters>
+          <HelpText>Sends the plate to the trash.</HelpText>
+        </Command>
+      </WorkFlow>
+    </Sequence>
+  </WorkFlow>
+  <HasBeenModified>false</HasBeenModified>
+</Procedure>

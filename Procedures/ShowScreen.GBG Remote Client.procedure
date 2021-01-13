@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Procedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" IsStartupProcedure="false" FileName="ShowScreen.GBG Remote Client.procedure" Id="36ffc31e-dc77-4a89-87a9-ead90e31df18">
+  <IsBookmarked>false</IsBookmarked>
+  <WorkFlow xsi:type="SequentialWorkflow" BackgroundImageLocation="" Guid="c6cc5e08-6bb5-4124-bc72-9046c558accb" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+    <SkipLogging>false</SkipLogging>
+    <Sequence>
+      <WorkFlow xsi:type="ShowScreenWorkflow" BackgroundImageLocation="" Guid="c3da4046-d565-4625-9089-314d5c85879d" CanBeExecutedOutOfSequence="false" Name="Show Screen" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/screen64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" ScreenName="GBG Remote Client">
+        <SkipLogging>false</SkipLogging>
+        <IsSelected>false</IsSelected>
+      </WorkFlow>
+    </Sequence>
+  </WorkFlow>
+  <HasBeenModified>false</HasBeenModified>
+</Procedure>

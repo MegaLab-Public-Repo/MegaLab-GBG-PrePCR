@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" FullScreen="false" RunTime="false" Center="true" X="0" Y="0" FileName="Load PCR Lids to Stack.screen" Id="7d8bda35-e2f7-406b-a4ae-341f0e389c67" Width="1400" Height="900" BackgroundColor="#FFD3D3D3" OpenCloseViewOnBoolChange="false">
+  <IsBookmarked>false</IsBookmarked>
+  <ScrollStatus>Disabled</ScrollStatus>
+  <Controls>
+    <Control xsi:type="LabelControl" Name="Label" X="400" Y="375" Height="60" Width="600" Rotation="0" Text="" DisplayText="" TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="40">
+      <TextColor>DarkBlue</TextColor>
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="40" TextColor="DarkBlue" />
+    </Control>
+    <Control xsi:type="ButtonControl" Name="Button" X="650" Y="800" Height="30" Width="100" Rotation="0" Text="OK" DisplayText="OK" IsStopButton="false" SetVariable="false" SetVariableValue="" RunScriptOnClick="false" DoNotCloseOnClick="false">
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="16" TextColor="Black" />
+    </Control>
+    <Control xsi:type="LabelControl" Name="Label" X="400" Y="275" Height="120" Width="600" Rotation="0" Text="1. Load PCR lids into single stack storage. Note quantity loaded." DisplayText="1. Load PCR lids into single stack storage. Note quantity loaded." TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="40">
+      <TextColor>DarkBlue</TextColor>
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="40" TextColor="DarkBlue" />
+    </Control>
+    <Control xsi:type="LabelControl" Name="Label" X="400" Y="475" Height="120" Width="600" Rotation="0" Text="2. Select 'OK' when ready to proceed." DisplayText="2. Select 'OK' when ready to proceed." TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="40">
+      <TextColor>DarkBlue</TextColor>
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="40" TextColor="DarkBlue" />
+    </Control>
+    <Control xsi:type="LabelControl" Name="Label" X="400" Y="574" Height="60" Width="600" Rotation="0" Text="" DisplayText="" TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="40">
+      <TextColor>DarkBlue</TextColor>
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="40" TextColor="DarkBlue" />
+    </Control>
+    <Control xsi:type="LabelControl" Name="Label" X="535" Y="65" Height="75" Width="330" Rotation="0" Text="Load PCR Lids" DisplayText="Load PCR Lids" TextBold="true" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="48">
+      <TextColor>Black</TextColor>
+      <FontProperties TextBold="true" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="48" TextColor="Black" />
+    </Control>
+  </Controls>
+  <BooleanVariableNames>
+    <string>{All Workcell Processes Complete}</string>
+    <string>{Any Available}</string>
+    <string>{Lid Test.Complete}</string>
+    <string>{Load Lid On ODTC 1}</string>
+    <string>{Load Lid On ODTC 2}</string>
+    <string>{Next Set Ready}</string>
+    <string>{Pre-PCR.Complete}</string>
+    <string>{Result}</string>
+    <string>{Workcell Process 1.Complete}</string>
+  </BooleanVariableNames>
+  <IsScaled>true</IsScaled>
+</Screen>

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DeckLayout xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/BioSero.GreenButtonGo.LiquidHandler.Deck">
+  <Error i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/EdgyCode.ApplicationManager" />
+  <DeckImageUri>pack://application:,,,/Agilent.Bravo2018.Driver;component/Images/Bravo Deck.png</DeckImageUri>
+  <HeightInMM>508</HeightInMM>
+  <Name i:nil="true" />
+  <NestHeight>175</NestHeight>
+  <NestWidth>252</NestWidth>
+  <Nests>
+    <Nest>
+      <Error i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/EdgyCode.ApplicationManager" />
+      <BuildTeachPoints>true</BuildTeachPoints>
+      <Height>175</Height>
+      <Name>Position 1</Name>
+      <Width>252</Width>
+      <X>92</X>
+      <Y>115</Y>
+    </Nest>
+    <Nest>
+      <Error i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/EdgyCode.ApplicationManager" />
+      <BuildTeachPoints>true</BuildTeachPoints>
+      <Height>175</Height>
+      <Name>Position 2</Name>
+      <Width>252</Width>
+      <X>448</X>
+      <Y>115</Y>
+    </Nest>
+    <Nest>
+      <Error i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/EdgyCode.ApplicationManager" />
+      <BuildTeachPoints>true</BuildTeachPoints>
+      <Height>175</Height>
+      <Name>Position 3</Name>
+      <Width>252</Width>
+      <X>800</X>
+      <Y>115</Y>
+    </Nest>
+    <Nest>
+      <Error i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/EdgyCode.ApplicationManager" />
+      <BuildTeachPoints>true</BuildTeachPoints>
+      <Height>175</Height>
+      <Name>Position 4</Name>
+      <Width>252</Width>
+      <X>92</X>
+      <Y>316</Y>
+    </Nest>
+    <Nest>
+      <Error i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/EdgyCode.ApplicationManager" />
+      <BuildTeachPoints>true</BuildTeachPoints>
+      <Height>175</Height>
+      <Name>Position 5</Name>
+      <Width>252</Width>
+      <X>448</X>
+      <Y>316</Y>
+    </Nest>
+    <Nest>
+      <Error i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/EdgyCode.ApplicationManager" />
+      <BuildTeachPoints>true</BuildTeachPoints>
+      <Height>175</Height>
+      <Name>Position 6</Name>
+      <Width>252</Width>
+      <X>800</X>
+      <Y>316</Y>
+    </Nest>
+    <Nest>
+      <Error i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/EdgyCode.ApplicationManager" />
+      <BuildTeachPoints>true</BuildTeachPoints>
+      <Height>175</Height>
+      <Name>Position 7</Name>
+      <Width>252</Width>
+      <X>92</X>
+      <Y>518</Y>
+    </Nest>
+    <Nest>
+      <Error i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/EdgyCode.ApplicationManager" />
+      <BuildTeachPoints>true</BuildTeachPoints>
+      <Height>175</Height>
+      <Name>Position 8</Name>
+      <Width>252</Width>
+      <X>448</X>
+      <Y>518</Y>
+    </Nest>
+    <Nest>
+      <Error i:nil="true" xmlns="http://schemas.datacontract.org/2004/07/EdgyCode.ApplicationManager" />
+      <BuildTeachPoints>true</BuildTeachPoints>
+      <Height>175</Height>
+      <Name>Position 9</Name>
+      <Width>252</Width>
+      <X>800</X>
+      <Y>518</Y>
+    </Nest>
+  </Nests>
+  <WidthInMM>762</WidthInMM>
+</DeckLayout>

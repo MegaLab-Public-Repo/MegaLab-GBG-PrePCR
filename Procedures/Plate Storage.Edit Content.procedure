@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<Procedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" IsStartupProcedure="false" FileName="Plate Storage.Edit Content.procedure" Id="96e3cc70-fa69-4a69-8271-c0c734e48f2d">
+  <IsBookmarked>false</IsBookmarked>
+  <WorkFlow xsi:type="SequentialWorkflow" BackgroundImageLocation="" Guid="803a4e7a-dc0c-42f5-b5c1-47c33fc434c2" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+    <SkipLogging>false</SkipLogging>
+    <Sequence>
+      <WorkFlow xsi:type="BranchingWorkflow" BackgroundImageLocation="" Guid="c5413ea6-763e-4727-85d5-0f4e088e8764" CanBeExecutedOutOfSequence="false" Name="Conditional Branch" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/QuestionYellow.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+        <SkipLogging>false</SkipLogging>
+        <YesBranch BackgroundImageLocation="" Guid="5de97511-a8a9-4a95-be80-1b8c127fccbc" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+          <SkipLogging>false</SkipLogging>
+          <Sequence>
+            <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\DeepBlue.png" Guid="39ffe883-e2a1-4eac-b990-43a95e3b10cd" CanBeExecutedOutOfSequence="false" Name="Edit Content" ImageLocation="pack://application:,,,/BioSero.GreenButtonGo.Storage;component/Images/PortraitHotel.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+              <SkipLogging>false</SkipLogging>
+              <Command xsi:type="InstrumentCommand" Guid="39ffe883-e2a1-4eac-b990-43a95e3b10cd" IsDisabled="false" IsAsyncronous="false" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="false" Name="Edit Content" ImageLocation="pack://application:,,,/BioSero.GreenButtonGo.Storage;component/Images/PortraitHotel.png" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\DeepBlue.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="true" SimulateError="false" HasBreakPointSet="false" AlwaysRunLocal="false" InstrumentInstanceName="Plate Storage" WaitForInstrumentToBeReadyBeforeExecution="true" IgnoreBusy="false" DoNotLogUtilization="false">
+                <SecondsToSimulate>0</SecondsToSimulate>
+                <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+                <SimulationOutput />
+                <SimulatableErrorTexts />
+                <InputParameters>
+                  <Variables />
+                </InputParameters>
+                <OutputParameters>
+                  <Variables />
+                </OutputParameters>
+                <HelpText>Show the user interface for editing the storage content.</HelpText>
+              </Command>
+            </WorkFlow>
+          </Sequence>
+        </YesBranch>
+        <NoBranch BackgroundImageLocation="" Guid="05f19070-60c8-47f2-9ed8-9ccc3770c57d" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+          <SkipLogging>false</SkipLogging>
+          <Sequence>
+            <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="pack://application:,,,/BioSero.GreenButtonGo.Base;component/Images/Transparent12x12.png" Guid="964bef08-d78c-4f14-bcc3-b1270689d80e" CanBeExecutedOutOfSequence="false" Name="" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/Empty.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+              <SkipLogging>false</SkipLogging>
+              <Command xsi:type="EmptyCommand" Guid="964bef08-d78c-4f14-bcc3-b1270689d80e" IsDisabled="false" IsAsyncronous="false" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="false" Name="" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/Empty.png" BackgroundImageLocation="pack://application:,,,/BioSero.GreenButtonGo.Base;component/Images/Transparent12x12.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="false" SimulateError="false" HasBreakPointSet="false">
+                <SecondsToSimulate>0</SecondsToSimulate>
+                <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+                <SimulationOutput />
+                <SimulatableErrorTexts />
+                <InputParameters>
+                  <Variables />
+                </InputParameters>
+                <OutputParameters>
+                  <Variables />
+                </OutputParameters>
+              </Command>
+            </WorkFlow>
+          </Sequence>
+        </NoBranch>
+        <Evaluation Left="Strategy" Right="Launch Content Editor" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+      </WorkFlow>
+      <WorkFlow xsi:type="BranchingWorkflow" BackgroundImageLocation="" Guid="ed783fa5-cbbb-4e09-9f07-b69c2401d637" CanBeExecutedOutOfSequence="false" Name="Conditional Branch" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/QuestionYellow.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+        <SkipLogging>false</SkipLogging>
+        <YesBranch BackgroundImageLocation="" Guid="8aa342ac-377d-4101-b63c-17955cc0145a" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+          <SkipLogging>false</SkipLogging>
+          <Sequence>
+            <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\DeepBlue.png" Guid="6fbda664-26d3-4b9f-a8fd-2b6349c5c1ed" CanBeExecutedOutOfSequence="false" Name="Import Contents From File" ImageLocation="pack://application:,,,/BioSero.GreenButtonGo.Storage;component/Images/PortraitHotel.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+              <SkipLogging>false</SkipLogging>
+              <Command xsi:type="InstrumentCommand" Guid="6fbda664-26d3-4b9f-a8fd-2b6349c5c1ed" IsDisabled="false" IsAsyncronous="false" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="false" Name="Import Contents From File" ImageLocation="pack://application:,,,/BioSero.GreenButtonGo.Storage;component/Images/PortraitHotel.png" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\DeepBlue.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="true" SimulateError="false" HasBreakPointSet="false" AlwaysRunLocal="false" InstrumentInstanceName="Plate Storage" WaitForInstrumentToBeReadyBeforeExecution="true" IgnoreBusy="false" DoNotLogUtilization="false">
+                <SecondsToSimulate>0</SecondsToSimulate>
+                <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+                <SimulationOutput />
+                <SimulatableErrorTexts />
+                <InputParameters>
+                  <Variables>
+                    <VariableBase xsi:type="StringVariable" Type="String" Name="Hotel File Name" InitialValue="" NotUserChangable="false" SyncWithDataTable="false" BaseValue="{Hotel File Name}" IsQuery="false" AllowAllVariableTypes="false" ConstrainToOptions="false" CanBeEmpty="true" IsFile="true" FileExtensionFilter="Data File (*.xlsx;*.xls;*.csv)|*.xlsx;*.xls;*.csv|All Files (*.*)|*.*" IsComPort="false">
+                      <SkipValidation>false</SkipValidation>
+                      <HelpText>The file name and path for the file with which to populate the hotels.</HelpText>
+                      <CreatedBy>Instrument</CreatedBy>
+                      <Tags>Instrument</Tags>
+                      <Tags>#DarkBlue</Tags>
+                      <ContextInfo>Generated by StorageWedge</ContextInfo>
+                      <Options />
+                    </VariableBase>
+                    <VariableBase xsi:type="StringVariable" Type="String" Name="Stack File Name" InitialValue="" NotUserChangable="false" SyncWithDataTable="false" BaseValue="{Stack File Name}" IsQuery="false" AllowAllVariableTypes="false" ConstrainToOptions="false" CanBeEmpty="true" IsFile="true" FileExtensionFilter="Data File (*.xlsx;*.xls;*.csv)|*.xlsx;*.xls;*.csv|All Files (*.*)|*.*" IsComPort="false">
+                      <SkipValidation>false</SkipValidation>
+                      <HelpText>The file name and path for the file with which to populate the stacks.</HelpText>
+                      <CreatedBy>Instrument</CreatedBy>
+                      <Tags>Instrument</Tags>
+                      <Tags>#DarkBlue</Tags>
+                      <ContextInfo>Generated by StorageWedge</ContextInfo>
+                      <Options />
+                    </VariableBase>
+                  </Variables>
+                </InputParameters>
+                <OutputParameters>
+                  <Variables />
+                </OutputParameters>
+                <HelpText>Imports plates into storage from a file.</HelpText>
+              </Command>
+            </WorkFlow>
+          </Sequence>
+        </YesBranch>
+        <NoBranch BackgroundImageLocation="" Guid="3302d1af-4628-4e74-88a9-fd3d0395236a" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+          <SkipLogging>false</SkipLogging>
+          <Sequence>
+            <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="pack://application:,,,/BioSero.GreenButtonGo.Base;component/Images/Transparent12x12.png" Guid="ff36a726-684b-4dd8-8647-2adfc89bc385" CanBeExecutedOutOfSequence="false" Name="" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/Empty.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+              <SkipLogging>false</SkipLogging>
+              <Command xsi:type="EmptyCommand" Guid="ff36a726-684b-4dd8-8647-2adfc89bc385" IsDisabled="false" IsAsyncronous="false" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="false" Name="" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/Empty.png" BackgroundImageLocation="pack://application:,,,/BioSero.GreenButtonGo.Base;component/Images/Transparent12x12.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="false" SimulateError="false" HasBreakPointSet="false">
+                <SecondsToSimulate>0</SecondsToSimulate>
+                <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+                <SimulationOutput />
+                <SimulatableErrorTexts />
+                <InputParameters>
+                  <Variables />
+                </InputParameters>
+                <OutputParameters>
+                  <Variables />
+                </OutputParameters>
+              </Command>
+            </WorkFlow>
+          </Sequence>
+        </NoBranch>
+        <Evaluation Left="Strategy" Right="Load From File" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+      </WorkFlow>
+    </Sequence>
+  </WorkFlow>
+  <HasBeenModified>false</HasBeenModified>
+</Procedure>

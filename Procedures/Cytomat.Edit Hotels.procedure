@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<Procedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" IsStartupProcedure="false" FileName="Cytomat.Edit Hotels.procedure" Id="e58891c6-949a-4960-a0d7-458027c57bf8">
+  <IsBookmarked>false</IsBookmarked>
+  <WorkFlow xsi:type="SequentialWorkflow" BackgroundImageLocation="" Guid="baefc4ba-1c97-41c1-a0a6-4074220c8cba" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+    <SkipLogging>false</SkipLogging>
+    <Sequence>
+      <WorkFlow xsi:type="BranchingWorkflow" BackgroundImageLocation="" Guid="767a64e1-7829-4159-a921-a64a070f67cf" CanBeExecutedOutOfSequence="false" Name="Conditional Branch" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/QuestionYellow.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+        <SkipLogging>false</SkipLogging>
+        <YesBranch BackgroundImageLocation="" Guid="2aed7f1b-bfb9-4392-9c11-a66a1c7cb8e6" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+          <SkipLogging>false</SkipLogging>
+          <Sequence>
+            <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\Green.png" Guid="030c2a8c-68b5-4a69-9fb4-9f025dd4263f" CanBeExecutedOutOfSequence="false" Name="Edit Content" ImageLocation="pack://application:,,,/Thermo.Cytomat.Driver;component/Images/Icon.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+              <SkipLogging>false</SkipLogging>
+              <Command xsi:type="InstrumentCommand" Guid="030c2a8c-68b5-4a69-9fb4-9f025dd4263f" IsDisabled="false" IsAsyncronous="false" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="true" Name="Edit Content" ImageLocation="pack://application:,,,/Thermo.Cytomat.Driver;component/Images/Icon.png" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\Green.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="true" SimulateError="false" HasBreakPointSet="false" AlwaysRunLocal="false" InstrumentInstanceName="Cytomat" WaitForInstrumentToBeReadyBeforeExecution="true" IgnoreBusy="false" DoNotLogUtilization="false">
+                <SecondsToSimulate>0</SecondsToSimulate>
+                <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+                <SimulationOutput />
+                <SimulatableErrorTexts />
+                <InputParameters>
+                  <Variables />
+                </InputParameters>
+                <OutputParameters>
+                  <Variables />
+                </OutputParameters>
+                <HelpText>Launches the Content Editor.</HelpText>
+              </Command>
+            </WorkFlow>
+          </Sequence>
+        </YesBranch>
+        <NoBranch BackgroundImageLocation="" Guid="5e6262c1-9f1a-4fdf-b556-762895b23c6c" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+          <SkipLogging>false</SkipLogging>
+          <Sequence>
+            <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="pack://application:,,,/BioSero.GreenButtonGo.Base;component/Images/Transparent12x12.png" Guid="e0e020de-eca4-47d1-9326-6ad9c3ebf5b3" CanBeExecutedOutOfSequence="false" Name="" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/Empty.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+              <SkipLogging>false</SkipLogging>
+              <Command xsi:type="EmptyCommand" Guid="e0e020de-eca4-47d1-9326-6ad9c3ebf5b3" IsDisabled="false" IsAsyncronous="false" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="false" Name="" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/Empty.png" BackgroundImageLocation="pack://application:,,,/BioSero.GreenButtonGo.Base;component/Images/Transparent12x12.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="false" SimulateError="false" HasBreakPointSet="false">
+                <SecondsToSimulate>0</SecondsToSimulate>
+                <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+                <SimulationOutput />
+                <SimulatableErrorTexts />
+                <InputParameters>
+                  <Variables />
+                </InputParameters>
+                <OutputParameters>
+                  <Variables />
+                </OutputParameters>
+              </Command>
+            </WorkFlow>
+          </Sequence>
+        </NoBranch>
+        <Evaluation Left="Strategy" Right="Launch Content Editor" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+      </WorkFlow>
+      <WorkFlow xsi:type="BranchingWorkflow" BackgroundImageLocation="" Guid="04798269-eaee-481c-9e95-08fec5a4d00e" CanBeExecutedOutOfSequence="false" Name="Conditional Branch" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/QuestionYellow.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+        <SkipLogging>false</SkipLogging>
+        <YesBranch BackgroundImageLocation="" Guid="4ce8a79c-f5f2-4a95-9575-6215ae1fe13e" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+          <SkipLogging>false</SkipLogging>
+          <Sequence>
+            <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\Green.png" Guid="e4b55f32-81a7-4acc-8555-6a82f708bff9" CanBeExecutedOutOfSequence="false" Name="Import Contents From File" ImageLocation="pack://application:,,,/Thermo.Cytomat.Driver;component/Images/Icon.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+              <SkipLogging>false</SkipLogging>
+              <Command xsi:type="InstrumentCommand" Guid="e4b55f32-81a7-4acc-8555-6a82f708bff9" IsDisabled="false" IsAsyncronous="false" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="false" Name="Import Contents From File" ImageLocation="pack://application:,,,/Thermo.Cytomat.Driver;component/Images/Icon.png" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\Green.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="true" SimulateError="false" HasBreakPointSet="false" AlwaysRunLocal="false" InstrumentInstanceName="Cytomat" WaitForInstrumentToBeReadyBeforeExecution="true" IgnoreBusy="false" DoNotLogUtilization="false">
+                <SecondsToSimulate>0</SecondsToSimulate>
+                <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+                <SimulationOutput />
+                <SimulatableErrorTexts />
+                <InputParameters>
+                  <Variables>
+                    <VariableBase xsi:type="StringVariable" Type="String" Name="Hotel File Name" InitialValue="" NotUserChangable="false" SyncWithDataTable="false" BaseValue="{Hotel File Name}" IsQuery="false" AllowAllVariableTypes="false" ConstrainToOptions="false" CanBeEmpty="true" IsFile="true" FileExtensionFilter="Data File (*.xlsx;*.xls;*.csv)|*.xlsx;*.xls;*.csv|All Files (*.*)|*.*" IsComPort="false">
+                      <SkipValidation>false</SkipValidation>
+                      <HelpText>The file name and path to load.</HelpText>
+                      <CreatedBy>Instrument</CreatedBy>
+                      <Tags>Instrument</Tags>
+                      <Tags>#DarkBlue</Tags>
+                      <ContextInfo>Generated by Cytomat</ContextInfo>
+                      <Options />
+                    </VariableBase>
+                  </Variables>
+                </InputParameters>
+                <OutputParameters>
+                  <Variables />
+                </OutputParameters>
+                <HelpText>Imports storage content from a file.</HelpText>
+              </Command>
+            </WorkFlow>
+          </Sequence>
+        </YesBranch>
+        <NoBranch BackgroundImageLocation="" Guid="e85f3785-66a5-4b72-a5fc-2aefb39a444e" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+          <SkipLogging>false</SkipLogging>
+          <Sequence>
+            <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="pack://application:,,,/BioSero.GreenButtonGo.Base;component/Images/Transparent12x12.png" Guid="565bb719-438f-48d7-a0b1-50c800a39361" CanBeExecutedOutOfSequence="false" Name="" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/Empty.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+              <SkipLogging>false</SkipLogging>
+              <Command xsi:type="EmptyCommand" Guid="565bb719-438f-48d7-a0b1-50c800a39361" IsDisabled="false" IsAsyncronous="false" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="false" Name="" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/Empty.png" BackgroundImageLocation="pack://application:,,,/BioSero.GreenButtonGo.Base;component/Images/Transparent12x12.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="false" SimulateError="false" HasBreakPointSet="false">
+                <SecondsToSimulate>0</SecondsToSimulate>
+                <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+                <SimulationOutput />
+                <SimulatableErrorTexts />
+                <InputParameters>
+                  <Variables />
+                </InputParameters>
+                <OutputParameters>
+                  <Variables />
+                </OutputParameters>
+              </Command>
+            </WorkFlow>
+          </Sequence>
+        </NoBranch>
+        <Evaluation Left="Strategy" Right="Load From File" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+      </WorkFlow>
+    </Sequence>
+  </WorkFlow>
+  <HasBeenModified>false</HasBeenModified>
+</Procedure>
