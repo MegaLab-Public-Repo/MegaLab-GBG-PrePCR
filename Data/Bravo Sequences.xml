@@ -18,7 +18,7 @@
         <InstrumentInstanceName>Bravo</InstrumentInstanceName>
         <SequenceNumber>2</SequenceNumber>
         <HelpText>Load and run a liquid handler protocol.</HelpText>
-        <ProtocolName>C:\VWorks Workspace\CTS_PrePCR\Protocol Files\Moves\PrePCR_Move_9_to_2_96SP.pro</ProtocolName>
+        <ProtocolName>C:\MegaLab-GBG-PrePCR\InstrumentFiles\Bravo\PrePCR_Move_9_to_2_96SP.pro</ProtocolName>
         <TimeoutInMinutes>1</TimeoutInMinutes>
         <SimulationTimeInSeconds>30</SimulationTimeInSeconds>
       </SequenceStep>
