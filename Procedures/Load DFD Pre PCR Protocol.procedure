@@ -13,7 +13,7 @@
           <SimulatableErrorTexts />
           <InputParameters>
             <Variables>
-              <VariableBase xsi:type="StringVariable" Type="String" Name="Experiment File" InitialValue="" NotUserChangable="false" SyncWithDataTable="false" BaseValue="C:\Biosero\Illumina\3rd Party Protocols\Dragonfly Protocols\Pre PCR DFD10.dfx" IsQuery="false" AllowAllVariableTypes="false" ConstrainToOptions="false" CanBeEmpty="true" IsFile="true" IsComPort="false">
+              <VariableBase xsi:type="StringVariable" Type="String" Name="Experiment File" InitialValue="" NotUserChangable="false" SyncWithDataTable="false" BaseValue="C:\MegaLab-GBG-PrePCR\InstrumentFiles\DragonFly\Pre PCR DFD10.dfx" IsQuery="false" AllowAllVariableTypes="false" ConstrainToOptions="false" CanBeEmpty="true" IsFile="true" IsComPort="false">
                 <SkipValidation>false</SkipValidation>
                 <HelpText>The file containing the protocol to run.</HelpText>
                 <CreatedBy>Instrument</CreatedBy>
@@ -32,5 +32,5 @@
       </WorkFlow>
     </Sequence>
   </WorkFlow>
-  <HasBeenModified>false</HasBeenModified>
+  <HasBeenModified>true</HasBeenModified>
 </Procedure>
