@@ -1,0 +1,4 @@
+PostPCR
+•	384 well plates
+o	Time: 1.7s
+o	Temp: 172

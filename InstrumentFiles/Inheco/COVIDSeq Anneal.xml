@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MethodSet>
+  <Method methodName="COVIDSeq Anneal" creator="DC" description="COVIDSeq Anneal Method 1 for PrePCR" dateTime="2020-11-30T17:46:34.9763162-08:00">
+    <Variant>3840000</Variant>
+    <PlateType>0</PlateType>
+    <FluidQuantity>17</FluidQuantity>
+    <PostHeating>true</PostHeating>
+    <StartBlockTemperature>25</StartBlockTemperature>
+    <StartLidTemperature>115</StartLidTemperature>
+    <Step>
+      <Number>1</Number>
+      <Slope>5</Slope>
+      <PlateauTemperature>65</PlateauTemperature>
+      <PlateauTime>180</PlateauTime>
+      <OverShootSlope1>0.1</OverShootSlope1>
+      <OverShootTemperature>0</OverShootTemperature>
+      <OverShootTime>0</OverShootTime>
+      <OverShootSlope2>0.1</OverShootSlope2>
+      <GotoNumber>0</GotoNumber>
+      <LoopNumber>0</LoopNumber>
+      <PIDNumber>1</PIDNumber>
+      <LidTemp>110</LidTemp>
+    </Step>
+    <Step>
+      <Number>2</Number>
+      <Slope>2.2</Slope>
+      <PlateauTemperature>25</PlateauTemperature>
+      <PlateauTime>5</PlateauTime>
+      <OverShootSlope1>0.1</OverShootSlope1>
+      <OverShootTemperature>0</OverShootTemperature>
+      <OverShootTime>0</OverShootTime>
+      <OverShootSlope2>0.1</OverShootSlope2>
+      <GotoNumber>0</GotoNumber>
+      <LoopNumber>0</LoopNumber>
+      <PIDNumber>1</PIDNumber>
+      <LidTemp>110</LidTemp>
+    </Step>
+    <PIDSet>
+      <PID number="1">
+        <PHeating>100</PHeating>
+        <PCooling>100</PCooling>
+        <IHeating>250</IHeating>
+        <ICooling>150</ICooling>
+        <DHeating>0</DHeating>
+        <DCooling>0</DCooling>
+        <PLid>100</PLid>
+        <ILid>70</ILid>
+      </PID>
+    </PIDSet>
+  </Method>
+</MethodSet>

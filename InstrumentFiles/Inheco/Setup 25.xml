@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MethodSet>
+  <PreMethod methodName="Setup 25" creator="Donald Chow" description="Initialize 25" dateTime="2020-11-03T23:16:39.3026077-08:00">
+    <TargetBlockTemperature>25</TargetBlockTemperature>
+    <TargetLidTemp>115</TargetLidTemp>
+  </PreMethod>
+</MethodSet>

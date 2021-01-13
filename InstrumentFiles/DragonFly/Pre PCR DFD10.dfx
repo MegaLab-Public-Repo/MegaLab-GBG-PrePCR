@@ -1,0 +1,84 @@
+﻿<RunSetupData PlateName="Bio-Rad Hard-Shell384-Well PCR" xmlns="http://ttplabtech.com/XAMLRunSetupData" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <RunSetupData.AFRsConfiguration>
+    <AFRsConfiguration>
+      <AFRsConfiguration.PumpChannelAssignments>
+        <PumpChannelAssignment AssignedAFRGroupNumber="1" ChannelNumber="1" PumpIndex="0" />
+        <PumpChannelAssignment AssignedAFRGroupNumber="2" ChannelNumber="2" PumpIndex="0" />
+        <PumpChannelAssignment AssignedAFRGroupNumber="3" ChannelNumber="3" PumpIndex="0" />
+        <PumpChannelAssignment AssignedAFRGroupNumber="4" ChannelNumber="4" PumpIndex="0" />
+      </AFRsConfiguration.PumpChannelAssignments>
+      <AFRGroup GroupNumber="3" ReservoirType="AutoFeedPumped">
+        <AFRGroup.HeadIndexes>
+          <x:Int32>0</x:Int32>
+          <x:Int32>2</x:Int32>
+          <x:Int32>4</x:Int32>
+        </AFRGroup.HeadIndexes>
+      </AFRGroup>
+      <AFRGroup GroupNumber="4" ReservoirType="AutoFeedPumped">
+        <AFRGroup.HeadIndexes>
+          <x:Int32>1</x:Int32>
+          <x:Int32>3</x:Int32>
+          <x:Int32>5</x:Int32>
+        </AFRGroup.HeadIndexes>
+      </AFRGroup>
+      <AFRGroup GroupNumber="2" ReservoirType="AutoFeedPumped">
+        <AFRGroup.HeadIndexes>
+          <x:Int32>6</x:Int32>
+          <x:Int32>7</x:Int32>
+        </AFRGroup.HeadIndexes>
+      </AFRGroup>
+      <AFRGroup GroupNumber="1" ReservoirType="AutoFeedPumped">
+        <AFRGroup.HeadIndexes>
+          <x:Int32>8</x:Int32>
+          <x:Int32>9</x:Int32>
+        </AFRGroup.HeadIndexes>
+      </AFRGroup>
+    </AFRsConfiguration>
+  </RunSetupData.AFRsConfiguration>
+  <Layer DispensePattern="Snaking" LayerIndex="0" LayerName="Anneal MM" LayerVolume="8.5" UseCSVDataAsVolumes="False">
+    <Layer.Liquids>
+      <Liquid LiquidName="EPH3" NumOfSplits="2">
+        <Liquid.DispenseRegions>
+          <DispenseRegion Height="16" StartCol="0" StartRow="0" VolumeInUL="8.5" Width="24" />
+        </Liquid.DispenseRegions>
+        <HeadAssignment HeadIndex="8" SplitIndex="1" />
+        <HeadAssignment HeadIndex="9" SplitIndex="2" />
+      </Liquid>
+    </Layer.Liquids>
+  </Layer>
+  <Layer DispensePattern="Snaking" LayerIndex="1" LayerName="RVT MM" LayerVolume="8" UseCSVDataAsVolumes="False">
+    <Layer.Liquids>
+      <Liquid LiquidName="RVT MM" NumOfSplits="2">
+        <Liquid.DispenseRegions>
+          <DispenseRegion Height="16" StartCol="0" StartRow="0" VolumeInUL="8" Width="24" />
+        </Liquid.DispenseRegions>
+        <HeadAssignment HeadIndex="6" SplitIndex="1" />
+        <HeadAssignment HeadIndex="7" SplitIndex="2" />
+      </Liquid>
+    </Layer.Liquids>
+  </Layer>
+  <Layer DispensePattern="Snaking" LayerIndex="2" LayerName="PCR MM1" LayerVolume="20" UseCSVDataAsVolumes="False">
+    <Layer.Liquids>
+      <Liquid LiquidName="PCR MM1" NumOfSplits="3">
+        <Liquid.DispenseRegions>
+          <DispenseRegion Height="16" StartCol="0" StartRow="0" VolumeInUL="20" Width="24" />
+        </Liquid.DispenseRegions>
+        <HeadAssignment HeadIndex="0" SplitIndex="1" />
+        <HeadAssignment HeadIndex="2" SplitIndex="2" />
+        <HeadAssignment HeadIndex="4" SplitIndex="3" />
+      </Liquid>
+    </Layer.Liquids>
+  </Layer>
+  <Layer DispensePattern="Snaking" LayerIndex="3" LayerName="PCR MM2" LayerVolume="20" UseCSVDataAsVolumes="False">
+    <Layer.Liquids>
+      <Liquid LiquidName="PCR MM2" NumOfSplits="3">
+        <Liquid.DispenseRegions>
+          <DispenseRegion Height="16" StartCol="0" StartRow="0" VolumeInUL="20" Width="24" />
+        </Liquid.DispenseRegions>
+        <HeadAssignment HeadIndex="1" SplitIndex="1" />
+        <HeadAssignment HeadIndex="3" SplitIndex="2" />
+        <HeadAssignment HeadIndex="5" SplitIndex="3" />
+      </Liquid>
+    </Layer.Liquids>
+  </Layer>
+</RunSetupData>

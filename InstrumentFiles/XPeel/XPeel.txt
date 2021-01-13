@@ -1,0 +1,4 @@
+•	Adhere time: 2.5
+•	Tray stop: 1
+•	Start peel: 7
+•	Peel speed: 5
