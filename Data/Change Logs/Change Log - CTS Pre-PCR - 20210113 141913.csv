@@ -4,3 +4,4 @@
 01/13/2021 14:19:13.795,ProgramChange,CTS Pre-PCR,Administrator,"CTS Pre-PCR -  - Get From Hotel - Selected Strategy changed from From Worklist to From Zone"
 01/13/2021 14:21:43.380,ProgramChange,CTS Pre-PCR,Administrator,"CTS Pre-PCR - Pre-PCR - Consolidated - Run Sequence - Run Sequence - Selected Strategy changed from Default to NULL"
 01/13/2021 14:21:43.380,ProgramChange,CTS Pre-PCR,Administrator,"CTS Pre-PCR - Pre-PCR - Consolidated - Run Sequence - Run Sequence - Selected Strategy changed from NULL to Default"
+01/13/2021 14:38:27.475,ProgramChange,CTS Pre-PCR,Administrator,"CTS Pre-PCR - Workflow: Load & Aspirate Anneal MM - Load Experiment File - Experiment File - Value changed from C:\Biosero\Illumina\3rd Party Protocols\Dragonfly Protocols\Pre PCR DFD10.dfx to C:\Users\INT3926.7 - Illumina\Documents\MegaLab-GBG-PrePCR\InstrumentFiles\DragonFly\Pre PCR DFD10.dfx"

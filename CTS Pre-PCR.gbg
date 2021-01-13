@@ -3,7 +3,7 @@
   <AssayExtension>.process</AssayExtension>
   <AreInstrumentsLockedFromNewAdditions>false</AreInstrumentsLockedFromNewAdditions>
   <AutoAppend1ToFirstInstrument>false</AutoAppend1ToFirstInstrument>
-  <FileName>C:\Users\INT3926.7 - Illumina\Documents\Green Button Go\CTS Pre-PCR 30uL v7\CTS Pre-PCR 30uL v7.gbg</FileName>
+  <FileName>C:\Users\INT3926.7 - Illumina\Documents\MegaLab-GBG-PrePCR\CTS Pre-PCR.gbg</FileName>
   <ScreenFiles>
     <string>Agilent Bravo-BenchCel.screen</string>
     <string>GBG Remote Client.screen</string>
@@ -1197,7 +1197,7 @@
   <ArchiveTables />
   <Parameters>
     <Variables>
-      <VariableBase xsi:type="StringVariable" Type="String" Name="User's Log File" InitialValue="C:\Users\INT3926.7 - Illumina\Documents\Green Button Go\Log Files\User_Log_2021-01-13_14-02-54.txt" NotUserChangable="false" SyncWithDataTable="false" BaseValue="C:\Users\INT3926.7 - Illumina\Documents\Green Button Go\Log Files\User_Log_2021-01-13_14-02-54.txt" IsQuery="false" AllowAllVariableTypes="false" ConstrainToOptions="false" CanBeEmpty="true" IsFile="false" IsComPort="false">
+      <VariableBase xsi:type="StringVariable" Type="String" Name="User's Log File" InitialValue="C:\Users\INT3926.7 - Illumina\Documents\Green Button Go\Log Files\User_Log_2021-01-13_14-19-13.txt" NotUserChangable="false" SyncWithDataTable="false" BaseValue="C:\Users\INT3926.7 - Illumina\Documents\Green Button Go\Log Files\User_Log_2021-01-13_14-19-13.txt" IsQuery="false" AllowAllVariableTypes="false" ConstrainToOptions="false" CanBeEmpty="true" IsFile="false" IsComPort="false">
         <SkipValidation>false</SkipValidation>
         <CreatedBy>GBG</CreatedBy>
         <Tags>GBG</Tags>

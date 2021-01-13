@@ -4,7 +4,7 @@
   <WorkFlow xsi:type="SequentialWorkflow" BackgroundImageLocation="" Guid="e2c13f82-997f-4163-8458-9c2c78605180" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
     <SkipLogging>false</SkipLogging>
     <Sequence>
-      <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\Purple.png" Guid="e5ff7ed4-8bff-4df7-ba86-512d5dd573c5" CanBeExecutedOutOfSequence="false" Name="Load Experiment File" ImageLocation="pack://application:,,,/SPTLabtech.Dragonfly.Driver;component/Images/SPT Dragonfly.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+      <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\Purple.png" Guid="e5ff7ed4-8bff-4df7-ba86-512d5dd573c5" CanBeExecutedOutOfSequence="false" Name="Load Experiment File" ImageLocation="pack://application:,,,/SPTLabtech.Dragonfly.Driver;component/Images/SPT Dragonfly.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="true">
         <SkipLogging>false</SkipLogging>
         <Command xsi:type="InstrumentCommand" Guid="e5ff7ed4-8bff-4df7-ba86-512d5dd573c5" IsDisabled="false" IsAsyncronous="false" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="true" Name="Load Experiment File" ImageLocation="pack://application:,,,/SPTLabtech.Dragonfly.Driver;component/Images/SPT Dragonfly.png" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\Purple.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="true" SimulateError="false" HasBreakPointSet="false" AlwaysRunLocal="false" InstrumentInstanceName="Dragonfly 1" WaitForInstrumentToBeReadyBeforeExecution="true" IgnoreBusy="false" DoNotLogUtilization="false">
           <SecondsToSimulate>0</SecondsToSimulate>
@@ -13,7 +13,7 @@
           <SimulatableErrorTexts />
           <InputParameters>
             <Variables>
-              <VariableBase xsi:type="StringVariable" Type="String" Name="Experiment File" InitialValue="" NotUserChangable="false" SyncWithDataTable="false" BaseValue="C:\Biosero\Illumina\3rd Party Protocols\Dragonfly Protocols\Pre PCR DFD10.dfx" IsQuery="false" AllowAllVariableTypes="false" ConstrainToOptions="false" CanBeEmpty="true" IsFile="true" IsComPort="false">
+              <VariableBase xsi:type="StringVariable" Type="String" Name="Experiment File" InitialValue="" NotUserChangable="false" SyncWithDataTable="false" BaseValue="C:\Users\INT3926.7 - Illumina\Documents\MegaLab-GBG-PrePCR\InstrumentFiles\DragonFly\Pre PCR DFD10.dfx" IsQuery="false" AllowAllVariableTypes="false" ConstrainToOptions="false" CanBeEmpty="true" IsFile="true" IsComPort="false">
                 <SkipValidation>false</SkipValidation>
                 <HelpText>The file containing the protocol to run.</HelpText>
                 <CreatedBy>Instrument</CreatedBy>
@@ -186,5 +186,5 @@
       </WorkFlow>
     </Sequence>
   </WorkFlow>
-  <HasBeenModified>false</HasBeenModified>
+  <HasBeenModified>true</HasBeenModified>
 </Procedure>
