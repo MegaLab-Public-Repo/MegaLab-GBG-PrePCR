@@ -13,7 +13,7 @@
           <SimulatableErrorTexts />
           <InputParameters>
             <Variables>
-              <VariableBase xsi:type="StringVariable" Type="String" Name="Protocol Name" InitialValue="" NotUserChangable="false" SyncWithDataTable="false" BaseValue="C:\VWorks Workspace\CTS_PrePCR\Protocol Files\Moves\PrePCR_Move_to_Safe.pro" IsQuery="false" AllowAllVariableTypes="false" ConstrainToOptions="false" CanBeEmpty="true" IsFile="false" IsComPort="false">
+              <VariableBase xsi:type="StringVariable" Type="String" Name="Protocol Name" InitialValue="" NotUserChangable="false" SyncWithDataTable="false" BaseValue="C:\MegaLab-GBG-PrePCR\InstrumentFiles\Bravo\PrePCR_Move_to_Safe.pro" IsQuery="false" AllowAllVariableTypes="false" ConstrainToOptions="false" CanBeEmpty="true" IsFile="false" IsComPort="false">
                 <SkipValidation>false</SkipValidation>
                 <HelpText>The protocol to run.</HelpText>
                 <CreatedBy>Instrument</CreatedBy>
@@ -49,5 +49,5 @@
       </WorkFlow>
     </Sequence>
   </WorkFlow>
-  <HasBeenModified>false</HasBeenModified>
+  <HasBeenModified>true</HasBeenModified>
 </Procedure>

@@ -47,7 +47,7 @@
         <InstrumentInstanceName>Bravo</InstrumentInstanceName>
         <SequenceNumber>5</SequenceNumber>
         <HelpText>Load and run a liquid handler protocol.</HelpText>
-        <ProtocolName>C:\VWorks Workspace\CTS_PrePCR\Protocol Files\Moves\PrePCR_Move_9_to_3_96SP.pro</ProtocolName>
+        <ProtocolName>C:\MegaLab-GBG-PrePCR\InstrumentFiles\Bravo\PrePCR_Move_9_to_3_96SP.pro</ProtocolName>
         <TimeoutInMinutes>1</TimeoutInMinutes>
         <SimulationTimeInSeconds>30</SimulationTimeInSeconds>
       </SequenceStep>
@@ -76,7 +76,7 @@
         <InstrumentInstanceName>Bravo</InstrumentInstanceName>
         <SequenceNumber>8</SequenceNumber>
         <HelpText>Load and run a liquid handler protocol.</HelpText>
-        <ProtocolName>C:\VWorks Workspace\CTS_PrePCR\Protocol Files\Moves\PrePCR_Move_9_to_8_96SP.pro</ProtocolName>
+        <ProtocolName>C:\MegaLab-GBG-PrePCR\InstrumentFiles\Bravo\PrePCR_Move_9_to_8_96SP.pro</ProtocolName>
         <TimeoutInMinutes>1</TimeoutInMinutes>
         <SimulationTimeInSeconds>30</SimulationTimeInSeconds>
       </SequenceStep>
@@ -124,7 +124,7 @@
         <InstrumentInstanceName>Bravo</InstrumentInstanceName>
         <SequenceNumber>13</SequenceNumber>
         <HelpText>Load and run a liquid handler protocol.</HelpText>
-        <ProtocolName>C:\VWorks Workspace\CTS_PrePCR\Protocol Files\30ul_Tips\PrePCR_Rearray_4x96_to_1x384_v1_10b.pro</ProtocolName>
+        <ProtocolName>C:\MegaLab-GBG-PrePCR\InstrumentFiles\Bravo\PrePCR_Rearray_4x96_to_1x384_v1_10b.pro</ProtocolName>
         <TimeoutInMinutes>5</TimeoutInMinutes>
         <SimulationTimeInSeconds>150</SimulationTimeInSeconds>
       </SequenceStep>
@@ -145,7 +145,7 @@
         <InstrumentInstanceName>Bravo</InstrumentInstanceName>
         <SequenceNumber>15</SequenceNumber>
         <HelpText>Load and run a liquid handler protocol.</HelpText>
-        <ProtocolName>C:\VWorks Workspace\CTS_PrePCR\Protocol Files\Moves\PrePCR_Move_2_to_Trash_96SP.pro</ProtocolName>
+        <ProtocolName>C:\MegaLab-GBG-PrePCR\InstrumentFiles\Bravo\PrePCR_Move_2_to_Trash_96SP.pro</ProtocolName>
         <TimeoutInMinutes>1</TimeoutInMinutes>
         <SimulationTimeInSeconds>30</SimulationTimeInSeconds>
       </SequenceStep>
@@ -166,7 +166,7 @@
         <InstrumentInstanceName>Bravo</InstrumentInstanceName>
         <SequenceNumber>17</SequenceNumber>
         <HelpText>Load and run a liquid handler protocol.</HelpText>
-        <ProtocolName>C:\VWorks Workspace\CTS_PrePCR\Protocol Files\Moves\PrePCR_Move_3_to_Trash_96SP.pro</ProtocolName>
+        <ProtocolName>C:\MegaLab-GBG-PrePCR\InstrumentFiles\Bravo\PrePCR_Move_3_to_Trash_96SP.pro</ProtocolName>
         <TimeoutInMinutes>1</TimeoutInMinutes>
         <SimulationTimeInSeconds>30</SimulationTimeInSeconds>
       </SequenceStep>
@@ -187,7 +187,7 @@
         <InstrumentInstanceName>Bravo</InstrumentInstanceName>
         <SequenceNumber>19</SequenceNumber>
         <HelpText>Load and run a liquid handler protocol.</HelpText>
-        <ProtocolName>C:\VWorks Workspace\CTS_PrePCR\Protocol Files\Moves\PrePCR_Move_8_to_Trash_96SP.pro</ProtocolName>
+        <ProtocolName>C:\MegaLab-GBG-PrePCR\InstrumentFiles\Bravo\PrePCR_Move_8_to_Trash_96SP.pro</ProtocolName>
         <TimeoutInMinutes>1</TimeoutInMinutes>
         <SimulationTimeInSeconds>30</SimulationTimeInSeconds>
       </SequenceStep>
@@ -208,7 +208,7 @@
         <InstrumentInstanceName>Bravo</InstrumentInstanceName>
         <SequenceNumber>21</SequenceNumber>
         <HelpText>Load and run a liquid handler protocol.</HelpText>
-        <ProtocolName>C:\VWorks Workspace\CTS_PrePCR\Protocol Files\Moves\PrePCR_Move_9_to_Trash_96SP.pro</ProtocolName>
+        <ProtocolName>C:\MegaLab-GBG-PrePCR\InstrumentFiles\Bravo\PrePCR_Move_9_to_Trash_96SP.pro</ProtocolName>
         <TimeoutInMinutes>1</TimeoutInMinutes>
         <SimulationTimeInSeconds>30</SimulationTimeInSeconds>
       </SequenceStep>
@@ -229,7 +229,7 @@
         <InstrumentInstanceName>Bravo</InstrumentInstanceName>
         <SequenceNumber>23</SequenceNumber>
         <HelpText>Load and run a liquid handler protocol.</HelpText>
-        <ProtocolName>C:\VWorks Workspace\CTS_PrePCR\Protocol Files\Moves\PrePCR_Move_1_to_Trash_TipBox.pro</ProtocolName>
+        <ProtocolName>C:\MegaLab-GBG-PrePCR\InstrumentFiles\Bravo\PrePCR_Move_1_to_Trash_TipBox.pro</ProtocolName>
         <TimeoutInMinutes>2</TimeoutInMinutes>
         <SimulationTimeInSeconds>30</SimulationTimeInSeconds>
       </SequenceStep>
