@@ -112,9 +112,6 @@
                   <string>Put Plate On Bravo Position 7</string>
                   <string>Get Plate From Bravo Position 8</string>
                   <string>Put Plate On Bravo Position 8</string>
-                  <string>Lid Shake</string>
-                  <string>Get Plate From a4S Sealer 2</string>
-                  <string>Put Plate On a4S Sealer 2</string>
                 </Options>
               </VariableBase>
               <VariableBase xsi:type="StringVariable" Type="String" Name="Current Labware" InitialValue="" NotUserChangable="false" SyncWithDataTable="false" BaseValue="{Current Labware}" IsQuery="false" AllowAllVariableTypes="false" ConstrainToOptions="false" CanBeEmpty="true" IsFile="false" IsComPort="false">

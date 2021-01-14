@@ -59,12 +59,10 @@
                   <string>Regrip Landscape Offset To Landscape</string>
                   <string>Get Plate From a4S Sealer 384 PCR</string>
                   <string>Put Plate On a4S Sealer 384 PCR</string>
-                  <string>Get Lid From 384 PCR Plate On ODTC 1 And Dispose</string>
-                  <string>Put Lid On 384 PCR Plate On ODTC 1</string>
+                  <string>Get Lid From 384 PCR Plate On ODTC And Dispose</string>
+                  <string>Put Lid On 384 PCR Plate On ODTC</string>
                   <string>Get Lid From 384 PCR Plate On ODTC 2 And Dispose</string>
                   <string>Put Lid On 384 PCR Plate On ODTC 2</string>
-                  <string>Get Plate From Regrip Landscape</string>
-                  <string>Get Plate From Regrip Portrait</string>
                   <string>Get Plate From Mosquito Position 1</string>
                   <string>Put Plate On Mosquito Position 1</string>
                   <string>Get Plate From Mosquito Position 2</string>
@@ -83,9 +81,11 @@
                   <string>Put Plate On Bravo Position 7</string>
                   <string>Get Plate From Bravo Position 8</string>
                   <string>Put Plate On Bravo Position 8</string>
-                  <string>Lid Shake</string>
-                  <string>Get Plate From a4S Sealer 2</string>
-                  <string>Put Plate On a4S Sealer 2</string>
+                  <string>Get Plate From ODTC</string>
+                  <string>Put Plate On ODTC</string>
+                  <string>Get Plate From Regrip Landscape</string>
+                  <string>Get Plate From Regrip Portrait</string>
+                  <string>Lid Shake In Stack</string>
                 </Options>
               </VariableBase>
               <VariableBase xsi:type="StringVariable" Type="String" Name="Current Labware" InitialValue="" NotUserChangable="false" SyncWithDataTable="false" BaseValue="{Current Labware}" IsQuery="false" AllowAllVariableTypes="false" ConstrainToOptions="false" CanBeEmpty="true" IsFile="false" IsComPort="false">

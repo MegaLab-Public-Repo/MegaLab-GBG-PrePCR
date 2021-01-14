@@ -710,7 +710,7 @@
                 <Description>Executes the method.</Description>
                 <Parameters>
                   <Variables>
-                    <VariableBase xsi:type="StringVariable" Type="String" Name="ODTC.Method File" InitialValue="" NotUserChangable="false" SyncWithDataTable="false" BaseValue="C:\MegaLab-GBG-PrePCR\InstrumentFiles\Inheco\COVIDSeq Anneal.xml" IsQuery="false" AllowAllVariableTypes="false" ConstrainToOptions="false" CanBeEmpty="true" IsFile="true" FileExtensionFilter="XML Files (*.xml)|*.xml|All Files (*.*)|*.*" IsComPort="false">
+                    <VariableBase xsi:type="StringVariable" Type="String" Name="ODTC.Method File" InitialValue="" NotUserChangable="false" SyncWithDataTable="false" BaseValue="C:\Biosero\Illumina\3rd Party Protocols\ODTC Protocols\COVIDSeq Anneal.xml" IsQuery="false" AllowAllVariableTypes="false" ConstrainToOptions="false" CanBeEmpty="true" IsFile="true" FileExtensionFilter="XML Files (*.xml)|*.xml|All Files (*.*)|*.*" IsComPort="false">
                       <SkipValidation>false</SkipValidation>
                       <HelpText>The method XML file.</HelpText>
                       <CreatedBy>Instrument</CreatedBy>
@@ -766,7 +766,7 @@
                 <Description>Executes the method.</Description>
                 <Parameters>
                   <Variables>
-                    <VariableBase xsi:type="StringVariable" Type="String" Name="ODTC.Method File" InitialValue="" NotUserChangable="false" SyncWithDataTable="false" BaseValue="C:\MegaLab-GBG-PrePCR\InstrumentFiles\Inheco\COVIDSeq Anneal.xml" IsQuery="false" AllowAllVariableTypes="false" ConstrainToOptions="false" CanBeEmpty="true" IsFile="true" FileExtensionFilter="XML Files (*.xml)|*.xml|All Files (*.*)|*.*" IsComPort="false">
+                    <VariableBase xsi:type="StringVariable" Type="String" Name="ODTC.Method File" InitialValue="" NotUserChangable="false" SyncWithDataTable="false" BaseValue="C:\Biosero\Illumina\3rd Party Protocols\ODTC Protocols\COVIDSeq Anneal.xml" IsQuery="false" AllowAllVariableTypes="false" ConstrainToOptions="false" CanBeEmpty="true" IsFile="true" FileExtensionFilter="XML Files (*.xml)|*.xml|All Files (*.*)|*.*" IsComPort="false">
                       <SkipValidation>false</SkipValidation>
                       <HelpText>The method XML file.</HelpText>
                       <CreatedBy>Instrument</CreatedBy>
@@ -803,7 +803,6 @@
           <MaxNumberOfPlates>1</MaxNumberOfPlates>
           <LimitPlates>false</LimitPlates>
           <IsPrimary>true</IsPrimary>
-          <PoolStrategeyDescription>Selection based on first available.</PoolStrategeyDescription>
           <SelectedStrategy>
             <Name>First Available</Name>
             <Description>Provides preference in the order listed in pool.  If the first instrument is available, it will be used.</Description>
@@ -823,6 +822,7 @@
               </Variables>
             </Parameters>
           </SelectedStrategy>
+          <PoolStrategeyDescription>Selection based on first available.</PoolStrategeyDescription>
         </PoolProcess>
         <InstrumentProcess xsi:type="RunLayerProcess">
           <Name>Run RVT</Name>
@@ -899,7 +899,7 @@
                 <Description>Executes the method.</Description>
                 <Parameters>
                   <Variables>
-                    <VariableBase xsi:type="StringVariable" Type="String" Name="ODTC.Method File" InitialValue="" NotUserChangable="false" SyncWithDataTable="false" BaseValue="C:\MegaLab-GBG-PrePCR\InstrumentFiles\Inheco\COVIDSeq FSS.xml" IsQuery="false" AllowAllVariableTypes="false" ConstrainToOptions="false" CanBeEmpty="true" IsFile="true" FileExtensionFilter="XML Files (*.xml)|*.xml|All Files (*.*)|*.*" IsComPort="false">
+                    <VariableBase xsi:type="StringVariable" Type="String" Name="ODTC.Method File" InitialValue="" NotUserChangable="false" SyncWithDataTable="false" BaseValue="C:\Biosero\Illumina\3rd Party Protocols\ODTC Protocols\COVIDSeq FSS.xml" IsQuery="false" AllowAllVariableTypes="false" ConstrainToOptions="false" CanBeEmpty="true" IsFile="true" FileExtensionFilter="XML Files (*.xml)|*.xml|All Files (*.*)|*.*" IsComPort="false">
                       <SkipValidation>false</SkipValidation>
                       <HelpText>The method XML file.</HelpText>
                       <CreatedBy>Instrument</CreatedBy>
@@ -955,7 +955,7 @@
                 <Description>Executes the method.</Description>
                 <Parameters>
                   <Variables>
-                    <VariableBase xsi:type="StringVariable" Type="String" Name="ODTC.Method File" InitialValue="" NotUserChangable="false" SyncWithDataTable="false" BaseValue="C:\MegaLab-GBG-PrePCR\InstrumentFiles\Inheco\COVIDSeq FSS.xml" IsQuery="false" AllowAllVariableTypes="false" ConstrainToOptions="false" CanBeEmpty="true" IsFile="true" FileExtensionFilter="XML Files (*.xml)|*.xml|All Files (*.*)|*.*" IsComPort="false">
+                    <VariableBase xsi:type="StringVariable" Type="String" Name="ODTC.Method File" InitialValue="" NotUserChangable="false" SyncWithDataTable="false" BaseValue="C:\Biosero\Illumina\3rd Party Protocols\ODTC Protocols\COVIDSeq FSS.xml" IsQuery="false" AllowAllVariableTypes="false" ConstrainToOptions="false" CanBeEmpty="true" IsFile="true" FileExtensionFilter="XML Files (*.xml)|*.xml|All Files (*.*)|*.*" IsComPort="false">
                       <SkipValidation>false</SkipValidation>
                       <HelpText>The method XML file.</HelpText>
                       <CreatedBy>Instrument</CreatedBy>
@@ -992,7 +992,6 @@
           <MaxNumberOfPlates>1</MaxNumberOfPlates>
           <LimitPlates>false</LimitPlates>
           <IsPrimary>true</IsPrimary>
-          <PoolStrategeyDescription>Selection based on first available.</PoolStrategeyDescription>
           <SelectedStrategy>
             <Name>First Available</Name>
             <Description>Provides preference in the order listed in pool.  If the first instrument is available, it will be used.</Description>
@@ -1012,6 +1011,7 @@
               </Variables>
             </Parameters>
           </SelectedStrategy>
+          <PoolStrategeyDescription>Selection based on first available.</PoolStrategeyDescription>
         </PoolProcess>
         <InstrumentProcess xsi:type="SequenceProcess">
           <Name>Run Sequence 2</Name>
