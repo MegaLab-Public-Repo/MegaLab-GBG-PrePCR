@@ -156,6 +156,8 @@
                   <string>Get Plate From Bravo Position 8</string>
                   <string>Put Plate On Bravo Position 8</string>
                   <string>Lid Shake</string>
+                  <string>Get Plate From a4S Sealer 2</string>
+                  <string>Put Plate On a4S Sealer 2</string>
                 </Options>
               </VariableBase>
               <VariableBase xsi:type="BooleanVariable" Type="Boolean" Name="Straight In" InitialValue="False" NotUserChangable="false" SyncWithDataTable="false" BaseValue="True" IsQuery="false" True="True" False="False">
