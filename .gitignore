@@ -1,3 +1,6 @@
 # exclude everything
 Data\*
 Data/*
+
+Settings\Settings.xml
+Settings/Settings.xml
