@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='ASCII' ?>
+<Velocity11 file='Device_Data' md5sum='5c9fe6f15b86a66811f4ed2e6df6f09c' version='2.0' >
+	<Devices >
+		<Device DevicePreviousStatus='0' Disable='0' Name='Agilent BenchCel - 1' Object_Type='BenchCel' >
+			<Locations >
+				<Location DeadlockAvoidance='1' Door='' Name='Default Location' >
+					<Allowed_Labware_Classes >
+						<Allowed_Labware_Class Name='Uses Standard Platepad' />
+					</Allowed_Labware_Classes>
+				</Location>
+				<Location DeadlockAvoidance='0' Door='' Name='Stacker 1' Stack_Height='860' >
+					<Teachpoints >
+						<Teachpoint Name='Stacker 1' Robot='Agilent BenchCel - 1' />
+					</Teachpoints>
+					<Allowed_Labware_Classes >
+						<Allowed_Labware_Class Name='Uses Standard Platepad' />
+					</Allowed_Labware_Classes>
+				</Location>
+				<Location DeadlockAvoidance='0' Door='' Name='Stacker 2' Stack_Height='860' >
+					<Teachpoints >
+						<Teachpoint Name='Stacker 2' Robot='Agilent BenchCel - 1' />
+					</Teachpoints>
+					<Allowed_Labware_Classes >
+						<Allowed_Labware_Class Name='Uses Standard Platepad' />
+					</Allowed_Labware_Classes>
+				</Location>
+				<Location DeadlockAvoidance='0' Door='' Name='Stacker 3' Stack_Height='860' >
+					<Teachpoints >
+						<Teachpoint Name='Stacker 3' Robot='Agilent BenchCel - 1' />
+					</Teachpoints>
+					<Allowed_Labware_Classes >
+						<Allowed_Labware_Class Name='Uses Standard Platepad' />
+					</Allowed_Labware_Classes>
+				</Location>
+				<Location DeadlockAvoidance='0' Door='' Name='Stacker 4' Stack_Height='860' >
+					<Teachpoints >
+						<Teachpoint Name='Stacker 4' Robot='Agilent BenchCel - 1' />
+					</Teachpoints>
+					<Allowed_Labware_Classes >
+						<Allowed_Labware_Class Name='Uses Standard Platepad' />
+					</Allowed_Labware_Classes>
+				</Location>
+			</Locations>
+			<Parameters >
+				<Parameter Name='Profile' Value='BC4R' />
+			</Parameters>
+		</Device>
+		<Device DevicePreviousStatus='0' Disable='0' Name='PrePCR_BravoST' Object_Type='Bravo' >
+			<Locations >
+				<Location DeadlockAvoidance='0' Door='' Name='1' Stack_Height='100' >
+					<Teachpoints >
+						<Teachpoint Name='Bravo1' Robot='Agilent BenchCel - 1' />
+						<Teachpoint Name='1' Robot='PrePCR_BravoST' />
+					</Teachpoints>
+					<Allowed_Labware_Classes >
+						<Allowed_Labware_Class Name='Uses Standard Platepad' />
+					</Allowed_Labware_Classes>
+				</Location>
+				<Location DeadlockAvoidance='1' Door='' Name='2' Stack_Height='100' >
+					<Teachpoints >
+						<Teachpoint Name='2' Robot='PrePCR_BravoST' />
+					</Teachpoints>
+					<Allowed_Labware_Classes >
+						<Allowed_Labware_Class Name='Uses Standard Platepad' />
+					</Allowed_Labware_Classes>
+				</Location>
+				<Location DeadlockAvoidance='1' Door='' Name='3' Stack_Height='100' >
+					<Teachpoints >
+						<Teachpoint Name='3' Robot='PrePCR_BravoST' />
+					</Teachpoints>
+					<Allowed_Labware_Classes >
+						<Allowed_Labware_Class Name='Uses Standard Platepad' />
+					</Allowed_Labware_Classes>
+				</Location>
+				<Location DeadlockAvoidance='0' Door='' Name='4' Stack_Height='100' >
+					<Teachpoints >
+						<Teachpoint Name='4' Robot='PrePCR_BravoST' />
+					</Teachpoints>
+					<Linked_By_Location Device_Name='Waste Bin - 1' Location_Name='Hole' />
+					<Allowed_Labware_Classes >
+						<Allowed_Labware_Class Name='Uses Standard Platepad' />
+					</Allowed_Labware_Classes>
+				</Location>
+				<Location DeadlockAvoidance='1' Door='' Name='5' Stack_Height='100' >
+					<Teachpoints >
+						<Teachpoint Name='5' Robot='PrePCR_BravoST' />
+					</Teachpoints>
+					<Allowed_Labware_Classes >
+						<Allowed_Labware_Class Name='Uses Standard Platepad' />
+					</Allowed_Labware_Classes>
+				</Location>
+				<Location DeadlockAvoidance='0' Door='' Name='6' Stack_Height='100' >
+					<Teachpoints >
+						<Teachpoint Name='6' Robot='PrePCR_BravoST' />
+					</Teachpoints>
+					<Allowed_Labware_Classes >
+						<Allowed_Labware_Class Name='Uses Standard Platepad' />
+					</Allowed_Labware_Classes>
+				</Location>
+				<Location DeadlockAvoidance='1' Door='' Name='7' Stack_Height='100' >
+					<Teachpoints >
+						<Teachpoint Name='7' Robot='PrePCR_BravoST' />
+					</Teachpoints>
+					<Allowed_Labware_Classes >
+						<Allowed_Labware_Class Name='Uses Standard Platepad' />
+					</Allowed_Labware_Classes>
+				</Location>
+				<Location DeadlockAvoidance='1' Door='' Name='8' Stack_Height='100' >
+					<Teachpoints >
+						<Teachpoint Name='8' Robot='PrePCR_BravoST' />
+					</Teachpoints>
+					<Allowed_Labware_Classes >
+						<Allowed_Labware_Class Name='Uses Standard Platepad' />
+					</Allowed_Labware_Classes>
+				</Location>
+				<Location DeadlockAvoidance='0' Door='' Name='9' Stack_Height='100' >
+					<Teachpoints >
+						<Teachpoint Name='9' Robot='PrePCR_BravoST' />
+					</Teachpoints>
+					<Allowed_Labware_Classes >
+						<Allowed_Labware_Class Name='Uses Standard Platepad' />
+					</Allowed_Labware_Classes>
+				</Location>
+				<Location DeadlockAvoidance='1' Door='' Name='Default Location' >
+					<Allowed_Labware_Classes >
+						<Allowed_Labware_Class Name='Uses Standard Platepad' />
+					</Allowed_Labware_Classes>
+				</Location>
+			</Locations>
+			<Parameters >
+				<Parameter Name='Profile' Value='96ST SG2039N013' />
+			</Parameters>
+		</Device>
+		<Device DevicePreviousStatus='0' Disable='0' Name='Waste Bin - 1' Object_Type='WasteBin' >
+			<Locations >
+				<Location DeadlockAvoidance='1' Door='' Name='Default Location' >
+					<Allowed_Labware_Classes >
+						<Allowed_Labware_Class Name='Uses Standard Platepad' />
+					</Allowed_Labware_Classes>
+				</Location>
+				<Location DeadlockAvoidance='0' Door='' Name='Hole' >
+					<Teachpoints >
+						<Teachpoint Name='4' Robot='PrePCR_BravoST' />
+					</Teachpoints>
+					<Linked_To_Location Device_Name='PrePCR_BravoST' Location_Name='4' />
+					<Allowed_Labware_Classes >
+						<Allowed_Labware_Class Name='Uses Standard Platepad' />
+					</Allowed_Labware_Classes>
+				</Location>
+			</Locations>
+		</Device>
+	</Devices>
+</Velocity11>
