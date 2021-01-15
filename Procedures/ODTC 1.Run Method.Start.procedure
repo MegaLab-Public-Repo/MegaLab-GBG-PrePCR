@@ -13,7 +13,7 @@
           <SimulatableErrorTexts />
           <InputParameters>
             <Variables>
-              <VariableBase xsi:type="StringVariable" Type="String" Name="Method File" InitialValue="" NotUserChangable="false" SyncWithDataTable="false" BaseValue="C:\Biosero\Illumina\3rd Party Protocols\ODTC Protocols\COVIDSeq Anneal.xml" IsQuery="false" AllowAllVariableTypes="false" ConstrainToOptions="false" CanBeEmpty="true" IsFile="true" FileExtensionFilter="XML Files (*.xml)|*.xml|All Files (*.*)|*.*" IsComPort="false">
+              <VariableBase xsi:type="StringVariable" Type="String" Name="Method File" InitialValue="" NotUserChangable="false" SyncWithDataTable="false" BaseValue="C:\MegaLab-GBG-PrePCR\InstrumentFiles\Inheco\COVIDSeq Anneal.xml" IsQuery="false" AllowAllVariableTypes="false" ConstrainToOptions="false" CanBeEmpty="true" IsFile="true" FileExtensionFilter="XML Files (*.xml)|*.xml|All Files (*.*)|*.*" IsComPort="false">
                 <SkipValidation>false</SkipValidation>
                 <HelpText>The method XML file.</HelpText>
                 <CreatedBy>Instrument</CreatedBy>
