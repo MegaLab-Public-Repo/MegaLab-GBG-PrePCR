@@ -1,6 +1,2 @@
-# exclude everything
-Data\*
-Data/*
-
-Settings\Settings.xml
-Settings/Settings.xml
+Data/LayoutImage.png
+Data/Change\ Logs/*.csv
