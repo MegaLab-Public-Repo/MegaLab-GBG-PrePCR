@@ -1,4 +1,4 @@
-﻿<RunSetupData PlateName="Bio-Rad Hard-Shell384-Well PCR" xmlns="http://ttplabtech.com/XAMLRunSetupData" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+﻿<RunSetupData PlateName="Bio-Rad Hard-Shell 384-Well PCR" xmlns="http://ttplabtech.com/XAMLRunSetupData" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <RunSetupData.AFRsConfiguration>
     <AFRsConfiguration>
       <AFRsConfiguration.PumpChannelAssignments>
@@ -35,7 +35,7 @@
       </AFRGroup>
     </AFRsConfiguration>
   </RunSetupData.AFRsConfiguration>
-  <Layer DispensePattern="Snaking" LayerIndex="0" LayerName="Anneal MM" LayerVolume="8.5" UseCSVDataAsVolumes="False">
+  <Layer DispensePattern="Snaking" LayerIndex="0" LayerName="Anneal MM" LayerVolume="8.5" UseCSVDataAsVolumes="False" WaitAfterRunIfInLayerSequencer="False">
     <Layer.Liquids>
       <Liquid LiquidName="EPH3" NumOfSplits="2">
         <Liquid.DispenseRegions>
@@ -46,7 +46,7 @@
       </Liquid>
     </Layer.Liquids>
   </Layer>
-  <Layer DispensePattern="Snaking" LayerIndex="1" LayerName="RVT MM" LayerVolume="8" UseCSVDataAsVolumes="False">
+  <Layer DispensePattern="Snaking" LayerIndex="1" LayerName="RVT MM" LayerVolume="8" UseCSVDataAsVolumes="False" WaitAfterRunIfInLayerSequencer="False">
     <Layer.Liquids>
       <Liquid LiquidName="RVT MM" NumOfSplits="2">
         <Liquid.DispenseRegions>
