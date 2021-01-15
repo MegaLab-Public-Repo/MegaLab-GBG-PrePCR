@@ -1197,7 +1197,7 @@
   <ArchiveTables />
   <Parameters>
     <Variables>
-      <VariableBase xsi:type="StringVariable" Type="String" Name="User's Log File" InitialValue="C:\Users\INT3926.7 - Illumina\Documents\Green Button Go\Log Files\User_Log_2021-01-13_14-49-12.txt" NotUserChangable="false" SyncWithDataTable="false" BaseValue="C:\Users\INT3926.7 - Illumina\Documents\Green Button Go\Log Files\User_Log_2021-01-13_14-49-12.txt" IsQuery="false" AllowAllVariableTypes="false" ConstrainToOptions="false" CanBeEmpty="true" IsFile="false" IsComPort="false">
+      <VariableBase xsi:type="StringVariable" Type="String" Name="User's Log File" InitialValue="C:\Users\INT3926.7 - Illumina\Documents\Green Button Go\Log Files\User_Log_2021-01-14_15-00-35.Pre-PCR.txt" NotUserChangable="false" SyncWithDataTable="false" BaseValue="C:\Users\INT3926.7 - Illumina\Documents\Green Button Go\Log Files\User_Log_2021-01-14_15-00-35.Pre-PCR.txt" IsQuery="false" AllowAllVariableTypes="false" ConstrainToOptions="false" CanBeEmpty="true" IsFile="false" IsComPort="false">
         <SkipValidation>false</SkipValidation>
         <CreatedBy>GBG</CreatedBy>
         <Tags>GBG</Tags>
@@ -2402,8 +2402,8 @@
       <HeithInMillimeters>508</HeithInMillimeters>
       <HeightInMillimeters>508</HeightInMillimeters>
       <Rotation>90</Rotation>
-      <LayoutPositionLeftInMillimeters>2408.41</LayoutPositionLeftInMillimeters>
-      <LayoutPositionTopInMillimeters>627.56</LayoutPositionTopInMillimeters>
+      <LayoutPositionLeftInMillimeters>2422.93</LayoutPositionLeftInMillimeters>
+      <LayoutPositionTopInMillimeters>616.67</LayoutPositionTopInMillimeters>
       <IsSelected>false</IsSelected>
       <Parameters>
         <Variables>

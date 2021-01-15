@@ -38,7 +38,7 @@
         <InstrumentInstanceName>Mosquito</InstrumentInstanceName>
         <SequenceNumber>4</SequenceNumber>
         <HelpText>Load and run a liquid handler protocol.</HelpText>
-        <ProtocolName>C:\Biosero\Illumina\3rd Party Protocols\Mosquito Protocols\Pre-PCR cDNA Split.protocol</ProtocolName>
+        <ProtocolName>C:\MegaLab-GBG-PrePCR\InstrumentFiles\Mosquito\Pre-PCR cDNA Split.protocol</ProtocolName>
         <TimeoutInMinutes>15</TimeoutInMinutes>
         <SimulationTimeInSeconds>570</SimulationTimeInSeconds>
       </SequenceStep>
