@@ -803,6 +803,7 @@
           <MaxNumberOfPlates>1</MaxNumberOfPlates>
           <LimitPlates>false</LimitPlates>
           <IsPrimary>true</IsPrimary>
+          <PoolStrategeyDescription>Selection based on first available.</PoolStrategeyDescription>
           <SelectedStrategy>
             <Name>First Available</Name>
             <Description>Provides preference in the order listed in pool.  If the first instrument is available, it will be used.</Description>
@@ -822,7 +823,6 @@
               </Variables>
             </Parameters>
           </SelectedStrategy>
-          <PoolStrategeyDescription>Selection based on first available.</PoolStrategeyDescription>
         </PoolProcess>
         <InstrumentProcess xsi:type="RunLayerProcess">
           <Name>Run RVT</Name>
@@ -992,6 +992,7 @@
           <MaxNumberOfPlates>1</MaxNumberOfPlates>
           <LimitPlates>false</LimitPlates>
           <IsPrimary>true</IsPrimary>
+          <PoolStrategeyDescription>Selection based on first available.</PoolStrategeyDescription>
           <SelectedStrategy>
             <Name>First Available</Name>
             <Description>Provides preference in the order listed in pool.  If the first instrument is available, it will be used.</Description>
@@ -1011,7 +1012,6 @@
               </Variables>
             </Parameters>
           </SelectedStrategy>
-          <PoolStrategeyDescription>Selection based on first available.</PoolStrategeyDescription>
         </PoolProcess>
         <InstrumentProcess xsi:type="SequenceProcess">
           <Name>Run Sequence 2</Name>
