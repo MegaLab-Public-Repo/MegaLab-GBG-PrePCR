@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<Procedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" IsStartupProcedure="false" FileName="Setup.Consumables Check.procedure" Id="981d290d-244c-4a12-84d0-6ea875f01820">
+  <IsBookmarked>false</IsBookmarked>
+  <WorkFlow xsi:type="SequentialWorkflow" BackgroundImageLocation="" Guid="8ec6472b-623a-4fe9-8429-f6b547e47521" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+    <SkipLogging>false</SkipLogging>
+    <Sequence>
+      <WorkFlow xsi:type="CallProcedureWorkflow" BackgroundImageLocation="" Guid="9eabba9b-bb6f-4ef7-8f87-96ff605890e0" CanBeExecutedOutOfSequence="false" Name="Run Procedure" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/procedure64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" ProcedureName="Setup.Centrifuge Samples" ShowVariables="false">
+        <SkipLogging>false</SkipLogging>
+        <IsSelected>false</IsSelected>
+      </WorkFlow>
+      <WorkFlow xsi:type="CallProcedureWorkflow" BackgroundImageLocation="" Guid="6c239291-286f-4b16-8ff7-098de2c6391b" CanBeExecutedOutOfSequence="false" Name="Run Procedure" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/procedure64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" ProcedureName="Setup.Cytomat All" ShowVariables="false">
+        <SkipLogging>false</SkipLogging>
+        <IsSelected>false</IsSelected>
+      </WorkFlow>
+      <WorkFlow xsi:type="CallProcedureWorkflow" BackgroundImageLocation="" Guid="dcdddef2-7a96-41d6-a064-4c3033ef6343" CanBeExecutedOutOfSequence="false" Name="Run Procedure" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/procedure64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="true" sfc="false" ProcedureName="Setup.Cytomat" ShowVariables="false">
+        <SkipLogging>false</SkipLogging>
+        <IsSelected>false</IsSelected>
+      </WorkFlow>
+      <WorkFlow xsi:type="CallProcedureWorkflow" BackgroundImageLocation="" Guid="11a9a6c5-ea89-4e00-919d-8b142fcc4db8" CanBeExecutedOutOfSequence="false" Name="Run Procedure" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/procedure64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" ProcedureName="Setup.BenchCel" ShowVariables="false">
+        <SkipLogging>false</SkipLogging>
+        <IsSelected>false</IsSelected>
+      </WorkFlow>
+      <WorkFlow xsi:type="CallProcedureWorkflow" BackgroundImageLocation="" Guid="73f79f90-4b79-4a95-8db8-fd20710968ee" CanBeExecutedOutOfSequence="false" Name="Run Procedure" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/procedure64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" ProcedureName="Setup.DragonFly" ShowVariables="false">
+        <SkipLogging>false</SkipLogging>
+        <IsSelected>false</IsSelected>
+      </WorkFlow>
+      <WorkFlow xsi:type="CallProcedureWorkflow" BackgroundImageLocation="" Guid="761e7a70-66f5-47eb-9cf3-cb96e0adb725" CanBeExecutedOutOfSequence="false" Name="Run Procedure" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/procedure64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" ProcedureName="Setup.PCR Lids" ShowVariables="false">
+        <SkipLogging>false</SkipLogging>
+        <IsSelected>false</IsSelected>
+      </WorkFlow>
+      <WorkFlow xsi:type="CallProcedureWorkflow" BackgroundImageLocation="" Guid="6fe53f79-4323-4277-9585-0818d2a1d8ed" CanBeExecutedOutOfSequence="false" Name="Run Procedure" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/procedure64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" ProcedureName="Setup.Mosquito" ShowVariables="false">
+        <SkipLogging>false</SkipLogging>
+        <IsSelected>false</IsSelected>
+      </WorkFlow>
+      <WorkFlow xsi:type="CallProcedureWorkflow" BackgroundImageLocation="" Guid="56497a57-dae5-4045-bdf5-7c99187c18b3" CanBeExecutedOutOfSequence="false" Name="Run Procedure" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/procedure64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" ProcedureName="Setup.Heat Sealer" ShowVariables="false">
+        <SkipLogging>false</SkipLogging>
+        <IsSelected>false</IsSelected>
+      </WorkFlow>
+      <WorkFlow xsi:type="CallProcedureWorkflow" BackgroundImageLocation="" Guid="d0fb540d-0982-4843-be47-f75c8092792e" CanBeExecutedOutOfSequence="false" Name="Run Procedure" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/procedure64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" ProcedureName="Setup.XPeel" ShowVariables="false">
+        <SkipLogging>false</SkipLogging>
+        <IsSelected>false</IsSelected>
+      </WorkFlow>
+      <WorkFlow xsi:type="CallProcedureWorkflow" BackgroundImageLocation="" Guid="58f1099b-59a5-487a-9be1-006c4845f927" CanBeExecutedOutOfSequence="false" Name="Run Procedure" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/procedure64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" ProcedureName="Setup.Waste" ShowVariables="false">
+        <SkipLogging>false</SkipLogging>
+        <IsSelected>false</IsSelected>
+      </WorkFlow>
+      <WorkFlow xsi:type="CallProcedureWorkflow" BackgroundImageLocation="" Guid="8db2f8e1-c4ea-4718-90a9-e7523deced1f" CanBeExecutedOutOfSequence="false" Name="Run Procedure" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/procedure64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="true" sfc="false" ProcedureName="Setup.Cytomat Samples" ShowVariables="false">
+        <SkipLogging>false</SkipLogging>
+        <IsSelected>false</IsSelected>
+      </WorkFlow>
+    </Sequence>
+  </WorkFlow>
+  <HasBeenModified>false</HasBeenModified>
+</Procedure>

@@ -1,0 +1,211 @@
+Hotel,Shelf,Barcode,Previous_Barcode,Incubation_Start,Incubation_Duration,Zone,Labware,Has_Been_Run,Is_Lidded,Is_Sealed,Placed_By_Process,Hotel_Physical_Position
+Hotel 1,1,123456789016-ELU,123456789001-ELU,,00:00:00,Elution,96 Sample,False,False,False,,1
+Hotel 1,2,123456789015-ELU,123456789002-ELU,,00:00:00,Elution,96 Sample,False,False,False,,1
+Hotel 1,3,123456789014-ELU,123456789003-ELU,,00:00:00,Elution,96 Sample,False,False,False,,1
+Hotel 1,4,123456789013-ELU,123456789004-ELU,,00:00:00,Elution,96 Sample,False,False,False,,1
+Hotel 1,5,123456789012-ELU,123456789005-ELU,,00:00:00,Elution,96 Sample,False,False,False,,1
+Hotel 1,6,123456789019-ELU,123456789006-ELU,,00:00:00,Elution,96 Sample,False,False,False,,1
+Hotel 1,7,123456789004-ELU,123456789007-ELU,,00:00:00,Elution,96 Sample,False,False,False,,1
+Hotel 1,8,123456789003-ELU,000000000008-ELU,,00:00:00,Elution,96 Sample,False,False,False,,1
+Hotel 1,9,123456789002-ELU,123456789009-ELU,,00:00:00,Elution,96 Sample,False,False,False,,1
+Hotel 1,10,123456789001-ELU,123456789010-ELU,,00:00:00,Elution,96 Sample,False,False,False,,1
+Hotel 1,11,123456789000-ELU,123456789011-ELU,,00:00:00,Elution,96 Sample,False,False,False,,1
+Hotel 1,12,123456789009-ELU,123456789012-ELU,,00:00:00,Elution,96 Sample,False,False,False,,1
+Hotel 1,13,123456789008-ELU,123456789013-ELU,,00:00:00,Elution,96 Sample,False,False,False,,1
+Hotel 1,14,123456789007-ELU,123456789014-ELU,,00:00:00,Elution,96 Sample,False,False,False,,1
+Hotel 1,15,123456789006-ELU,123456789015-ELU,,00:00:00,Elution,96 Sample,False,False,False,,1
+Hotel 1,16,123456789005-ELU,100000000004-ELU,,00:00:00,Elution,96 Sample,False,False,False,,1
+Hotel 1,17,,,,00:00:00,NOT_USED,96 Sample,False,False,False,,1
+Hotel 1,18,,,,00:00:00,NOT_USED,96 Sample,False,False,False,,1
+Hotel 1,19,,,,00:00:00,NOT_USED,96 Sample,False,False,False,,1
+Hotel 1,20,,,,00:00:00,NOT_USED,96 Sample,False,False,False,,1
+Hotel 1,21,,,,00:00:00,NOT_USED,96 Sample,False,False,False,,1
+Hotel 2,1,,,,00:00:00,Empty,384 PCR,False,False,False,,2
+Hotel 2,2,,,,00:00:00,Empty,384 PCR,False,False,False,,2
+Hotel 2,3,,,,00:00:00,Empty,384 PCR,False,False,False,,2
+Hotel 2,4,,,,00:00:00,Empty,384 PCR,False,False,False,,2
+Hotel 2,5,,,,00:00:00,Empty,384 PCR,False,False,False,,2
+Hotel 2,6,,,,00:00:00,Empty,384 PCR,False,False,False,,2
+Hotel 2,7,,,,00:00:00,Empty,384 PCR,False,False,False,,2
+Hotel 2,8,,,,00:00:00,Empty,384 PCR,False,False,False,,2
+Hotel 2,9,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,2
+Hotel 2,10,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,2
+Hotel 2,11,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,2
+Hotel 2,12,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,2
+Hotel 2,13,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,2
+Hotel 2,14,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,2
+Hotel 2,15,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,2
+Hotel 2,16,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,2
+Hotel 2,17,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,2
+Hotel 2,18,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,2
+Hotel 2,19,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,2
+Hotel 2,20,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,2
+Hotel 2,21,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,2
+Hotel 3,1,VG000000000001-ART2,VG000000000010-ART1,,00:00:00,ART1 and 2,384 PCR,False,False,False,,3
+Hotel 3,2,VG000000000001-ART1,VG000000000010-ART2,,00:00:00,ART1 and 2,384 PCR,False,False,False,,3
+Hotel 3,3,VG000000000006-ART1,VG000000000004-ART2,,00:00:00,ART1 and 2,384 PCR,False,False,False,,3
+Hotel 3,4,VG000000000006-ART2,VG000000000004-ART1,,00:00:00,ART1 and 2,384 PCR,False,False,False,,3
+Hotel 3,5,VG000000000002-ART1,VG000000000002-ART1,,00:00:00,ART1 and 2,384 PCR,False,False,False,,3
+Hotel 3,6,VG000000000005-ART1,VG000000000002-ART2,,00:00:00,ART1 and 2,384 PCR,False,False,False,,3
+Hotel 3,7,VG000000000002-ART2,VG000000000009-ART2,,00:00:00,ART1 and 2,384 PCR,False,False,False,,3
+Hotel 3,8,VG000000000005-ART2,VG000000000009-ART1,,00:00:00,ART1 and 2,384 PCR,False,False,False,,3
+Hotel 3,9,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,3
+Hotel 3,10,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,3
+Hotel 3,11,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,3
+Hotel 3,12,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,3
+Hotel 3,13,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,3
+Hotel 3,14,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,3
+Hotel 3,15,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,3
+Hotel 3,16,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,3
+Hotel 3,17,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,3
+Hotel 3,18,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,3
+Hotel 3,19,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,3
+Hotel 3,20,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,3
+Hotel 3,21,,RNA 1,,00:00:00,NOT_USED,384 PCR,False,False,False,,3
+Hotel 4,1,,VG212345678912-ART1,,00:00:00,NOT_USED,384 PCR,False,False,False,,4
+Hotel 4,2,,VG312345678912-ART2,,00:00:00,NOT_USED,384 PCR,False,False,False,,4
+Hotel 4,3,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,4
+Hotel 4,4,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,4
+Hotel 4,5,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,4
+Hotel 4,6,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,4
+Hotel 4,7,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,4
+Hotel 4,8,,RNA 1,,00:00:00,NOT_USED,384 PCR,False,False,False,,4
+Hotel 4,9,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,4
+Hotel 4,10,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,4
+Hotel 4,11,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,4
+Hotel 4,12,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,4
+Hotel 4,13,,Combo_plate,,00:00:00,NOT_USED,384 PCR,False,False,False,,4
+Hotel 4,14,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,4
+Hotel 4,15,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,4
+Hotel 4,16,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,4
+Hotel 4,17,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,4
+Hotel 4,18,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,4
+Hotel 4,19,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,4
+Hotel 4,20,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,4
+Hotel 4,21,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,4
+Hotel 5,1,,VG212345678912-ART2,,00:00:00,NOT_USED,384 PCR,False,False,False,,5
+Hotel 5,2,,VG312345678912-ART2,,00:00:00,NOT_USED,384 PCR,False,False,False,,5
+Hotel 5,3,,ART1-3,,00:00:00,NOT_USED,384 PCR,False,False,False,,5
+Hotel 5,4,,ART1-4,,00:00:00,NOT_USED,384 PCR,False,False,False,,5
+Hotel 5,5,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,5
+Hotel 5,6,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,5
+Hotel 5,7,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,5
+Hotel 5,8,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,5
+Hotel 5,9,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,5
+Hotel 5,10,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,5
+Hotel 5,11,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,5
+Hotel 5,12,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,5
+Hotel 5,13,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,5
+Hotel 5,14,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,5
+Hotel 5,15,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,5
+Hotel 5,16,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,5
+Hotel 5,17,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,5
+Hotel 5,18,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,5
+Hotel 5,19,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,5
+Hotel 5,20,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,5
+Hotel 5,21,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,5
+Hotel 6,1,,VG012345678912-ART1,,00:00:00,NOT_USED,384 PCR,False,False,False,,6
+Hotel 6,2,,VG012345678912-ART2,,00:00:00,NOT_USED,384 PCR,False,False,False,,6
+Hotel 6,3,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,6
+Hotel 6,4,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,6
+Hotel 6,5,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,6
+Hotel 6,6,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,6
+Hotel 6,7,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,6
+Hotel 6,8,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,6
+Hotel 6,9,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,6
+Hotel 6,10,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,6
+Hotel 6,11,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,6
+Hotel 6,12,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,6
+Hotel 6,13,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,6
+Hotel 6,14,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,6
+Hotel 6,15,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,6
+Hotel 6,16,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,6
+Hotel 6,17,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,6
+Hotel 6,18,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,6
+Hotel 6,19,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,6
+Hotel 6,20,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,6
+Hotel 6,21,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,6
+Hotel 7,1,,ART2-1,,00:00:00,NOT_USED,384 PCR,False,False,False,,7
+Hotel 7,2,,ART2-2,,00:00:00,NOT_USED,384 PCR,False,False,False,,7
+Hotel 7,3,,ART2-3,,00:00:00,NOT_USED,384 PCR,False,False,False,,7
+Hotel 7,4,,ART2-4,,00:00:00,NOT_USED,384 PCR,False,False,False,,7
+Hotel 7,5,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,7
+Hotel 7,6,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,7
+Hotel 7,7,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,7
+Hotel 7,8,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,7
+Hotel 7,9,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,7
+Hotel 7,10,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,7
+Hotel 7,11,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,7
+Hotel 7,12,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,7
+Hotel 7,13,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,7
+Hotel 7,14,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,7
+Hotel 7,15,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,7
+Hotel 7,16,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,7
+Hotel 7,17,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,7
+Hotel 7,18,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,7
+Hotel 7,19,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,7
+Hotel 7,20,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,7
+Hotel 7,21,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,7
+Hotel 8,1,VG000000000009-CDNA,VG000000000020-CDNA,,00:00:00,cDNA,384 PCR,False,False,False,,8
+Hotel 8,2,VG000000000010-CDNA,VG000000000018-CDNA,,00:00:00,cDNA,384 PCR,False,False,False,,8
+Hotel 8,3,VG000000000006-CDNA,VG000000000016-CDNA,,00:00:00,cDNA,384 PCR,False,False,False,,8
+Hotel 8,4,VG000000000020-CDNA,VG000000000015-CDNA,,00:00:00,cDNA,384 PCR,False,False,False,,8
+Hotel 8,5,,VG012345678912-CDNA,,00:00:00,NOT_USED,,False,False,False,,8
+Hotel 8,6,,,,00:00:00,NOT_USED,,False,False,False,,8
+Hotel 8,7,,,,00:00:00,NOT_USED,,False,False,False,,8
+Hotel 8,8,,,,00:00:00,NOT_USED,,False,False,False,,8
+Hotel 8,9,,,,00:00:00,NOT_USED,,False,False,False,,8
+Hotel 8,10,,,,00:00:00,NOT_USED,,False,False,False,,8
+Hotel 8,11,,,,00:00:00,NOT_USED,,False,False,False,,8
+Hotel 8,12,,,,00:00:00,NOT_USED,,False,False,False,,8
+Hotel 8,13,,,,00:00:00,NOT_USED,,False,False,False,,8
+Hotel 8,14,,,,00:00:00,NOT_USED,,False,False,False,,8
+Hotel 8,15,,,,00:00:00,NOT_USED,,False,False,False,,8
+Hotel 8,16,,,,00:00:00,NOT_USED,,False,False,False,,8
+Hotel 8,17,,,,00:00:00,NOT_USED,,False,False,False,,8
+Hotel 8,18,,,,00:00:00,NOT_USED,,False,False,False,,8
+Hotel 8,19,,,,00:00:00,NOT_USED,,False,False,False,,8
+Hotel 8,20,,,,00:00:00,NOT_USED,,False,False,False,,8
+Hotel 8,21,,,,00:00:00,NOT_USED,,False,False,False,,8
+Hotel 9,1,,VG112345678912-CDNA,,00:00:00,NOT_USED,384 PCR,False,False,False,,9
+Hotel 9,2,,VG212345678912-CDNA,,00:00:00,NOT_USED,384 PCR,False,False,False,,9
+Hotel 9,3,,VG212345678912-CDNA,,00:00:00,NOT_USED,384 PCR,False,False,False,,9
+Hotel 9,4,,VG312345678912-CDNA,,00:00:00,NOT_USED,384 PCR,False,False,False,,9
+Hotel 9,5,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,9
+Hotel 9,6,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,9
+Hotel 9,7,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,9
+Hotel 9,8,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,9
+Hotel 9,9,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,9
+Hotel 9,10,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,9
+Hotel 9,11,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,9
+Hotel 9,12,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,9
+Hotel 9,13,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,9
+Hotel 9,14,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,9
+Hotel 9,15,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,9
+Hotel 9,16,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,9
+Hotel 9,17,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,9
+Hotel 9,18,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,9
+Hotel 9,19,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,9
+Hotel 9,20,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,9
+Hotel 9,21,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,9
+Hotel 10,1,,VG312345678912-CDNA,,00:00:00,NOT_USED,384 PCR,False,False,False,,10
+Hotel 10,2,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,10
+Hotel 10,3,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,10
+Hotel 10,4,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,10
+Hotel 10,5,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,10
+Hotel 10,6,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,10
+Hotel 10,7,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,10
+Hotel 10,8,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,10
+Hotel 10,9,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,10
+Hotel 10,10,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,10
+Hotel 10,11,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,10
+Hotel 10,12,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,10
+Hotel 10,13,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,10
+Hotel 10,14,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,10
+Hotel 10,15,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,10
+Hotel 10,16,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,10
+Hotel 10,17,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,10
+Hotel 10,18,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,10
+Hotel 10,19,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,10
+Hotel 10,20,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,10
+Hotel 10,21,,,,00:00:00,NOT_USED,384 PCR,False,False,False,,10

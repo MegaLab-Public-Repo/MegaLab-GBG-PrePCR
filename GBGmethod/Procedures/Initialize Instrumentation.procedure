@@ -1,0 +1,307 @@
+<?xml version="1.0"?>
+<Procedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" IsStartupProcedure="false" FileName="Initialize Instrumentation.procedure" Id="9d78731a-5bd4-4c5b-9151-89a4fc6878a6">
+  <IsBookmarked>false</IsBookmarked>
+  <WorkFlow xsi:type="SequentialWorkflow" BackgroundImageLocation="" Guid="9bd1b96e-0ed5-4ad6-862f-53e398d6bbf3" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+    <SkipLogging>false</SkipLogging>
+    <Sequence>
+      <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\Blue.png" Guid="deb7804a-2617-4391-a178-9f83df86111e" CanBeExecutedOutOfSequence="false" Name="Home" ImageLocation="pack://application:,,,/PreciseAutomation.PreciseFlex.v3.Driver;component/Images/Icon.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+        <SkipLogging>false</SkipLogging>
+        <Command xsi:type="InstrumentCommand" Guid="deb7804a-2617-4391-a178-9f83df86111e" IsDisabled="false" IsAsyncronous="true" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="true" Name="Home" ImageLocation="pack://application:,,,/PreciseAutomation.PreciseFlex.v3.Driver;component/Images/Icon.png" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\Blue.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="true" SimulateError="false" HasBreakPointSet="false" AlwaysRunLocal="false" InstrumentInstanceName="PF-400" WaitForInstrumentToBeReadyBeforeExecution="true" IgnoreBusy="false" DoNotLogUtilization="false">
+          <SecondsToSimulate>0</SecondsToSimulate>
+          <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+          <SimulationOutput />
+          <SimulatableErrorTexts />
+          <InputParameters>
+            <Variables />
+          </InputParameters>
+          <OutputParameters>
+            <Variables />
+          </OutputParameters>
+          <HelpText>Returns the arm to home position.</HelpText>
+        </Command>
+      </WorkFlow>
+      <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\PaleGreen.png" Guid="e1b29c31-6d4e-4f24-abbd-69437f05a499" CanBeExecutedOutOfSequence="false" Name="System Reset" ImageLocation="pack://application:,,,/4titude.a4SSealer.Driver;component/Images/a4s.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+        <SkipLogging>false</SkipLogging>
+        <Command xsi:type="InstrumentCommand" Guid="e1b29c31-6d4e-4f24-abbd-69437f05a499" IsDisabled="false" IsAsyncronous="true" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="true" Name="System Reset" ImageLocation="pack://application:,,,/4titude.a4SSealer.Driver;component/Images/a4s.png" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\PaleGreen.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="true" SimulateError="false" HasBreakPointSet="false" AlwaysRunLocal="false" InstrumentInstanceName="a4S Sealer" WaitForInstrumentToBeReadyBeforeExecution="true" IgnoreBusy="false" DoNotLogUtilization="false">
+          <SecondsToSimulate>0</SecondsToSimulate>
+          <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+          <SimulationOutput />
+          <SimulatableErrorTexts />
+          <InputParameters>
+            <Variables />
+          </InputParameters>
+          <OutputParameters>
+            <Variables />
+          </OutputParameters>
+          <HelpText>Resets the instrument</HelpText>
+        </Command>
+      </WorkFlow>
+      <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\PaleGreen.png" Guid="9f3eea65-d8ce-4792-b242-947e2b2ececd" CanBeExecutedOutOfSequence="false" Name="Set Temperature" ImageLocation="pack://application:,,,/4titude.a4SSealer.Driver;component/Images/a4s.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+        <SkipLogging>false</SkipLogging>
+        <Command xsi:type="InstrumentCommand" Guid="9f3eea65-d8ce-4792-b242-947e2b2ececd" IsDisabled="false" IsAsyncronous="true" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="true" Name="Set Temperature" ImageLocation="pack://application:,,,/4titude.a4SSealer.Driver;component/Images/a4s.png" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\PaleGreen.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="true" SimulateError="false" HasBreakPointSet="false" AlwaysRunLocal="false" InstrumentInstanceName="a4S Sealer" WaitForInstrumentToBeReadyBeforeExecution="true" IgnoreBusy="false" DoNotLogUtilization="false">
+          <SecondsToSimulate>0</SecondsToSimulate>
+          <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+          <SimulationOutput />
+          <SimulatableErrorTexts />
+          <InputParameters>
+            <Variables>
+              <VariableBase xsi:type="NumberVariable" Type="Number" Name="Temp" InitialValue="165" NotUserChangable="false" SyncWithDataTable="false" BaseValue="180" IsQuery="false" IsInteger="true" Minimum="100" Maximum="200">
+                <SkipValidation>false</SkipValidation>
+                <HelpText>The temperature to seal at.</HelpText>
+                <CreatedBy>Instrument</CreatedBy>
+                <Tags>Instrument</Tags>
+                <Tags>#DarkBlue</Tags>
+                <ContextInfo>Generated by a4SSealer</ContextInfo>
+              </VariableBase>
+            </Variables>
+          </InputParameters>
+          <OutputParameters>
+            <Variables />
+          </OutputParameters>
+          <HelpText>Sets the temperature to seal at.</HelpText>
+        </Command>
+      </WorkFlow>
+      <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\PaleGreen.png" Guid="40380265-6e29-4235-948e-40e8397c0d3c" CanBeExecutedOutOfSequence="false" Name="Set Seal Time" ImageLocation="pack://application:,,,/4titude.a4SSealer.Driver;component/Images/a4s.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+        <SkipLogging>false</SkipLogging>
+        <Command xsi:type="InstrumentCommand" Guid="40380265-6e29-4235-948e-40e8397c0d3c" IsDisabled="false" IsAsyncronous="true" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="true" Name="Set Seal Time" ImageLocation="pack://application:,,,/4titude.a4SSealer.Driver;component/Images/a4s.png" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\PaleGreen.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="true" SimulateError="false" HasBreakPointSet="false" AlwaysRunLocal="false" InstrumentInstanceName="a4S Sealer" WaitForInstrumentToBeReadyBeforeExecution="true" IgnoreBusy="false" DoNotLogUtilization="false">
+          <SecondsToSimulate>0</SecondsToSimulate>
+          <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+          <SimulationOutput />
+          <SimulatableErrorTexts />
+          <InputParameters>
+            <Variables>
+              <VariableBase xsi:type="NumberVariable" Type="Number" Name="Time" InitialValue="3" NotUserChangable="false" SyncWithDataTable="false" BaseValue="2" IsQuery="false" IsInteger="false" Minimum="0.1" Maximum="10">
+                <SkipValidation>false</SkipValidation>
+                <HelpText>The amount of time to seal the plate. NOTE: Seal Time settings may not update the instrument display.</HelpText>
+                <CreatedBy>Instrument</CreatedBy>
+                <Tags>Instrument</Tags>
+                <Tags>#DarkBlue</Tags>
+                <ContextInfo>Generated by a4SSealer</ContextInfo>
+              </VariableBase>
+            </Variables>
+          </InputParameters>
+          <OutputParameters>
+            <Variables />
+          </OutputParameters>
+          <HelpText>Sets the duration of the sealing process.</HelpText>
+        </Command>
+      </WorkFlow>
+      <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\Green.png" Guid="d03855ef-305d-4171-8342-2e5b3e49e3d7" CanBeExecutedOutOfSequence="false" Name="Initialize" ImageLocation="pack://application:,,,/Thermo.Cytomat.Driver;component/Images/Icon.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+        <SkipLogging>false</SkipLogging>
+        <Command xsi:type="InstrumentCommand" Guid="d03855ef-305d-4171-8342-2e5b3e49e3d7" IsDisabled="false" IsAsyncronous="true" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="true" Name="Initialize" ImageLocation="pack://application:,,,/Thermo.Cytomat.Driver;component/Images/Icon.png" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\Green.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="true" SimulateError="false" HasBreakPointSet="false" AlwaysRunLocal="false" InstrumentInstanceName="Cytomat" WaitForInstrumentToBeReadyBeforeExecution="true" IgnoreBusy="false" DoNotLogUtilization="false">
+          <SecondsToSimulate>0</SecondsToSimulate>
+          <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+          <SimulationOutput />
+          <SimulatableErrorTexts />
+          <InputParameters>
+            <Variables>
+              <VariableBase xsi:type="NumberVariable" Type="Number" Name="Timeout (sec)" InitialValue="0" NotUserChangable="false" SyncWithDataTable="false" BaseValue="120" IsQuery="false" IsInteger="false" Minimum="120" Maximum="2147483647">
+                <SkipValidation>false</SkipValidation>
+                <CreatedBy>Instrument</CreatedBy>
+                <Tags>Instrument</Tags>
+                <Tags>#DarkBlue</Tags>
+                <ContextInfo>Generated by Cytomat</ContextInfo>
+              </VariableBase>
+            </Variables>
+          </InputParameters>
+          <OutputParameters>
+            <Variables />
+          </OutputParameters>
+          <HelpText>Initializes the instrument. If the selected model of incubator has a rotating carousel, then this command also homes the carousel.</HelpText>
+        </Command>
+      </WorkFlow>
+      <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\LightPink.png" Guid="0de5cb61-742e-4006-9e13-244406a66d66" CanBeExecutedOutOfSequence="false" Name="Initialize" ImageLocation="pack://application:,,,/SPTLabtech.MosquitoSequence.Driver;component/Images/Mosquito.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+        <SkipLogging>false</SkipLogging>
+        <Command xsi:type="InstrumentCommand" Guid="0de5cb61-742e-4006-9e13-244406a66d66" IsDisabled="false" IsAsyncronous="true" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="true" Name="Initialize" ImageLocation="pack://application:,,,/SPTLabtech.MosquitoSequence.Driver;component/Images/Mosquito.png" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\LightPink.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="true" SimulateError="false" HasBreakPointSet="false" AlwaysRunLocal="false" InstrumentInstanceName="Mosquito" WaitForInstrumentToBeReadyBeforeExecution="true" IgnoreBusy="false" DoNotLogUtilization="false">
+          <SecondsToSimulate>0</SecondsToSimulate>
+          <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+          <SimulationOutput />
+          <SimulatableErrorTexts />
+          <InputParameters>
+            <Variables />
+          </InputParameters>
+          <OutputParameters>
+            <Variables />
+          </OutputParameters>
+          <HelpText>Initializes the instrument through the Mosquito software.</HelpText>
+        </Command>
+      </WorkFlow>
+      <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\PaleBlue.png" Guid="29e0dcf3-fc0c-4f24-8899-491614900125" CanBeExecutedOutOfSequence="false" Name="Initialize" ImageLocation="pack://application:,,,/Agilent.Bravo2018.Driver;component/Images/bravo side.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+        <SkipLogging>false</SkipLogging>
+        <Command xsi:type="InstrumentCommand" Guid="29e0dcf3-fc0c-4f24-8899-491614900125" IsDisabled="false" IsAsyncronous="false" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="true" Name="Initialize" ImageLocation="pack://application:,,,/Agilent.Bravo2018.Driver;component/Images/bravo side.png" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\PaleBlue.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="true" SimulateError="false" HasBreakPointSet="false" AlwaysRunLocal="false" InstrumentInstanceName="Bravo" WaitForInstrumentToBeReadyBeforeExecution="true" IgnoreBusy="false" DoNotLogUtilization="false">
+          <SecondsToSimulate>0</SecondsToSimulate>
+          <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+          <SimulationOutput />
+          <SimulatableErrorTexts />
+          <InputParameters>
+            <Variables />
+          </InputParameters>
+          <OutputParameters>
+            <Variables />
+          </OutputParameters>
+          <HelpText>Initialize VWorks.</HelpText>
+        </Command>
+      </WorkFlow>
+      <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\Teal.png" Guid="3520ce73-56a5-4cf0-a129-c717c4b24c72" CanBeExecutedOutOfSequence="false" Name="Reset" ImageLocation="pack://application:,,,/Brooks.XPeel.Driver;component/Images/XPeel64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+        <SkipLogging>false</SkipLogging>
+        <Command xsi:type="InstrumentCommand" Guid="3520ce73-56a5-4cf0-a129-c717c4b24c72" IsDisabled="false" IsAsyncronous="true" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="true" Name="Reset" ImageLocation="pack://application:,,,/Brooks.XPeel.Driver;component/Images/XPeel64.png" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\Teal.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="true" SimulateError="false" HasBreakPointSet="false" AlwaysRunLocal="false" InstrumentInstanceName="XPeel" WaitForInstrumentToBeReadyBeforeExecution="true" IgnoreBusy="false" DoNotLogUtilization="false">
+          <SecondsToSimulate>0</SecondsToSimulate>
+          <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+          <SimulationOutput />
+          <SimulatableErrorTexts />
+          <InputParameters>
+            <Variables />
+          </InputParameters>
+          <OutputParameters>
+            <Variables />
+          </OutputParameters>
+          <HelpText>Resets the instrument.</HelpText>
+        </Command>
+      </WorkFlow>
+      <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\Teal.png" Guid="51314948-c468-4bcb-a021-67cf0006d33a" CanBeExecutedOutOfSequence="false" Name="Initialize" ImageLocation="pack://application:,,,/Brooks.XPeel.Driver;component/Images/XPeel64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+        <SkipLogging>false</SkipLogging>
+        <Command xsi:type="InstrumentCommand" Guid="51314948-c468-4bcb-a021-67cf0006d33a" IsDisabled="false" IsAsyncronous="true" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="true" Name="Initialize" ImageLocation="pack://application:,,,/Brooks.XPeel.Driver;component/Images/XPeel64.png" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\Teal.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="true" SimulateError="false" HasBreakPointSet="false" AlwaysRunLocal="false" InstrumentInstanceName="XPeel" WaitForInstrumentToBeReadyBeforeExecution="true" IgnoreBusy="false" DoNotLogUtilization="false">
+          <SecondsToSimulate>0</SecondsToSimulate>
+          <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+          <SimulationOutput />
+          <SimulatableErrorTexts />
+          <InputParameters>
+            <Variables />
+          </InputParameters>
+          <OutputParameters>
+            <Variables />
+          </OutputParameters>
+          <HelpText>Initializes instrument for use.</HelpText>
+        </Command>
+      </WorkFlow>
+      <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\BurntOrange.png" Guid="6da0a47c-b99e-415d-a169-49c4d3c35bfd" CanBeExecutedOutOfSequence="false" Name="Initialize" ImageLocation="pack://application:,,,/Inheco.ODTC.Driver;component/Images/inheco odtc.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+        <SkipLogging>false</SkipLogging>
+        <Command xsi:type="InstrumentCommand" Guid="6da0a47c-b99e-415d-a169-49c4d3c35bfd" IsDisabled="false" IsAsyncronous="true" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="true" Name="Initialize" ImageLocation="pack://application:,,,/Inheco.ODTC.Driver;component/Images/inheco odtc.png" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\BurntOrange.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="true" SimulateError="false" HasBreakPointSet="false" AlwaysRunLocal="false" InstrumentInstanceName="ODTC 1" WaitForInstrumentToBeReadyBeforeExecution="true" IgnoreBusy="false" DoNotLogUtilization="false">
+          <SecondsToSimulate>0</SecondsToSimulate>
+          <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+          <SimulationOutput />
+          <SimulatableErrorTexts />
+          <InputParameters>
+            <Variables>
+              <VariableBase xsi:type="StringVariable" Type="String" Name="PMSId" InitialValue="" NotUserChangable="false" SyncWithDataTable="false" BaseValue="" IsQuery="false" AllowAllVariableTypes="false" ConstrainToOptions="false" CanBeEmpty="true" IsFile="false" IsComPort="false">
+                <SkipValidation>false</SkipValidation>
+                <HelpText>The Process Management System (PMS) Id.</HelpText>
+                <CreatedBy>Instrument</CreatedBy>
+                <Tags>Instrument</Tags>
+                <Tags>#DarkBlue</Tags>
+                <ContextInfo>Generated by ODTC</ContextInfo>
+                <Options />
+              </VariableBase>
+            </Variables>
+          </InputParameters>
+          <OutputParameters>
+            <Variables />
+          </OutputParameters>
+          <HelpText>Resets and initializes the ODTC.</HelpText>
+        </Command>
+      </WorkFlow>
+      <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\DarkPink.png" Guid="0a855245-970f-4e4d-ba0b-b8aba6713bd3" CanBeExecutedOutOfSequence="false" Name="Initialize" ImageLocation="pack://application:,,,/Inheco.ODTC.Driver;component/Images/inheco odtc.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+        <SkipLogging>false</SkipLogging>
+        <Command xsi:type="InstrumentCommand" Guid="0a855245-970f-4e4d-ba0b-b8aba6713bd3" IsDisabled="false" IsAsyncronous="true" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="true" Name="Initialize" ImageLocation="pack://application:,,,/Inheco.ODTC.Driver;component/Images/inheco odtc.png" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\DarkPink.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="true" SimulateError="false" HasBreakPointSet="false" AlwaysRunLocal="false" InstrumentInstanceName="ODTC 2" WaitForInstrumentToBeReadyBeforeExecution="true" IgnoreBusy="false" DoNotLogUtilization="false">
+          <SecondsToSimulate>0</SecondsToSimulate>
+          <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+          <SimulationOutput />
+          <SimulatableErrorTexts />
+          <InputParameters>
+            <Variables>
+              <VariableBase xsi:type="StringVariable" Type="String" Name="PMSId" InitialValue="" NotUserChangable="false" SyncWithDataTable="false" BaseValue="" IsQuery="false" AllowAllVariableTypes="false" ConstrainToOptions="false" CanBeEmpty="true" IsFile="false" IsComPort="false">
+                <SkipValidation>false</SkipValidation>
+                <HelpText>The Process Management System (PMS) Id.</HelpText>
+                <CreatedBy>Instrument</CreatedBy>
+                <Tags>Instrument</Tags>
+                <Tags>#DarkBlue</Tags>
+                <ContextInfo>Generated by ODTC</ContextInfo>
+                <Options />
+              </VariableBase>
+            </Variables>
+          </InputParameters>
+          <OutputParameters>
+            <Variables />
+          </OutputParameters>
+          <HelpText>Resets and initializes the ODTC.</HelpText>
+        </Command>
+      </WorkFlow>
+      <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\BurntOrange.png" Guid="5940a879-21f4-48b3-beaf-5d931448d322" CanBeExecutedOutOfSequence="false" Name="Open Door" ImageLocation="pack://application:,,,/Inheco.ODTC.Driver;component/Images/inheco odtc.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+        <SkipLogging>false</SkipLogging>
+        <Command xsi:type="InstrumentCommand" Guid="5940a879-21f4-48b3-beaf-5d931448d322" IsDisabled="false" IsAsyncronous="true" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="true" Name="Open Door" ImageLocation="pack://application:,,,/Inheco.ODTC.Driver;component/Images/inheco odtc.png" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\BurntOrange.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="true" SimulateError="false" HasBreakPointSet="false" AlwaysRunLocal="false" InstrumentInstanceName="ODTC 1" WaitForInstrumentToBeReadyBeforeExecution="true" IgnoreBusy="false" DoNotLogUtilization="false">
+          <SecondsToSimulate>0</SecondsToSimulate>
+          <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+          <SimulationOutput />
+          <SimulatableErrorTexts />
+          <InputParameters>
+            <Variables>
+              <VariableBase xsi:type="NumberVariable" Type="Number" Name="Timeout (min)" InitialValue="10" NotUserChangable="false" SyncWithDataTable="false" BaseValue="10" IsQuery="false" IsInteger="false" Minimum="0" Maximum="2147483647">
+                <SkipValidation>false</SkipValidation>
+                <HelpText>The number of minutes to wait for the command to complete before throwing a timeout error.</HelpText>
+                <CreatedBy>Instrument</CreatedBy>
+                <Tags>Instrument</Tags>
+                <Tags>#DarkBlue</Tags>
+                <ContextInfo>Generated by ODTC</ContextInfo>
+              </VariableBase>
+            </Variables>
+          </InputParameters>
+          <OutputParameters>
+            <Variables />
+          </OutputParameters>
+          <HelpText>Opens ODTC door.</HelpText>
+        </Command>
+      </WorkFlow>
+      <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\DarkPink.png" Guid="b9b9e4fa-738a-4daa-b082-709c44d31224" CanBeExecutedOutOfSequence="false" Name="Open Door" ImageLocation="pack://application:,,,/Inheco.ODTC.Driver;component/Images/inheco odtc.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+        <SkipLogging>false</SkipLogging>
+        <Command xsi:type="InstrumentCommand" Guid="b9b9e4fa-738a-4daa-b082-709c44d31224" IsDisabled="false" IsAsyncronous="true" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="true" Name="Open Door" ImageLocation="pack://application:,,,/Inheco.ODTC.Driver;component/Images/inheco odtc.png" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\DarkPink.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="true" SimulateError="false" HasBreakPointSet="false" AlwaysRunLocal="false" InstrumentInstanceName="ODTC 2" WaitForInstrumentToBeReadyBeforeExecution="true" IgnoreBusy="false" DoNotLogUtilization="false">
+          <SecondsToSimulate>0</SecondsToSimulate>
+          <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+          <SimulationOutput />
+          <SimulatableErrorTexts />
+          <InputParameters>
+            <Variables>
+              <VariableBase xsi:type="NumberVariable" Type="Number" Name="Timeout (min)" InitialValue="10" NotUserChangable="false" SyncWithDataTable="false" BaseValue="10" IsQuery="false" IsInteger="false" Minimum="0" Maximum="2147483647">
+                <SkipValidation>false</SkipValidation>
+                <HelpText>The number of minutes to wait for the command to complete before throwing a timeout error.</HelpText>
+                <CreatedBy>Instrument</CreatedBy>
+                <Tags>Instrument</Tags>
+                <Tags>#DarkBlue</Tags>
+                <ContextInfo>Generated by ODTC</ContextInfo>
+              </VariableBase>
+            </Variables>
+          </InputParameters>
+          <OutputParameters>
+            <Variables />
+          </OutputParameters>
+          <HelpText>Opens ODTC door.</HelpText>
+        </Command>
+      </WorkFlow>
+      <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\LightPink.png" Guid="edf7c6ea-3e8d-4ce1-86e1-62355dc67f04" CanBeExecutedOutOfSequence="false" Name="Park Deck" ImageLocation="pack://application:,,,/SPTLabtech.MosquitoSequence.Driver;component/Images/Mosquito.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+        <SkipLogging>false</SkipLogging>
+        <Command xsi:type="InstrumentCommand" Guid="edf7c6ea-3e8d-4ce1-86e1-62355dc67f04" IsDisabled="false" IsAsyncronous="false" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="true" Name="Park Deck" ImageLocation="pack://application:,,,/SPTLabtech.MosquitoSequence.Driver;component/Images/Mosquito.png" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\LightPink.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="true" SimulateError="false" HasBreakPointSet="false" AlwaysRunLocal="false" InstrumentInstanceName="Mosquito" WaitForInstrumentToBeReadyBeforeExecution="true" IgnoreBusy="false" DoNotLogUtilization="false">
+          <SecondsToSimulate>0</SecondsToSimulate>
+          <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+          <SimulationOutput />
+          <SimulatableErrorTexts />
+          <InputParameters>
+            <Variables>
+              <VariableBase xsi:type="NumberVariable" Type="Number" Name="Position" InitialValue="1" NotUserChangable="false" SyncWithDataTable="false" BaseValue="3" IsQuery="false" IsInteger="true" Minimum="1" Maximum="5">
+                <SkipValidation>false</SkipValidation>
+                <HelpText>The selected nest position to park underneath the pipette head.</HelpText>
+                <CreatedBy>Instrument</CreatedBy>
+                <Tags>Instrument</Tags>
+                <Tags>#DarkBlue</Tags>
+                <ContextInfo>Generated by Mosquito</ContextInfo>
+              </VariableBase>
+            </Variables>
+          </InputParameters>
+          <OutputParameters>
+            <Variables />
+          </OutputParameters>
+          <HelpText>Parks the stage/deck with the selected nest position underneath the pipette head.</HelpText>
+        </Command>
+      </WorkFlow>
+    </Sequence>
+  </WorkFlow>
+  <HasBeenModified>false</HasBeenModified>
+</Procedure>

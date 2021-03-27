@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" FullScreen="false" RunTime="false" Center="true" X="0" Y="0" FileName="Display Error.screen" Id="728cf528-126b-4a3f-97b2-a512676b6ae9" Width="800" Height="600" BackgroundColor="#FFD3D3D3" OpenCloseViewOnBoolChange="false">
+  <IsBookmarked>false</IsBookmarked>
+  <ScrollStatus>Disabled</ScrollStatus>
+  <Controls>
+    <Control xsi:type="ButtonControl" Name="Button" X="360" Y="500" Height="24" Width="80" Rotation="0" Text="OK" DisplayText="OK" IsStopButton="false" SetVariable="false" SetVariableValue="" RunScriptOnClick="false" DoNotCloseOnClick="false">
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="LabelControl" Name="Label" X="261" Y="76" Height="115" Width="278" Rotation="0" Text="ERROR!" DisplayText="ERROR!" TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="80">
+      <TextColor>Red</TextColor>
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="80" TextColor="Red" />
+    </Control>
+    <Control xsi:type="LabelControl" Name="Label" X="113" Y="260" Height="169" Width="587" Rotation="0" Text="{Error Text}" DisplayText="PCR 1 MM Barcode and Rack are incorrect. Please check them and rescan." TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12">
+      <TextColor>Black</TextColor>
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+  </Controls>
+  <BooleanVariableNames>
+    <string>{All Workcell Processes Complete}</string>
+    <string>{Any Available}</string>
+    <string>{Is Low On Tips}</string>
+    <string>{Lid Test.Complete}</string>
+    <string>{Load Lid On ODTC 1}</string>
+    <string>{Load Lid On ODTC 2}</string>
+    <string>{Next Set Ready}</string>
+    <string>{Pre-PCR.Complete}</string>
+    <string>{Result}</string>
+    <string>{Workcell Process 1.Complete}</string>
+  </BooleanVariableNames>
+  <IsScaled>true</IsScaled>
+</Screen>

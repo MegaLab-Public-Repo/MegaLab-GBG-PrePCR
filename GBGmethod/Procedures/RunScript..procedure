@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Procedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" IsStartupProcedure="false" FileName="RunScript..procedure" Id="9cbed4bb-43aa-4f7d-889d-5e6632b8a27c">
+  <IsBookmarked>false</IsBookmarked>
+  <WorkFlow xsi:type="SequentialWorkflow" BackgroundImageLocation="" Guid="facd0663-c197-498f-80e1-b4046d78fd6f" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+    <SkipLogging>false</SkipLogging>
+    <Sequence>
+      <WorkFlow xsi:type="RunScriptWorkflow" BackgroundImageLocation="" Guid="1e964a7a-832a-4ba9-a3dc-ec818ad5fabd" CanBeExecutedOutOfSequence="false" Name="Run Script" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/script64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" ScriptName="Setup Cytomat Verify Barcodes Intermediate.cs">
+        <SkipLogging>false</SkipLogging>
+        <InputParameters>
+          <Variables />
+        </InputParameters>
+        <OutputParameters>
+          <Variables />
+        </OutputParameters>
+        <IsSelected>false</IsSelected>
+      </WorkFlow>
+    </Sequence>
+  </WorkFlow>
+  <HasBeenModified>false</HasBeenModified>
+</Procedure>

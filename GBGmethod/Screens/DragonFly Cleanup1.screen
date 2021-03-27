@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" FullScreen="true" RunTime="false" Center="true" X="0" Y="0" FileName="DragonFly Cleanup1.screen" Id="e22cbea0-cbdd-4a93-8b2b-9bee0ea09827" Width="2400" Height="1300" BackgroundColor="#FFD3D3D3" OpenCloseViewOnBoolChange="false">
+  <IsBookmarked>false</IsBookmarked>
+  <ScrollStatus>Disabled</ScrollStatus>
+  <Controls>
+    <Control xsi:type="ButtonControl" Name="Button" X="360" Y="500" Height="24" Width="80" Rotation="0" Text="OK" IsStopButton="false" SetVariable="false" SetVariableValue="" RunScriptOnClick="false" DoNotCloseOnClick="false">
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="ButtonControl" Name="Button" X="360" Y="500" Height="24" Width="80" Rotation="0" Text="OK" DisplayText="OK" IsStopButton="false" SetVariable="false" SetVariableValue="" RunScriptOnClick="false" DoNotCloseOnClick="false">
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="ButtonControl" Name="Button" X="360" Y="500" Height="24" Width="80" Rotation="0" Text="OK" DisplayText="OK" IsStopButton="false" SetVariable="false" SetVariableValue="" RunScriptOnClick="false" DoNotCloseOnClick="false">
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="ButtonControl" Name="Button" X="360" Y="500" Height="24" Width="80" Rotation="0" Text="OK" DisplayText="OK" IsStopButton="false" SetVariable="false" SetVariableValue="" RunScriptOnClick="false" DoNotCloseOnClick="false">
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="ButtonControl" Name="Button" X="360" Y="500" Height="24" Width="80" Rotation="0" Text="OK" DisplayText="OK" IsStopButton="false" SetVariable="false" SetVariableValue="" RunScriptOnClick="false" DoNotCloseOnClick="false">
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="ButtonControl" Name="Button" X="360" Y="500" Height="24" Width="80" Rotation="0" Text="OK" DisplayText="OK" IsStopButton="false" SetVariable="false" SetVariableValue="" RunScriptOnClick="false" DoNotCloseOnClick="false">
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="ButtonControl" Name="Button" X="1269" Y="1233" Height="24" Width="80" Rotation="0" Text="Continue" DisplayText="Continue" IsStopButton="false" SetVariable="true" SetVariableValue="Continue" RunScriptOnClick="false" BindingVariableName="Action" DoNotCloseOnClick="false">
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="RectangleControl" Name="Rectangle" X="91" Y="90" Height="167" Width="2000" Rotation="0" BorderThickness="1">
+      <BorderColor>#FF000000</BorderColor>
+      <FillColor>#FFFFFFFF</FillColor>
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="LabelControl" Name="Label" X="137" Y="103" Height="140" Width="1950" Rotation="0" Text="DragonFly Cleanup" DisplayText="DragonFly Reagents" TextBold="true" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="100">
+      <TextColor>Black</TextColor>
+      <FontProperties TextBold="true" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="100" TextColor="Black" />
+    </Control>
+    <Control xsi:type="RectangleControl" Name="Rectangle" X="92" Y="281" Height="359" Width="1456" Rotation="0" BorderThickness="1">
+      <BorderColor>#FF000000</BorderColor>
+      <FillColor>#FFBABABA</FillColor>
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="RectangleControl" Name="Rectangle" X="93" Y="281" Height="50" Width="200" Rotation="0" BorderThickness="0">
+      <BorderColor>#FF000000</BorderColor>
+      <FillColor>#FF000000</FillColor>
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="LabelControl" Name="Label" X="104" Y="283" Height="43" Width="187" Rotation="0" Text="Instructions" DisplayText="Instructions" TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="30">
+      <TextColor>White</TextColor>
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="30" TextColor="White" />
+    </Control>
+    <Control xsi:type="RichTextBoxControl" Name="Rich Text Box" X="119" Y="353" Height="254" Width="1399" Rotation="0">
+      <Text>&lt;Section xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xml:space="preserve" TextAlignment="Left" LineHeight="Auto" IsHyphenationEnabled="False" xml:lang="en-us" FlowDirection="LeftToRight" NumberSubstitution.CultureSource="User" NumberSubstitution.Substitution="AsCulture" FontFamily="Segoe UI, Lucida Sans Unicode, Verdana" FontStyle="Normal" FontWeight="Normal" FontStretch="Normal" FontSize="12" Foreground="#FF000000" Typography.StandardLigatures="True" Typography.ContextualLigatures="True" Typography.DiscretionaryLigatures="False" Typography.HistoricalLigatures="False" Typography.AnnotationAlternates="0" Typography.ContextualAlternates="True" Typography.HistoricalForms="False" Typography.Kerning="True" Typography.CapitalSpacing="False" Typography.CaseSensitiveForms="False" Typography.StylisticSet1="False" Typography.StylisticSet2="False" Typography.StylisticSet3="False" Typography.StylisticSet4="False" Typography.StylisticSet5="False" Typography.StylisticSet6="False" Typography.StylisticSet7="False" Typography.StylisticSet8="False" Typography.StylisticSet9="False" Typography.StylisticSet10="False" Typography.StylisticSet11="False" Typography.StylisticSet12="False" Typography.StylisticSet13="False" Typography.StylisticSet14="False" Typography.StylisticSet15="False" Typography.StylisticSet16="False" Typography.StylisticSet17="False" Typography.StylisticSet18="False" Typography.StylisticSet19="False" Typography.StylisticSet20="False" Typography.Fraction="Normal" Typography.SlashedZero="False" Typography.MathematicalGreek="False" Typography.EastAsianExpertForms="False" Typography.Variants="Normal" Typography.Capitals="Normal" Typography.NumeralStyle="Normal" Typography.NumeralAlignment="Normal" Typography.EastAsianWidths="Normal" Typography.EastAsianLanguage="Normal" Typography.StandardSwashes="0" Typography.ContextualSwashes="0" Typography.StylisticAlternates="0"&gt;&lt;Paragraph FontFamily="Segoe UI" FontSize="21.333333333333332" Margin="0,0,0,0"&gt;&lt;Run FontSize="26"&gt;1. Lift tubing from reagent bottles to drain reagent from tubing and discard. Discard reagent bottles.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph FontFamily="Segoe UI" FontSize="21.333333333333332" Margin="0,0,0,0"&gt;&lt;Run FontSize="26"&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph FontFamily="Segoe UI" FontSize="21.333333333333332" Margin="0,0,0,0"&gt;&lt;Run FontSize="26"&gt;2. Click the pump Icon in the Mosquito software to stop pump. Alternatively, you can switch the green power button in the back of the pump.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph FontFamily="Segoe UI" FontSize="21.333333333333332" Margin="0,0,0,0"&gt;&lt;Run FontSize="26"&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph FontFamily="Segoe UI" FontSize="21.333333333333332" Margin="0,0,0,0"&gt;&lt;Run FontSize="26"&gt;3. Remove syringes and discard.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph FontFamily="Segoe UI" FontSize="21.333333333333332" Margin="0,0,0,0"&gt;&lt;Run FontSize="26"&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph FontFamily="Segoe UI" FontSize="21.333333333333332" Margin="0,0,0,0"&gt;&lt;Run FontSize="26"&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph FontFamily="Segoe UI" FontSize="21.333333333333332" Margin="0,0,0,0"&gt;&lt;Run FontSize="26"&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph FontFamily="Segoe UI" FontSize="21.333333333333332" Margin="0,0,0,0"&gt;&lt;Run FontSize="26"&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/Section&gt;</Text>
+    </Control>
+    <Control xsi:type="RectangleControl" Name="Rectangle" X="93" Y="670" Height="500" Width="1456" Rotation="0" BorderThickness="1">
+      <BorderColor>#FF000000</BorderColor>
+      <FillColor>#FFBABABA</FillColor>
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="RectangleControl" Name="Rectangle" X="94" Y="670" Height="50" Width="250" Rotation="0" BorderThickness="0">
+      <BorderColor>#FF000000</BorderColor>
+      <FillColor>#FF000000</FillColor>
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="LabelControl" Name="Label" X="104" Y="676" Height="45" Width="250" Rotation="0" Text="Clean Up Images" DisplayText="Setup Images" TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="30">
+      <TextColor>White</TextColor>
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="30" TextColor="White" />
+    </Control>
+    <Control xsi:type="ImageControl" Name="Image" X="329" Y="713" Height="450" Width="800" Rotation="0" ImageFileName="C:\Users\INT3926.8 - Illumina\Documents\Green Button Go\CTS PRE-PCR V13 PATHGROUP MP Mar16\Data\DragonFly Pre Cleanup.png" DisplayImageFileName="C:\Users\INT3926.8 - Illumina\Documents\Green Button Go\CTS PRE-PCR V13 PATHGROUP MP Mar16\Data\DragonFly Pre Cleanup.png" />
+  </Controls>
+  <BooleanVariableNames>
+    <string>{All Workcell Processes Complete}</string>
+    <string>{Any Available}</string>
+    <string>{Is Low On Tips}</string>
+    <string>{Lid Test.Complete}</string>
+    <string>{Load Lid On ODTC 1}</string>
+    <string>{Load Lid On ODTC 2}</string>
+    <string>{Next Set Ready}</string>
+    <string>{Pre-PCR.Complete}</string>
+    <string>{Result}</string>
+    <string>{Workcell Process 1.Complete}</string>
+  </BooleanVariableNames>
+  <IsScaled>true</IsScaled>
+</Screen>

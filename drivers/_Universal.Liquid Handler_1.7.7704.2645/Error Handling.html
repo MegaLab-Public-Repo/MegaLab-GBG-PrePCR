@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Liquid Handler Error Handling</title>
+</head>
+<body>
+
+    <h1 id="liquid-handler-error-handling">Liquid Handler Error Handling</h1>
+<h2 id="gbg-user-guide-for-sequence-based-liquid-handler-drivers">GBG User Guide for Sequence Based Liquid Handler Drivers</h2>
+<h2 id="v1.4">v1.4</h2>
+<h2 id="overview">Overview</h2>
+<p>The sequence based liquid handler drivers offer a powerful interface for defining sequences, but that setup requires special attention when error handling is required. The most common scenario is when a protocol or other non-movement step fails. The other error scenario is when a problem occurs while loading or unloading a plate to/from the liquid handler. This guide will outline common resolution workflows for both cases. One key to consider in all sequence error handling is to ensure the counter variable (ie &quot;Sequence 1 Current Step) is set to the correct step. This number, 1-n, will indicate the next step that should be executed. Thus it starts at &quot;1&quot; when the sequence has not yet started execution.</p>
+<h2 id="load-and-unload-step-errors">Load and Unload Step Errors</h2>
+<p>Errors moving plates onto/off of the liquid handler are typically resolved the same as any other error. In certain cases, it may be necessary to validate/set the step counter variable. No &quot;Continue&quot; action is defined for the Advanced Tab command that registers the move step has occurred and which outputs the name of the nest on which to place/grab the plate. If an error does occur on this command, the user should ensure the outputs get set and the step counter gets set correctly.</p>
+<h2 id="non-movement-steps">Non-Movement Steps</h2>
+<p>Any step besides Load and Unload is considered a non-move step. These are executed by the Advanced Tab command &quot;Run Sequence Activities&quot;. Because multiple non-move steps can be executed together in one iteration of this command, some special care should be taken when handling errors on these steps. Three key elements must be addressed:</p>
+<ol>
+<li>Establish which step the system should resume with (not the instrument command, but the step in the sequence editor since this additional layer informs the rest of the run)</li>
+<li>Establish whether this step is &quot;continuing&quot;, meaning that it proceeds with the preset &quot;continue&quot; action, or if it's starting from the beginning. For example, in a &quot;Run Protocol&quot; step the continue action will wait for the liquid handler to report finished but will not restart the protocol.</li>
+<li>Optional: make edits to the GBG method. For instance, variables may be set, scripts may be altered, and extra steps may be added to the sequence.</li>
+</ol>
+<h2 id="error-handling-workflow-non-move-steps-run-sequence-activities-command">Error Handling workflow (Non-Move Steps, Run Sequence Activities Command)</h2>
+<p>All non-move steps are executed through the Run Sequence Activities command in the GBG Advanced Tab. Therefore, an error in one of these steps will show as an error on the Run Sequence Activities command as shown below:</p>
+<p><img src="./Content/ErrorDefaultWindowOutlined.png" alt="DefaultError" /></p>
+<p>When this type of error pops up, the recommended resolution is to always hit the &quot;Continue&quot; button unless the user just decides to stop the run. Ignore, Retry, and Modify will achieve the desired result in some scenarios, but these are limited in that they apply to the Run Sequence Activities command and do not drill down into the sequence that's being executed. The Continue button provides access to the sequence and allows the three key elements listed above to be addressed. See the example below:</p>
+<h2 id="error-handling-example">Error Handling Example</h2>
+<p>Layout:</p>
+<p><img src="./Content/ErrorIntegration1.png" alt="Layout" /></p>
+<p>Process:</p>
+<p><img src="./Content/ErrorProcess2.png" alt="Process" /></p>
+<p>Sequence:</p>
+<p><img src="./Content/ErrorSequence3.png" alt="Sequence" /></p>
+<p>This Error Pops Up:</p>
+<p><img src="./Content/ErrorDefaultWindow4.png" alt="Error" /></p>
+<h2 id="error-resolution">Error Resolution</h2>
+<p>At this point, we see that the error is on the Run Sequence Activity command, so we know that one of the non-move steps in our sequence has failed. Based on the error message, we can infer that it's one of the steps that's running a script and that this script threw the error (which in this case was a deliberate &quot;Test Error&quot; for the purposes of the demonstration). The recommended action is to hit Continue.</p>
+<p>Continue:</p>
+<p><img src="./Content/ErrorContinueDefault5.png" alt="Continue" /></p>
+<p>Set Values At Bottom:</p>
+<p><img src="./Content/ErrorContinueSet6.png" alt="Continue" /></p>
+<p>The Sequence Error Correction window pops up when Continue is hit. This window is specific to the Run Sequence Activities command. It provides information on the error as well as what sequence and step were being executed. In this case, it points to the script running in step 2. The options for user input include changing the current step and indicating whether or not to restart the step from the beginning. In the current example, the step was incremented and &quot;Start step from the beginning&quot; was checked. This means that the system will assume the script was completed or otherwise handled and will resume running at the Load and Run Protocol step.</p>
+<h2 id="start-step-from-the-beginning">Start Step From The Beginning</h2>
+<p>Most step types either succeed or they don't. For this type, the &quot;Start step from the beginning&quot; checkbox just indicates whether to re-run the step or not. If unchecked, the step will do nothing and the system will proceed to the next step. The real utility of this checkbox is for those steps that may be half finished. For example, a Load and Run Protocol step or a Run Protocol step may start and then error because of some issue on the device. This step needs to resume, meaning it will wait for a &quot;finished&quot; status from the instrument. Note that this is very different from either restarting the step or going to the next step. In this &quot;half finished&quot; scenario the check box should be unchecked.</p>
+<h3 id="method-modifications">Method Modifications</h3>
+<p>The Sequence Error Correction window is non-modal, meaning the user can interact with GBG while it is up. This is to allow for possible modifications similar to the effect of hitting the &quot;Modify&quot; button in the default error handling window. If the user chooses to hit &quot;Run&quot; in GBG while the window is still open, the window will automatically close and the values in the window at that time will be taken as the desired input.</p>
+<p><em>Note: In simulation mode, the checkbox will stay permanently checked as the concept of an error half way through a step doesn't exist in simulation mode.</em></p>
+<hr />
+<p><em>Proprietary and Confidential. The information contained in this document is the sole property of Biosero, Inc. Any reproduction in part or whole without the written permission of Biosero, Inc. is prohibited.</em></p>
+
+
+</body>
+</html>

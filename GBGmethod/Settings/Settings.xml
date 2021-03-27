@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfKeyValueOfstringanyType xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+  <KeyValueOfstringanyType>
+    <Key>Version</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string">5.2.7486.40651</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>LogFilePath</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string">C:\Users\INT3926.7 - Illumina\Documents\Green Button Go\Log Files\</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>LogFileExtension</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string">.txt</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>DiagnosticsLogFilePath</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string">C:\Users\INT3926.7 - Illumina\Documents\Green Button Go\Log Files\Diagnostics\</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>IgnoreMessage</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string">Ignore</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>RetryMessage</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string">Retry</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>StopMessage</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string">Stop</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>ModifyMessage</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string">Modify</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>DebugMode</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:boolean">false</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>RunScriptOnError</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:boolean">false</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>UseLegacyLogFormat</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:boolean">false</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>Recent Programs</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string">C:\Users\INT3926.7 - Illumina\Documents\Green Button Go\Setup Testing\Setup Testing.gbg,</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>Loaded Untitled</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:boolean">true</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>LayoutDesignerScale</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:double">0.65000000000000013</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>Loaded Setup Testing</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:boolean">true</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>RunTab.IntegrationColumnDefinitionWidth</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:double">500</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>RunTab.WorkflowColumnDefinitionWidth</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:double">500</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>RunIdIndex</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:int">550</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>PF400v3.0Instrument.MasterVelocity</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;double&gt;100&lt;/double&gt;</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>TeachPendantCurrentLabware</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string">384 PCR</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>ScriptNameOnError</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string"></Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>HaltProgamOnScriptFailure</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:boolean">false</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>Loop Sound</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:boolean">false</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>WorkcellIdentifier</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string"></Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>WorkcellName</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string"></Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>BreakPointsAreEnabled</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:boolean">true</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>IsInSimulationMode</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:boolean">false</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>ValidateProgramBeforeRun</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:boolean">true</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>AutoSaveBeforeRun</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:boolean">true</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>DeveloperMode</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:boolean">true</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>ShowMessageBeforeStop</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:boolean">true</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>DefaultDateTimeFormat</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string">MM/dd/yyyy HH:mm:ss</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>PromptForChangeNotesOnSave</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:boolean">false</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>Cache Runtime Data</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:boolean">false</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>Disable Bring To Front</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:boolean">false</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>LogInstrumentUtilizationInDatabase</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:boolean">false</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>DefaultRobotGetAndPutTimes</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:int">3</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>Max Progress Variable Name</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string">100</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>Progress Message Variable Name</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string"></Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>Progress Variable Name</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string"></Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>From Address</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string"></Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>Smtp Client</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string"></Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>Credentials UserName</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string"></Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>Credentials Password</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA+gICQLHtxUSq93/oZsUTlQQAAAACAAAAAAAQZgAAAAEAACAAAACdXOdDaru7aHCkxfc4jcHg4dtApUkVn5bmljHCB48fpgAAAAAOgAAAAAIAACAAAACWdd7KOXJfzGUIa7Du3TuEc++pzp+QtoqNeJalO8r62xAAAAA/MFXChmx1v0PcxcEWyO8qQAAAACMpJAUA1h5qviWpOdzr899RGUps0eVqH3PHAXeOPjPtgw3D2yu3HSrpe2493gJZqZ06wWcHOatZvYTBWCZu3vE=</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>Port</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:int">0</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>Enable Ssl</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:boolean">false</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>SendEmailOnError</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:boolean">false</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>AttachUserLogFileOnError</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:boolean">false</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>AttachDiagnosticsLogFileOnError</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:boolean">false</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>EmailToOnError</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string"></Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>EmailSubjectOnError</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string"></Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>LogTraceEvents</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:boolean">true</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>PlaySoundOnError</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:boolean">false</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>SoundFilePathOnError</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string"></Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>Auto Publish Run Data On Complete</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:boolean">true</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>Auto Publish Run Data On Cancel</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:boolean">false</Value>
+  </KeyValueOfstringanyType>
+  <KeyValueOfstringanyType>
+    <Key>SupportPluginUserSettings</Key>
+    <Value xmlns:d3p1="http://www.w3.org/2001/XMLSchema" i:type="d3p1:string">{"AdditionalFolder":null,"IncludeAdditionalFolder":false,"IncludeGBGCurrentProgramMethod":true,"IncludeGBGInstallation":true,"IncludeGBGSettings":true}</Value>
+  </KeyValueOfstringanyType>
+</ArrayOfKeyValueOfstringanyType>

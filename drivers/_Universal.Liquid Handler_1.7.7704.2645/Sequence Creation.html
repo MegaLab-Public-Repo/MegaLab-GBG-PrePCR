@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Liquid Handler Driver - Sequence Creation</title>
+</head>
+<body>
+
+    <h1 id="liquid-handler-driver-sequence-creation">Liquid Handler Driver - Sequence Creation</h1>
+<h2 id="create-a-process">Create a Process</h2>
+<p>Start by creating a new workcell process with the necessary plate swim lanes for each piece of labware that will be used. Insert a Run Sequence instrument process at each of the appropriate locations.</p>
+<p><img src="./Content/Swimlanes.png" alt="Swim Lanes" /></p>
+<h2 id="launch-sequence-editor">Launch Sequence Editor</h2>
+<p>Launch the sequence editor by moving the the layout tab, selecting the liquid handler, and clicking the 'Sequences' button.</p>
+<p><img src="./Content/LaunchSequenceEditor.png" alt="Open Editor" /></p>
+<h2 id="create-a-new-sequence">Create a new Sequence</h2>
+<p>Click on the 'new' button to create a new sequence.</p>
+<p><img src="./Content/NewSequence.png" alt="New Sequence" /></p>
+<p>Enter a name for the sequence and press 'ok.'</p>
+<p><img src="./Content/replication.png" alt="Replication" /></p>
+<p>Ensure the correct workcell process is selected.</p>
+<p><img src="./Content/EnsureWorkcellProcessSelection.png" alt="Ensure Workcell Process Selection" /></p>
+<h2 id="adding-load-plate-steps">Adding Load Plate Steps</h2>
+<p>Click on the Plus button next to the step dropdown (lower left) to add three load plate steps.  Ensure the correct Position, Plate Process, and Instrument Process are selected for each of them.</p>
+<p><img src="./Content/loadplates.png" alt="Load Plate Steps" /></p>
+<h2 id="adding-a-run-protocol-step">Adding a Run Protocol Step</h2>
+<p>From the step selection drop down, select Load and Run Protocol, then click the plus button.</p>
+<p><img src="./Content/protocolstep.png" alt="Load and Run Protocol Step" /></p>
+<p>Specify the protocol name, the timeout, and the simulation time.</p>
+<p><img src="./Content/protocolProperties.png" alt="Protocol Step Properties" /></p>
+<h2 id="adding-the-unload-steps">Adding the Unload Steps</h2>
+<p>Select the Unload step from the step selection drop down and press the plus button. Repeat this for each plate that needs to be unloaded.</p>
+<p><img src="./Content/selectUnload.png" alt="Select Unload Step" /></p>
+<p>Ensure the correct Position, Plate Process, and Instrument Process are selected for each Unload Step.</p>
+<p><img src="./Content/unloadsteps.png" alt="Unload Steps" /></p>
+<h2 id="saving-the-sequence">Saving the Sequence</h2>
+<p>Click on the 'save' button at the bottom of the Sequence Editor to save the sequence.</p>
+<p><img src="./Content/saveButton.png" alt="Save" /></p>
+<blockquote>
+<p><strong>NOTE:</strong> Sequences are all saved in a .xml file called:</p>
+<p>\My Documents\Green Button Go\[Program Name]\Data\[Instrument Name] Sequences.xml</p>
+<p>This file can be copied into the 'Data' folder for other programs (before the program is loaded) if you would like to copy the sequences, or can be imported using the 'import' button.</p>
+</blockquote>
+<h2 id="applying-the-sequence-to-the-process">Applying the Sequence to the Process</h2>
+<p>After the sequence has been created, return to the Process tab and select each of the Run Sequence instrument processes and set the sequence to 'Replicate' or whatever else you may have called your sequence.  Make sure that this is set on all of the instrument processes</p>
+<p><img src="./Content/replicationSelection.png" alt="Replication Selection" /></p>
+<p>The workcell process should now be ready to run.</p>
+<h2 id="common-step-types">Common Step Types</h2>
+<p>Each step that is added will have setable properties shown on the right side of the window. Some of the common step types are outlined below:</p>
+<h3 id="load-and-unload">Load and Unload:</h3>
+<h4 id="these-steps-tell-gbg-to-physically-move-a-plate-onoff-the-liquid-handler">These steps tell GBG to physically move a plate on/off the liquid handler</h4>
+<ul>
+<li>Position: This is the nest on which the plate will be placed or from which it’ll be retrieved</li>
+<li>Plate Process: This is the name of the swim lane, and ties the step to a particular part of the process</li>
+<li>Instrument Process: This is the name of the individual instrument process (typically “Run Sequence”), and ties the step to a particular part of the process</li>
+</ul>
+<h3 id="load-and-run-protocol">Load and Run Protocol:</h3>
+<h4 id="this-will-load-the-specified-protocol-and-run-it.for-greater-control-over-the-order-use-separate-load-run-and-set-variables-steps">This will load the specified protocol and run it. For greater control over the order use separate Load, Run, and Set Variables steps.</h4>
+<ul>
+<li>Protocol: The name of the protocol (full file path) to run on the liquid handler</li>
+<li>Timeout (min): This is the timeout for this individual step</li>
+<li>Simulation Time (sec): When running a simulation, this is the amount of time that will be simulated for this step</li>
+</ul>
+<h3 id="register-plate-move">Register Plate Move:</h3>
+<h4 id="this-step-tells-gbg-that-a-plate-has-been-moved-from-one-liquid-handler-nest-to-another-and-typically-is-only-used-if-the-previous-step-is-a-run-protocol-step-that-includes-an-internal-plate-movement-on-the-liquid-handler-performed-by-the-liquid-handler-itself">This step tells GBG that a plate has been moved from one liquid handler nest to another and typically is only used if the previous step is a run protocol step that includes an internal plate movement on the liquid handler performed by the liquid handler itself.</h4>
+<ul>
+<li>Starting Nest: The nest from which to remove the barcode</li>
+<li>Ending Nest: The nest onto which the barcode should be placed</li>
+</ul>
+<h2 id="other-step-types">Other Step Types</h2>
+<p>The steps listed below are also available for most sequence based drivers. Some variation exists since drivers can add additional unique step types and since new steps are periodically added.</p>
+<ul>
+<li>Register Plate Discarded: tells GBG that a plate has been trashed on the liquid handler so it can be marked as completed</li>
+<li>*Set Variables: Used to submit variable values to the liquid handler. An example of valid input for Variable 1 and Variable 2 would be: &quot;Variable 1=a,Variable 2=b&quot;.</li>
+<li>*Get Variable: Used to get the value of a single variable from the liquid handler</li>
+<li>Run Instrument Command: At this point in the sequence, the specified instrument command will be triggered. This is typically used to control an instrument other than the liquid handler itself.</li>
+<li>Load Protocol: Used when splitting up the load and run, which is desirable on certain liquid handlers</li>
+<li>Run Protocol: Used when splitting up the load and run, which is desirable on certain liquid handlers</li>
+<li>**Set GBG Variable: Sets a GBG variable, ie one defined in GBG's Advanced Tab. This does not communicate the variable value to the liquid handler and is used only for internal GBG logic.</li>
+<li>Run GBG Script: Runs the specified script one time</li>
+</ul>
+<p>*Set and Get Variables are implemented uniquely for each instrument since each liquid handler has its own rules regarding the allowed timing of such calls. For instance, some allow these to be called any time, and some require these to be set while a protocol is loaded in the liquid handler software.</p>
+<p>**Set GBG Variable can be used to set the step counter for this sequence in order to perform a &quot;go to&quot; type operation. Note that the step counter will increment as soon as the step completes, so this must be taken into account to achieve the desired result.</p>
+
+
+</body>
+</html>

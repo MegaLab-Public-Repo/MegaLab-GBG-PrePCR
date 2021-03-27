@@ -1,0 +1,249 @@
+<?xml version="1.0"?>
+<ArrayOfSequence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sequence>
+    <Steps>
+      <SequenceStep xsi:type="AddPlateStep">
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+        <IsConditional>false</IsConditional>
+        <TriggeringPlateProcess>Elution 96w</TriggeringPlateProcess>
+        <TriggeringInstrumentProcess>Run Sequence</TriggeringInstrumentProcess>
+        <InstrumentInstanceName>Bravo</InstrumentInstanceName>
+        <SequenceNumber>1</SequenceNumber>
+        <HelpText>Add a plate to the liquid handler deck.</HelpText>
+        <Position>Position 9</Position>
+      </SequenceStep>
+      <SequenceStep xsi:type="LoadAndRunProtocolStep">
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+        <IsConditional>false</IsConditional>
+        <InstrumentInstanceName>Bravo</InstrumentInstanceName>
+        <SequenceNumber>2</SequenceNumber>
+        <HelpText>Load and run a liquid handler protocol.</HelpText>
+        <ProtocolName>C:\VWorks Workspace\CTS_PrePCR\Protocol Files\Moves\PrePCR_Move_9_to_2_96SP.pro</ProtocolName>
+        <TimeoutInMinutes>1</TimeoutInMinutes>
+        <SimulationTimeInSeconds>30</SimulationTimeInSeconds>
+      </SequenceStep>
+      <SequenceStep xsi:type="ShufflePlateStep">
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+        <IsConditional>false</IsConditional>
+        <InstrumentInstanceName>Bravo</InstrumentInstanceName>
+        <SequenceNumber>3</SequenceNumber>
+        <HelpText>Transfer plates on the liquid handler deck.</HelpText>
+        <StartingNest>Position 9</StartingNest>
+        <EndingNest>Position 2</EndingNest>
+      </SequenceStep>
+      <SequenceStep xsi:type="AddPlateStep">
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+        <IsConditional>false</IsConditional>
+        <TriggeringPlateProcess>Elution 96w</TriggeringPlateProcess>
+        <TriggeringInstrumentProcess>Run Sequence</TriggeringInstrumentProcess>
+        <InstrumentInstanceName>Bravo</InstrumentInstanceName>
+        <SequenceNumber>4</SequenceNumber>
+        <HelpText>Add a plate to the liquid handler deck.</HelpText>
+        <Position>Position 9</Position>
+      </SequenceStep>
+      <SequenceStep xsi:type="LoadAndRunProtocolStep">
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+        <IsConditional>false</IsConditional>
+        <InstrumentInstanceName>Bravo</InstrumentInstanceName>
+        <SequenceNumber>5</SequenceNumber>
+        <HelpText>Load and run a liquid handler protocol.</HelpText>
+        <ProtocolName>C:\VWorks Workspace\CTS_PrePCR\Protocol Files\Moves\PrePCR_Move_9_to_3_96SP.pro</ProtocolName>
+        <TimeoutInMinutes>1</TimeoutInMinutes>
+        <SimulationTimeInSeconds>30</SimulationTimeInSeconds>
+      </SequenceStep>
+      <SequenceStep xsi:type="ShufflePlateStep">
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+        <IsConditional>false</IsConditional>
+        <InstrumentInstanceName>Bravo</InstrumentInstanceName>
+        <SequenceNumber>6</SequenceNumber>
+        <HelpText>Transfer plates on the liquid handler deck.</HelpText>
+        <StartingNest>Position 9</StartingNest>
+        <EndingNest>Position 3</EndingNest>
+      </SequenceStep>
+      <SequenceStep xsi:type="AddPlateStep">
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+        <IsConditional>false</IsConditional>
+        <TriggeringPlateProcess>Elution 96w</TriggeringPlateProcess>
+        <TriggeringInstrumentProcess>Run Sequence</TriggeringInstrumentProcess>
+        <InstrumentInstanceName>Bravo</InstrumentInstanceName>
+        <SequenceNumber>7</SequenceNumber>
+        <HelpText>Add a plate to the liquid handler deck.</HelpText>
+        <Position>Position 9</Position>
+      </SequenceStep>
+      <SequenceStep xsi:type="LoadAndRunProtocolStep">
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+        <IsConditional>false</IsConditional>
+        <InstrumentInstanceName>Bravo</InstrumentInstanceName>
+        <SequenceNumber>8</SequenceNumber>
+        <HelpText>Load and run a liquid handler protocol.</HelpText>
+        <ProtocolName>C:\VWorks Workspace\CTS_PrePCR\Protocol Files\Moves\PrePCR_Move_9_to_8_96SP.pro</ProtocolName>
+        <TimeoutInMinutes>1</TimeoutInMinutes>
+        <SimulationTimeInSeconds>30</SimulationTimeInSeconds>
+      </SequenceStep>
+      <SequenceStep xsi:type="ShufflePlateStep">
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+        <IsConditional>false</IsConditional>
+        <InstrumentInstanceName>Bravo</InstrumentInstanceName>
+        <SequenceNumber>9</SequenceNumber>
+        <HelpText>Transfer plates on the liquid handler deck.</HelpText>
+        <StartingNest>Position 9</StartingNest>
+        <EndingNest>Position 8</EndingNest>
+      </SequenceStep>
+      <SequenceStep xsi:type="AddPlateStep">
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+        <IsConditional>false</IsConditional>
+        <TriggeringPlateProcess>Elution 96w</TriggeringPlateProcess>
+        <TriggeringInstrumentProcess>Run Sequence</TriggeringInstrumentProcess>
+        <InstrumentInstanceName>Bravo</InstrumentInstanceName>
+        <SequenceNumber>10</SequenceNumber>
+        <HelpText>Add a plate to the liquid handler deck.</HelpText>
+        <Position>Position 9</Position>
+      </SequenceStep>
+      <SequenceStep xsi:type="SetGBGVariableStep">
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+        <IsConditional>false</IsConditional>
+        <InstrumentInstanceName>Bravo</InstrumentInstanceName>
+        <SequenceNumber>11</SequenceNumber>
+        <HelpText>Assign a value to an existing GBG variable.</HelpText>
+        <VariableName>Next Set Ready</VariableName>
+        <NewValue>False</NewValue>
+      </SequenceStep>
+      <SequenceStep xsi:type="AddPlateStep">
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+        <IsConditional>false</IsConditional>
+        <TriggeringPlateProcess>cDNA</TriggeringPlateProcess>
+        <TriggeringInstrumentProcess>Run Sequence</TriggeringInstrumentProcess>
+        <InstrumentInstanceName>Bravo</InstrumentInstanceName>
+        <SequenceNumber>12</SequenceNumber>
+        <HelpText>Add a plate to the liquid handler deck.</HelpText>
+        <Position>Position 6</Position>
+      </SequenceStep>
+      <SequenceStep xsi:type="LoadAndRunProtocolStep">
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+        <IsConditional>false</IsConditional>
+        <InstrumentInstanceName>Bravo</InstrumentInstanceName>
+        <SequenceNumber>13</SequenceNumber>
+        <HelpText>Load and run a liquid handler protocol.</HelpText>
+        <ProtocolName>C:\VWorks Workspace\CTS_PrePCR\Protocol Files\70ul_Tips\PrePCR_Rearray_4x96_to_1x384_v1_10b.pro</ProtocolName>
+        <TimeoutInMinutes>5</TimeoutInMinutes>
+        <SimulationTimeInSeconds>150</SimulationTimeInSeconds>
+      </SequenceStep>
+      <SequenceStep xsi:type="RunGBGScriptStep">
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+        <IsConditional>false</IsConditional>
+        <InstrumentInstanceName>Bravo</InstrumentInstanceName>
+        <SequenceNumber>14</SequenceNumber>
+        <HelpText>Run a GBG script.</HelpText>
+        <ScriptName>Data Services Stamp ELU to cDNA.cs</ScriptName>
+      </SequenceStep>
+      <SequenceStep xsi:type="RemovePlateStep">
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+        <IsConditional>false</IsConditional>
+        <TriggeringPlateProcess>cDNA</TriggeringPlateProcess>
+        <TriggeringInstrumentProcess>Run Sequence</TriggeringInstrumentProcess>
+        <InstrumentInstanceName>Bravo</InstrumentInstanceName>
+        <SequenceNumber>15</SequenceNumber>
+        <HelpText>Remove a plate from the liquid handler deck.</HelpText>
+        <Position>Position 6</Position>
+        <RemoveIfPresent>false</RemoveIfPresent>
+      </SequenceStep>
+      <SequenceStep xsi:type="LoadAndRunProtocolStep">
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+        <IsConditional>false</IsConditional>
+        <InstrumentInstanceName>Bravo</InstrumentInstanceName>
+        <SequenceNumber>16</SequenceNumber>
+        <HelpText>Load and run a liquid handler protocol.</HelpText>
+        <ProtocolName>C:\VWorks Workspace\CTS_PrePCR\Protocol Files\Moves\PrePCR_Move_2_to_Trash_96SP.pro</ProtocolName>
+        <TimeoutInMinutes>1</TimeoutInMinutes>
+        <SimulationTimeInSeconds>30</SimulationTimeInSeconds>
+      </SequenceStep>
+      <SequenceStep xsi:type="DiscardPlateStep">
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+        <IsConditional>false</IsConditional>
+        <TriggeringPlateProcess>Elution 96w</TriggeringPlateProcess>
+        <TriggeringInstrumentProcess>Run Sequence</TriggeringInstrumentProcess>
+        <InstrumentInstanceName>Bravo</InstrumentInstanceName>
+        <SequenceNumber>17</SequenceNumber>
+        <HelpText>Discard a plate from the liquid handler deck.</HelpText>
+        <Position>Position 2</Position>
+        <RemoveIfPresent>false</RemoveIfPresent>
+      </SequenceStep>
+      <SequenceStep xsi:type="LoadAndRunProtocolStep">
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+        <IsConditional>false</IsConditional>
+        <InstrumentInstanceName>Bravo</InstrumentInstanceName>
+        <SequenceNumber>18</SequenceNumber>
+        <HelpText>Load and run a liquid handler protocol.</HelpText>
+        <ProtocolName>C:\VWorks Workspace\CTS_PrePCR\Protocol Files\Moves\PrePCR_Move_3_to_Trash_96SP.pro</ProtocolName>
+        <TimeoutInMinutes>1</TimeoutInMinutes>
+        <SimulationTimeInSeconds>30</SimulationTimeInSeconds>
+      </SequenceStep>
+      <SequenceStep xsi:type="DiscardPlateStep">
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+        <IsConditional>false</IsConditional>
+        <TriggeringPlateProcess>Elution 96w</TriggeringPlateProcess>
+        <TriggeringInstrumentProcess>Run Sequence</TriggeringInstrumentProcess>
+        <InstrumentInstanceName>Bravo</InstrumentInstanceName>
+        <SequenceNumber>19</SequenceNumber>
+        <HelpText>Discard a plate from the liquid handler deck.</HelpText>
+        <Position>Position 3</Position>
+        <RemoveIfPresent>false</RemoveIfPresent>
+      </SequenceStep>
+      <SequenceStep xsi:type="LoadAndRunProtocolStep">
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+        <IsConditional>false</IsConditional>
+        <InstrumentInstanceName>Bravo</InstrumentInstanceName>
+        <SequenceNumber>20</SequenceNumber>
+        <HelpText>Load and run a liquid handler protocol.</HelpText>
+        <ProtocolName>C:\VWorks Workspace\CTS_PrePCR\Protocol Files\Moves\PrePCR_Move_8_to_Trash_96SP.pro</ProtocolName>
+        <TimeoutInMinutes>1</TimeoutInMinutes>
+        <SimulationTimeInSeconds>30</SimulationTimeInSeconds>
+      </SequenceStep>
+      <SequenceStep xsi:type="DiscardPlateStep">
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+        <IsConditional>false</IsConditional>
+        <TriggeringPlateProcess>Elution 96w</TriggeringPlateProcess>
+        <TriggeringInstrumentProcess>Run Sequence</TriggeringInstrumentProcess>
+        <InstrumentInstanceName>Bravo</InstrumentInstanceName>
+        <SequenceNumber>21</SequenceNumber>
+        <HelpText>Discard a plate from the liquid handler deck.</HelpText>
+        <Position>Position 8</Position>
+        <RemoveIfPresent>false</RemoveIfPresent>
+      </SequenceStep>
+      <SequenceStep xsi:type="LoadAndRunProtocolStep">
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+        <IsConditional>false</IsConditional>
+        <InstrumentInstanceName>Bravo</InstrumentInstanceName>
+        <SequenceNumber>22</SequenceNumber>
+        <HelpText>Load and run a liquid handler protocol.</HelpText>
+        <ProtocolName>C:\VWorks Workspace\CTS_PrePCR\Protocol Files\Moves\PrePCR_Move_9_to_Trash_96SP.pro</ProtocolName>
+        <TimeoutInMinutes>1</TimeoutInMinutes>
+        <SimulationTimeInSeconds>30</SimulationTimeInSeconds>
+      </SequenceStep>
+      <SequenceStep xsi:type="DiscardPlateStep">
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+        <IsConditional>false</IsConditional>
+        <TriggeringPlateProcess>Elution 96w</TriggeringPlateProcess>
+        <TriggeringInstrumentProcess>Run Sequence</TriggeringInstrumentProcess>
+        <InstrumentInstanceName>Bravo</InstrumentInstanceName>
+        <SequenceNumber>23</SequenceNumber>
+        <HelpText>Discard a plate from the liquid handler deck.</HelpText>
+        <Position>Position 9</Position>
+        <RemoveIfPresent>false</RemoveIfPresent>
+      </SequenceStep>
+      <SequenceStep xsi:type="LoadAndRunProtocolStep">
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+        <IsConditional>false</IsConditional>
+        <InstrumentInstanceName>Bravo</InstrumentInstanceName>
+        <SequenceNumber>24</SequenceNumber>
+        <HelpText>Load and run a liquid handler protocol.</HelpText>
+        <ProtocolName>C:\VWorks Workspace\CTS_PrePCR\Protocol Files\Moves\PrePCR_Move_1_to_Trash_TipBox.pro</ProtocolName>
+        <TimeoutInMinutes>2</TimeoutInMinutes>
+        <SimulationTimeInSeconds>30</SimulationTimeInSeconds>
+      </SequenceStep>
+    </Steps>
+    <WorkcellProcessName>Pre-PCR</WorkcellProcessName>
+    <Name>Consolidate</Name>
+    <InstrumentName>Bravo</InstrumentName>
+  </Sequence>
+</ArrayOfSequence>

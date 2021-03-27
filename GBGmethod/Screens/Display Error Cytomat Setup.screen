@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" FullScreen="false" RunTime="false" Center="true" X="0" Y="0" FileName="Display Error Cytomat Setup.screen" Id="b13e9bc4-efcf-4775-a7a4-ee3f86e367c9" Width="800" Height="600" BackgroundColor="#FFD3D3D3" OpenCloseViewOnBoolChange="false">
+  <IsBookmarked>false</IsBookmarked>
+  <ScrollStatus>Disabled</ScrollStatus>
+  <Controls>
+    <Control xsi:type="ButtonControl" Name="Button" X="410" Y="500" Height="24" Width="150" Rotation="0" Text="Manually Enter Barcodes" DisplayText="Manually Enter Barcodes" IsStopButton="false" SetVariable="true" SetVariableValue="Manually Enter Barcodes" RunScriptOnClick="false" BindingVariableName="Action" DoNotCloseOnClick="false">
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="ButtonControl" Name="Button" X="210" Y="500" Height="24" Width="140" Rotation="0" Text="Restart Last Inventory" DisplayText="Restart Last Inventory" IsStopButton="false" SetVariable="true" SetVariableValue="Restart Last Inventory" RunScriptOnClick="false" BindingVariableName="Action" DoNotCloseOnClick="false">
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="LabelControl" Name="Label" X="261" Y="76" Height="115" Width="278" Rotation="0" Text="ERROR!" DisplayText="ERROR!" TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="80">
+      <TextColor>Red</TextColor>
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="80" TextColor="Red" />
+    </Control>
+    <Control xsi:type="LabelControl" Name="Label" X="113" Y="200" Height="169" Width="587" Rotation="0" Text="{Error Text}" DisplayText="Unexpected plate count in Hotel 2: 8. Expected 0.&#xA;Incorrect plate barcode: SIM BC43&#xA;Incorrect plate barcode: SIM BC44&#xA;Incorrect plate barcode: SIM BC45&#xA;Incorrect plate barcode: SIM BC46&#xA;Incorrect plate barcode: SIM BC47&#xA;Incorrect plate barcode: SIM BC48&#xA;Incorrect plate barcode: SIM BC49&#xA;Incorrect plate barcode: SIM BC50&#xA;Barcode has incorrect format: SIM BC148 (Hotel 8).&#xA;Barcode has incorrect format: SIM BC149 (Hotel 8).&#xA;Barcode has incorrect format: SIM BC150 (Hotel 8).&#xA;Barcode has incorrect format: SIM BC151 (Hotel 8).&#xA;Unexpected CDNA plate count: 0. Expected minimum 4. Verify that only CDNA plates are contained in Hotels 8 through 10.&#xA;" TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12">
+      <TextColor>Black</TextColor>
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="LabelControl" Name="Label" X="113" Y="390" Height="80" Width="587" Rotation="0" Text="Press 'Restart Last Inventory' to show the Cytomat Setup screen and repeat the automated inventory process. Press 'Manually Enter Barcodes' to show Hotel Content and manually enter barcodes using a barcode scanner." DisplayText="Press 'Restart Last Inventory' to show the Cytomat Setup screen and repeat the automated inventory process. Press 'Manually Enter Barcodes' to show Hotel Content and manually enter barcodes using a barcode scanner." TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12">
+      <TextColor>Black</TextColor>
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+  </Controls>
+  <BooleanVariableNames>
+    <string>{All Workcell Processes Complete}</string>
+    <string>{Any Available}</string>
+    <string>{Is Low On Tips}</string>
+    <string>{Lid Test.Complete}</string>
+    <string>{Load Lid On ODTC 1}</string>
+    <string>{Load Lid On ODTC 2}</string>
+    <string>{Next Set Ready}</string>
+    <string>{Pre-PCR.Complete}</string>
+    <string>{Result}</string>
+    <string>{Workcell Process 1.Complete}</string>
+  </BooleanVariableNames>
+  <IsScaled>true</IsScaled>
+</Screen>

@@ -1,0 +1,194 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>SPT Labtech Dragonfly</title>
+</head>
+<body>
+
+    <h1 id="spt-labtech-dragonfly">SPT Labtech Dragonfly</h1>
+<h2 id="driver-user-guide">Driver User Guide</h2>
+<p>Version 3.2.7523.28495</p>
+<hr />
+<h2 id="introduction">Introduction:</h2>
+<p>This driver provides an interface to the SPT Labtech Dragonfly. This document details the installation and setup instructions necessary to use the driver.</p>
+<h2 id="installing-the-driver">Installing the Driver:</h2>
+<p>For automated installation, use the 'Update' feature from within Green Button Go in the 'About' window.</p>
+<p>To manually install the driver, copy the following file(s) to the 'C:\Program Files (x86)\Green Button Go\Drivers' folder:</p>
+<pre><code>SPTLabtech.Dragonfly.Driver.dll
+DragonflyAutomation.dll
+DragonflySharedTypes.dll
+</code></pre>
+<p>Omit the '(x86)' in the destination folder on 32-bit operating systems. If the file was downloaded from the Internet, it may be necessary to unblock the file. First copy it to a location where you have write privileges (such as the Desktop or My Documents folder), then right click on the dll, select Properties and click or uncheck the 'Unblock' button if it exists.</p>
+<h2 id="connection">Connection:</h2>
+<p>The Dragonfly must be connected to the computer running Green Button Go (or the Green Button Go Remote Client).</p>
+<h2 id="required-hardware">Required Hardware:</h2>
+<p>SPT Labtech Dragonfly.</p>
+<h2 id="required-software">Required Software:</h2>
+<p>SPT Labtech Dragonfly Discovery software.</p>
+<h2 id="instrument-properties">Instrument Properties:</h2>
+<h2 id="processes">Processes:</h2>
+<ol>
+<li><strong>Run All Layers</strong>
+<ul>
+<li><strong>Default</strong>: Run the protocol for all layers.
+<ul>
+<li>Parameters
+<ul>
+<li><strong>Experiment File</strong> - The file containing the protocol to run.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Run Layer</strong>
+<ul>
+<li><strong>Default</strong>: Run the protocol for a single layer.
+<ul>
+<li>Parameters
+<ul>
+<li><strong>Experiment Layer</strong> - The zero-based index of the layer.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Load Experiment</strong>: Run the protocol for a single layer from the specified experiment file.
+<ul>
+<li>Parameters
+<ul>
+<li><strong>Experiment File</strong> - The file containing the protocol to run.</li>
+<li><strong>Experiment Layer</strong> - The zero-based index of the layer.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="commands">Commands:</h2>
+<ol>
+<li><strong>Load Experiment File</strong>: Load the experiment file.
+<ul>
+<li>Input Parameters
+<ul>
+<li><strong>Experiment File</strong> - The file containing the protocol to run.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Run Current Layer</strong>: Run the currently selected layer of the experiment file.</li>
+<li><strong>Run All Layers</strong>: Run all the layers of the experiment file.</li>
+<li><strong>Stop Run</strong>: Stops the current run.</li>
+<li><strong>Reset</strong>: Resets the Dragonfly instrument.</li>
+<li><strong>Park and Release</strong>: Parks and releases the nest.</li>
+<li><strong>Park Under Lid</strong>: Parks the nest under the lid.</li>
+<li><strong>Switch to Next Layer</strong>: Switches to the next experiment file layer.</li>
+<li><strong>Switch to Previous Layer</strong>: Switches to the previous experiment file layer.</li>
+<li><strong>Switch Layer Index</strong>: Switches to the specified experiment file layer.
+<ul>
+<li>Input Parameters
+<ul>
+<li><strong>Experiment Layer</strong> - The index of the layer to switch to.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Run Simulation</strong>: Simulate a run on the instrument.</li>
+<li><strong>Get Status</strong>: Get the currently selected layer for the current experiment file.
+<ul>
+<li>Output Parameters
+<ul>
+<li><strong>Status</strong> - Last updated status message.</li>
+<li><strong>Experiment Folder</strong> - Returns the folder path for the default location where Dragonfly experiment and CSV files are stored.</li>
+<li><strong>Total Layers</strong> - Returns the total number of layers in the currently loaded experiment</li>
+<li><strong>Current Layer</strong> - Returns the 0-based index of the currently selected layer</li>
+<li><strong>Parked And Released</strong> - True if the deck is in the parked position with the clamp released.</li>
+<li><strong>Parked Under Lid</strong> - True if the deck is parked under the incubation lid</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Stop Simulation</strong>: Stops any current simulation dispense run.</li>
+<li><strong>Load CSV File</strong>: Attempts to load a Dragonfly platemap(.csv) file.
+<ul>
+<li>Input Parameters
+<ul>
+<li><strong>File Path</strong> - The .CSV file path.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Get Syringe Volumes</strong>: Returns a list of volumes, in μl, in each syringe. List ordered in accordance with the head index.
+<ul>
+<li>Output Parameters
+<ul>
+<li><strong>Syringe Volumes (ul)</strong> - List of volumes, in μl, in each syringe</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Get Syringes Fitted</strong>: Returns a list of True/False values that indicate which heads have syringes connected. List is ordered in accordance with head indexes.
+<ul>
+<li>Output Parameters
+<ul>
+<li><strong>Syringes Fitted</strong> - List of True/False values that indicate which heads have syringes connected.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Multi Aspirate</strong>: Aspirates for the currently selected layer the specified number of times.
+<ul>
+<li>Input Parameters
+<ul>
+<li><strong>Multiple</strong> - Aspirate multiple.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Aspirate Current Layer</strong>: Aspirates all syringes with assigned heads in the current layer.</li>
+<li><strong>Aspirate To Volume</strong>: Aspirate the specified volume of liquid, in μl.
+The volume is specified by a comma-separated list of syringe index and volume values (in ul) that are in turn separated by colons.
+The format is '&lt;index 1&gt;:&lt;volume 1&gt;, &lt;index 2&gt;:&lt;volume 2&gt;, &lt;index 3&gt;:&lt;volume 3&gt;,...'
+<ul>
+<li>Input Parameters
+<ul>
+<li><strong>Volumes</strong> - A comma-separated list of syringe index and volume values (in ul) that are in turn separated by colons.
+The format is '&lt;index 1&gt;:&lt;volume 1&gt;, &lt;index 2&gt;:&lt;volume 2&gt;, &lt;index 3&gt;:&lt;volume 3&gt;,...'</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Aspirate To Max Volume</strong>: Aspirates syringes to their maximum volume, identified by their head index.
+Syringes whose head indexes do not appear in the list will not aspirate.
+<ul>
+<li>Input Parameters
+<ul>
+<li><strong>Head Indexes</strong> - A comma-separated list of syringe head indexes.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Purge All</strong>: Purges all heads that have a syringe fitted.</li>
+<li><strong>Purge And Remove All</strong>: Purges and removes all heads that have a syringe fitted.</li>
+<li><strong>Purge And Remove</strong>: Purges and removes all heads in the list that have a syringe fitted.
+<ul>
+<li>Input Parameters
+<ul>
+<li><strong>Head Indexes</strong> - A comma-separated list of syringe head index.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<hr />
+<p>For additional information, please contact your local Biosero representative or the Biosero office:</p>
+<p>Biosero<br />
+9560 Waples St<br />
+San Diego, CA 92121</p>
+<p>Online Service Requests: <a href="http://www.biosero.com/servicerequest/">www.biosero.com/servicerequest/</a><br />
+Email: service@biosero.com<br />
+Call Us: 858-880-7376</p>
+
+
+</body>
+</html>

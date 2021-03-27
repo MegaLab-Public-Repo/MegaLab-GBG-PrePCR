@@ -1,0 +1,469 @@
+<?xml version="1.0"?>
+<Procedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" IsStartupProcedure="false" FileName="Setup.Reagents.procedure" Id="8df24cbd-abc4-41c6-99d7-da523abcb4c3">
+  <IsBookmarked>false</IsBookmarked>
+  <WorkFlow xsi:type="SequentialWorkflow" BackgroundImageLocation="" Guid="87b8192b-6c89-4ac1-b881-f6fb1adbdab1" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+    <SkipLogging>false</SkipLogging>
+    <Sequence>
+      <WorkFlow xsi:type="ShowScreenWorkflow" BackgroundImageLocation="" Guid="c3a64408-c9dc-4de1-94c8-ea30cd67b9c2" CanBeExecutedOutOfSequence="false" Name="Show Screen" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/screen64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" ScreenName="DragonFly Pre Reagents 1">
+        <SkipLogging>false</SkipLogging>
+        <IsSelected>false</IsSelected>
+      </WorkFlow>
+      <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\Purple.png" Guid="ad12d370-2734-4ce7-a155-2d0c772e8caf" CanBeExecutedOutOfSequence="false" Name="Reset" ImageLocation="pack://application:,,,/SPTLabtech.Dragonfly.Driver;component/Images/SPT Dragonfly.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+        <SkipLogging>false</SkipLogging>
+        <Command xsi:type="InstrumentCommand" Guid="ad12d370-2734-4ce7-a155-2d0c772e8caf" IsDisabled="false" IsAsyncronous="false" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="true" Name="Reset" ImageLocation="pack://application:,,,/SPTLabtech.Dragonfly.Driver;component/Images/SPT Dragonfly.png" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\Purple.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="true" SimulateError="false" HasBreakPointSet="false" AlwaysRunLocal="false" InstrumentInstanceName="Dragonfly 1" WaitForInstrumentToBeReadyBeforeExecution="true" IgnoreBusy="false" DoNotLogUtilization="false">
+          <SecondsToSimulate>0</SecondsToSimulate>
+          <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+          <SimulationOutput />
+          <SimulatableErrorTexts />
+          <InputParameters>
+            <Variables />
+          </InputParameters>
+          <OutputParameters>
+            <Variables />
+          </OutputParameters>
+          <HelpText>Resets the Dragonfly instrument.</HelpText>
+        </Command>
+      </WorkFlow>
+      <WorkFlow xsi:type="WhileLoopWorkflow" BackgroundImageLocation="" Guid="22331ce3-cf93-4e1d-a8c7-d9485d72d3e1" CanBeExecutedOutOfSequence="false" Name="Loop" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/loop64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" LoopCount="5" EvaluateAtEnd="false" LoopType="Forever" CountDown="false" ShowAdvanced="false" StartNumber="0" CountBy="1" ForeachDelimiter=",">
+        <SkipLogging>false</SkipLogging>
+        <Sequence BackgroundImageLocation="" Guid="e0871f0f-f82f-498d-88c0-6fa223691d2d" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+          <SkipLogging>false</SkipLogging>
+          <Sequence>
+            <WorkFlow xsi:type="ShowScreenWorkflow" BackgroundImageLocation="" Guid="c3a64408-c9dc-4de1-94c8-ea30cd67b9c2" CanBeExecutedOutOfSequence="false" Name="Show Screen" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/screen64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" ScreenName="DragonFly Pre Reagents 2">
+              <SkipLogging>false</SkipLogging>
+              <IsSelected>false</IsSelected>
+            </WorkFlow>
+            <WorkFlow xsi:type="RunScriptWorkflow" BackgroundImageLocation="" Guid="8780d7b5-c63d-400d-95dc-e76627f25189" CanBeExecutedOutOfSequence="false" Name="Run Script" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/script64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" ScriptName="Validate PCR1 MM.cs">
+              <SkipLogging>false</SkipLogging>
+              <InputParameters>
+                <Variables />
+              </InputParameters>
+              <OutputParameters>
+                <Variables />
+              </OutputParameters>
+              <IsSelected>false</IsSelected>
+            </WorkFlow>
+            <WorkFlow xsi:type="BranchingWorkflow" BackgroundImageLocation="" Guid="5672e84f-ef99-4867-ba38-83569ed7619c" CanBeExecutedOutOfSequence="false" Name="Conditional Branch" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/QuestionYellow.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+              <SkipLogging>false</SkipLogging>
+              <YesBranch BackgroundImageLocation="" Guid="f66aa39a-a20a-42fb-a452-29cf86b51eb7" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+                <SkipLogging>false</SkipLogging>
+                <Sequence>
+                  <WorkFlow xsi:type="ShowScreenWorkflow" BackgroundImageLocation="" Guid="aebb92a1-a206-471c-b01a-137ab2e00721" CanBeExecutedOutOfSequence="false" Name="Show Screen" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/screen64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" ScreenName="Display Error">
+                    <SkipLogging>false</SkipLogging>
+                    <IsSelected>false</IsSelected>
+                  </WorkFlow>
+                </Sequence>
+              </YesBranch>
+              <NoBranch BackgroundImageLocation="" Guid="228fee4d-9588-498d-9342-36283edb18db" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+                <SkipLogging>false</SkipLogging>
+                <Sequence>
+                  <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="pack://application:,,,/BioSero.GreenButtonGo.Base;component/Images/Transparent12x12.png" Guid="f3000ce6-a8eb-4165-b202-62ca8725c201" CanBeExecutedOutOfSequence="false" Name="Set Variable" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/VariableEquals64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+                    <SkipLogging>false</SkipLogging>
+                    <Command xsi:type="SetVariableCommand" Guid="f3000ce6-a8eb-4165-b202-62ca8725c201" IsDisabled="false" IsAsyncronous="false" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="false" ViewKey="BioSero.GreenButtonGo.Commands.SetVariableCommand" Name="Set Variable" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/VariableEquals64.png" BackgroundImageLocation="pack://application:,,,/BioSero.GreenButtonGo.Base;component/Images/Transparent12x12.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="false" SimulateError="false" HasBreakPointSet="false" IsUnaryOperation="true" TargetVariable="Data Services.Identity" Operation="Add" Left="Input.PCR1 MM Barcode" LeftIsVariable="true" RightIsVariable="false" JavaScript="false" JavaScriptText="">
+                      <SecondsToSimulate>0</SecondsToSimulate>
+                      <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+                      <SimulationOutput />
+                      <SimulatableErrorTexts />
+                      <InputParameters>
+                        <Variables />
+                      </InputParameters>
+                      <OutputParameters>
+                        <Variables />
+                      </OutputParameters>
+                    </Command>
+                  </WorkFlow>
+                  <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="pack://application:,,,/BioSero.GreenButtonGo.Base;component/Images/Transparent12x12.png" Guid="9d3874e5-f8dc-48c3-8b13-c4921b96f973" CanBeExecutedOutOfSequence="false" Name="Set Variable" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/VariableEquals64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+                    <SkipLogging>false</SkipLogging>
+                    <Command xsi:type="SetVariableCommand" Guid="9d3874e5-f8dc-48c3-8b13-c4921b96f973" IsDisabled="false" IsAsyncronous="false" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="false" ViewKey="BioSero.GreenButtonGo.Commands.SetVariableCommand" Name="Set Variable" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/VariableEquals64.png" BackgroundImageLocation="pack://application:,,,/BioSero.GreenButtonGo.Base;component/Images/Transparent12x12.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="false" SimulateError="false" HasBreakPointSet="false" IsUnaryOperation="true" TargetVariable="Data Services.Source" Operation="Add" Left="DragonFly 1" LeftIsVariable="false" RightIsVariable="false" JavaScript="false" JavaScriptText="">
+                      <SecondsToSimulate>0</SecondsToSimulate>
+                      <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+                      <SimulationOutput />
+                      <SimulatableErrorTexts />
+                      <InputParameters>
+                        <Variables />
+                      </InputParameters>
+                      <OutputParameters>
+                        <Variables />
+                      </OutputParameters>
+                    </Command>
+                  </WorkFlow>
+                  <WorkFlow xsi:type="CallProcedureWorkflow" BackgroundImageLocation="" Guid="9da4f1f3-215f-4342-bd77-4363c63ae1ff" CanBeExecutedOutOfSequence="false" Name="Run Procedure" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/procedure64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" ProcedureName="Data Services.Accession Sample" ShowVariables="false">
+                    <SkipLogging>false</SkipLogging>
+                    <IsSelected>false</IsSelected>
+                  </WorkFlow>
+                  <WorkFlow xsi:type="EndLoopWorkflow" BackgroundImageLocation="" Guid="89769725-cbce-4011-b0c1-4a6742caaebd" CanBeExecutedOutOfSequence="false" Name="End Loop" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/EndLoop64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+                    <SkipLogging>false</SkipLogging>
+                  </WorkFlow>
+                </Sequence>
+              </NoBranch>
+              <Evaluation Left="Error Text" Right="" LeftType="Variable" RightType="Value" Evaluator="NotEqual" />
+            </WorkFlow>
+          </Sequence>
+        </Sequence>
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+      </WorkFlow>
+      <WorkFlow xsi:type="WhileLoopWorkflow" BackgroundImageLocation="" Guid="22331ce3-cf93-4e1d-a8c7-d9485d72d3e1" CanBeExecutedOutOfSequence="false" Name="Loop" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/loop64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" LoopCount="5" EvaluateAtEnd="false" LoopType="Forever" CountDown="false" ShowAdvanced="false" StartNumber="0" CountBy="1" ForeachDelimiter=",">
+        <SkipLogging>false</SkipLogging>
+        <Sequence BackgroundImageLocation="" Guid="e0871f0f-f82f-498d-88c0-6fa223691d2d" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+          <SkipLogging>false</SkipLogging>
+          <Sequence>
+            <WorkFlow xsi:type="ShowScreenWorkflow" BackgroundImageLocation="" Guid="c3a64408-c9dc-4de1-94c8-ea30cd67b9c2" CanBeExecutedOutOfSequence="false" Name="Show Screen" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/screen64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" ScreenName="DragonFly Pre Reagents 3">
+              <SkipLogging>false</SkipLogging>
+              <IsSelected>false</IsSelected>
+            </WorkFlow>
+            <WorkFlow xsi:type="RunScriptWorkflow" BackgroundImageLocation="" Guid="8780d7b5-c63d-400d-95dc-e76627f25189" CanBeExecutedOutOfSequence="false" Name="Run Script" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/script64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" ScriptName="Validate PCR2 MM.cs">
+              <SkipLogging>false</SkipLogging>
+              <InputParameters>
+                <Variables />
+              </InputParameters>
+              <OutputParameters>
+                <Variables />
+              </OutputParameters>
+              <IsSelected>false</IsSelected>
+            </WorkFlow>
+            <WorkFlow xsi:type="BranchingWorkflow" BackgroundImageLocation="" Guid="5672e84f-ef99-4867-ba38-83569ed7619c" CanBeExecutedOutOfSequence="false" Name="Conditional Branch" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/QuestionYellow.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+              <SkipLogging>false</SkipLogging>
+              <YesBranch BackgroundImageLocation="" Guid="f66aa39a-a20a-42fb-a452-29cf86b51eb7" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+                <SkipLogging>false</SkipLogging>
+                <Sequence>
+                  <WorkFlow xsi:type="ShowScreenWorkflow" BackgroundImageLocation="" Guid="aebb92a1-a206-471c-b01a-137ab2e00721" CanBeExecutedOutOfSequence="false" Name="Show Screen" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/screen64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" ScreenName="Display Error">
+                    <SkipLogging>false</SkipLogging>
+                    <IsSelected>false</IsSelected>
+                  </WorkFlow>
+                </Sequence>
+              </YesBranch>
+              <NoBranch BackgroundImageLocation="" Guid="228fee4d-9588-498d-9342-36283edb18db" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+                <SkipLogging>false</SkipLogging>
+                <Sequence>
+                  <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="pack://application:,,,/BioSero.GreenButtonGo.Base;component/Images/Transparent12x12.png" Guid="f3000ce6-a8eb-4165-b202-62ca8725c201" CanBeExecutedOutOfSequence="false" Name="Set Variable" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/VariableEquals64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+                    <SkipLogging>false</SkipLogging>
+                    <Command xsi:type="SetVariableCommand" Guid="f3000ce6-a8eb-4165-b202-62ca8725c201" IsDisabled="false" IsAsyncronous="false" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="false" ViewKey="BioSero.GreenButtonGo.Commands.SetVariableCommand" Name="Set Variable" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/VariableEquals64.png" BackgroundImageLocation="pack://application:,,,/BioSero.GreenButtonGo.Base;component/Images/Transparent12x12.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="false" SimulateError="false" HasBreakPointSet="false" IsUnaryOperation="true" TargetVariable="Data Services.Identity" Operation="Add" Left="Input.PCR2 MM Barcode" LeftIsVariable="false" RightIsVariable="false" JavaScript="false" JavaScriptText="">
+                      <SecondsToSimulate>0</SecondsToSimulate>
+                      <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+                      <SimulationOutput />
+                      <SimulatableErrorTexts />
+                      <InputParameters>
+                        <Variables />
+                      </InputParameters>
+                      <OutputParameters>
+                        <Variables />
+                      </OutputParameters>
+                    </Command>
+                  </WorkFlow>
+                  <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="pack://application:,,,/BioSero.GreenButtonGo.Base;component/Images/Transparent12x12.png" Guid="9d3874e5-f8dc-48c3-8b13-c4921b96f973" CanBeExecutedOutOfSequence="false" Name="Set Variable" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/VariableEquals64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+                    <SkipLogging>false</SkipLogging>
+                    <Command xsi:type="SetVariableCommand" Guid="9d3874e5-f8dc-48c3-8b13-c4921b96f973" IsDisabled="false" IsAsyncronous="false" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="false" ViewKey="BioSero.GreenButtonGo.Commands.SetVariableCommand" Name="Set Variable" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/VariableEquals64.png" BackgroundImageLocation="pack://application:,,,/BioSero.GreenButtonGo.Base;component/Images/Transparent12x12.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="false" SimulateError="false" HasBreakPointSet="false" IsUnaryOperation="true" TargetVariable="Data Services.Source" Operation="Add" Left="DragonFly 1" LeftIsVariable="false" RightIsVariable="false" JavaScript="false" JavaScriptText="">
+                      <SecondsToSimulate>0</SecondsToSimulate>
+                      <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+                      <SimulationOutput />
+                      <SimulatableErrorTexts />
+                      <InputParameters>
+                        <Variables />
+                      </InputParameters>
+                      <OutputParameters>
+                        <Variables />
+                      </OutputParameters>
+                    </Command>
+                  </WorkFlow>
+                  <WorkFlow xsi:type="CallProcedureWorkflow" BackgroundImageLocation="" Guid="71b6f618-04a7-4681-8762-b3c9d1e6d53c" CanBeExecutedOutOfSequence="false" Name="Run Procedure" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/procedure64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" ProcedureName="Data Services.Accession Sample" ShowVariables="false">
+                    <SkipLogging>false</SkipLogging>
+                    <IsSelected>false</IsSelected>
+                  </WorkFlow>
+                  <WorkFlow xsi:type="EndLoopWorkflow" BackgroundImageLocation="" Guid="89769725-cbce-4011-b0c1-4a6742caaebd" CanBeExecutedOutOfSequence="false" Name="End Loop" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/EndLoop64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+                    <SkipLogging>false</SkipLogging>
+                  </WorkFlow>
+                </Sequence>
+              </NoBranch>
+              <Evaluation Left="Error Text" Right="" LeftType="Variable" RightType="Value" Evaluator="NotEqual" />
+            </WorkFlow>
+          </Sequence>
+        </Sequence>
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+      </WorkFlow>
+      <WorkFlow xsi:type="WhileLoopWorkflow" BackgroundImageLocation="" Guid="22331ce3-cf93-4e1d-a8c7-d9485d72d3e1" CanBeExecutedOutOfSequence="false" Name="Loop" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/loop64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" LoopCount="5" EvaluateAtEnd="false" LoopType="Forever" CountDown="false" ShowAdvanced="false" StartNumber="0" CountBy="1" ForeachDelimiter=",">
+        <SkipLogging>false</SkipLogging>
+        <Sequence BackgroundImageLocation="" Guid="e0871f0f-f82f-498d-88c0-6fa223691d2d" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+          <SkipLogging>false</SkipLogging>
+          <Sequence>
+            <WorkFlow xsi:type="ShowScreenWorkflow" BackgroundImageLocation="" Guid="c3a64408-c9dc-4de1-94c8-ea30cd67b9c2" CanBeExecutedOutOfSequence="false" Name="Show Screen" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/screen64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" ScreenName="DragonFly Pre Reagents 4">
+              <SkipLogging>false</SkipLogging>
+              <IsSelected>false</IsSelected>
+            </WorkFlow>
+            <WorkFlow xsi:type="RunScriptWorkflow" BackgroundImageLocation="" Guid="8780d7b5-c63d-400d-95dc-e76627f25189" CanBeExecutedOutOfSequence="false" Name="Run Script" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/script64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" ScriptName="Validate RVT MM.cs">
+              <SkipLogging>false</SkipLogging>
+              <InputParameters>
+                <Variables />
+              </InputParameters>
+              <OutputParameters>
+                <Variables />
+              </OutputParameters>
+              <IsSelected>false</IsSelected>
+            </WorkFlow>
+            <WorkFlow xsi:type="BranchingWorkflow" BackgroundImageLocation="" Guid="5672e84f-ef99-4867-ba38-83569ed7619c" CanBeExecutedOutOfSequence="false" Name="Conditional Branch" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/QuestionYellow.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+              <SkipLogging>false</SkipLogging>
+              <YesBranch BackgroundImageLocation="" Guid="f66aa39a-a20a-42fb-a452-29cf86b51eb7" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+                <SkipLogging>false</SkipLogging>
+                <Sequence>
+                  <WorkFlow xsi:type="ShowScreenWorkflow" BackgroundImageLocation="" Guid="aebb92a1-a206-471c-b01a-137ab2e00721" CanBeExecutedOutOfSequence="false" Name="Show Screen" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/screen64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" ScreenName="Display Error">
+                    <SkipLogging>false</SkipLogging>
+                    <IsSelected>false</IsSelected>
+                  </WorkFlow>
+                </Sequence>
+              </YesBranch>
+              <NoBranch BackgroundImageLocation="" Guid="228fee4d-9588-498d-9342-36283edb18db" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+                <SkipLogging>false</SkipLogging>
+                <Sequence>
+                  <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="pack://application:,,,/BioSero.GreenButtonGo.Base;component/Images/Transparent12x12.png" Guid="f3000ce6-a8eb-4165-b202-62ca8725c201" CanBeExecutedOutOfSequence="false" Name="Set Variable" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/VariableEquals64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+                    <SkipLogging>false</SkipLogging>
+                    <Command xsi:type="SetVariableCommand" Guid="f3000ce6-a8eb-4165-b202-62ca8725c201" IsDisabled="false" IsAsyncronous="false" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="false" ViewKey="BioSero.GreenButtonGo.Commands.SetVariableCommand" Name="Set Variable" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/VariableEquals64.png" BackgroundImageLocation="pack://application:,,,/BioSero.GreenButtonGo.Base;component/Images/Transparent12x12.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="false" SimulateError="false" HasBreakPointSet="false" IsUnaryOperation="true" TargetVariable="Data Services.Identity" Operation="Add" Left="Input.RVT MM Barcode" LeftIsVariable="true" RightIsVariable="false" JavaScript="false" JavaScriptText="">
+                      <SecondsToSimulate>0</SecondsToSimulate>
+                      <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+                      <SimulationOutput />
+                      <SimulatableErrorTexts />
+                      <InputParameters>
+                        <Variables />
+                      </InputParameters>
+                      <OutputParameters>
+                        <Variables />
+                      </OutputParameters>
+                    </Command>
+                  </WorkFlow>
+                  <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="pack://application:,,,/BioSero.GreenButtonGo.Base;component/Images/Transparent12x12.png" Guid="9d3874e5-f8dc-48c3-8b13-c4921b96f973" CanBeExecutedOutOfSequence="false" Name="Set Variable" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/VariableEquals64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+                    <SkipLogging>false</SkipLogging>
+                    <Command xsi:type="SetVariableCommand" Guid="9d3874e5-f8dc-48c3-8b13-c4921b96f973" IsDisabled="false" IsAsyncronous="false" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="false" ViewKey="BioSero.GreenButtonGo.Commands.SetVariableCommand" Name="Set Variable" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/VariableEquals64.png" BackgroundImageLocation="pack://application:,,,/BioSero.GreenButtonGo.Base;component/Images/Transparent12x12.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="false" SimulateError="false" HasBreakPointSet="false" IsUnaryOperation="true" TargetVariable="Data Services.Source" Operation="Add" Left="DragonFly 1" LeftIsVariable="false" RightIsVariable="false" JavaScript="false" JavaScriptText="">
+                      <SecondsToSimulate>0</SecondsToSimulate>
+                      <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+                      <SimulationOutput />
+                      <SimulatableErrorTexts />
+                      <InputParameters>
+                        <Variables />
+                      </InputParameters>
+                      <OutputParameters>
+                        <Variables />
+                      </OutputParameters>
+                    </Command>
+                  </WorkFlow>
+                  <WorkFlow xsi:type="CallProcedureWorkflow" BackgroundImageLocation="" Guid="5b09ab27-618f-4701-abbc-b8b859dd9c2f" CanBeExecutedOutOfSequence="false" Name="Run Procedure" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/procedure64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" ProcedureName="Data Services.Accession Sample" ShowVariables="false">
+                    <SkipLogging>false</SkipLogging>
+                    <IsSelected>false</IsSelected>
+                  </WorkFlow>
+                  <WorkFlow xsi:type="EndLoopWorkflow" BackgroundImageLocation="" Guid="89769725-cbce-4011-b0c1-4a6742caaebd" CanBeExecutedOutOfSequence="false" Name="End Loop" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/EndLoop64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+                    <SkipLogging>false</SkipLogging>
+                  </WorkFlow>
+                </Sequence>
+              </NoBranch>
+              <Evaluation Left="Error Text" Right="" LeftType="Variable" RightType="Value" Evaluator="NotEqual" />
+            </WorkFlow>
+          </Sequence>
+        </Sequence>
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+      </WorkFlow>
+      <WorkFlow xsi:type="WhileLoopWorkflow" BackgroundImageLocation="" Guid="22331ce3-cf93-4e1d-a8c7-d9485d72d3e1" CanBeExecutedOutOfSequence="false" Name="Loop" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/loop64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" LoopCount="5" EvaluateAtEnd="false" LoopType="Forever" CountDown="false" ShowAdvanced="false" StartNumber="0" CountBy="1" ForeachDelimiter=",">
+        <SkipLogging>false</SkipLogging>
+        <Sequence BackgroundImageLocation="" Guid="e0871f0f-f82f-498d-88c0-6fa223691d2d" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+          <SkipLogging>false</SkipLogging>
+          <Sequence>
+            <WorkFlow xsi:type="ShowScreenWorkflow" BackgroundImageLocation="" Guid="c3a64408-c9dc-4de1-94c8-ea30cd67b9c2" CanBeExecutedOutOfSequence="false" Name="Show Screen" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/screen64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" ScreenName="DragonFly Pre Reagents 5">
+              <SkipLogging>false</SkipLogging>
+              <IsSelected>false</IsSelected>
+            </WorkFlow>
+            <WorkFlow xsi:type="RunScriptWorkflow" BackgroundImageLocation="" Guid="8780d7b5-c63d-400d-95dc-e76627f25189" CanBeExecutedOutOfSequence="false" Name="Run Script" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/script64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" ScriptName="Validate EPH3.cs">
+              <SkipLogging>false</SkipLogging>
+              <InputParameters>
+                <Variables />
+              </InputParameters>
+              <OutputParameters>
+                <Variables />
+              </OutputParameters>
+              <IsSelected>false</IsSelected>
+            </WorkFlow>
+            <WorkFlow xsi:type="BranchingWorkflow" BackgroundImageLocation="" Guid="5672e84f-ef99-4867-ba38-83569ed7619c" CanBeExecutedOutOfSequence="false" Name="Conditional Branch" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/QuestionYellow.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+              <SkipLogging>false</SkipLogging>
+              <YesBranch BackgroundImageLocation="" Guid="f66aa39a-a20a-42fb-a452-29cf86b51eb7" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+                <SkipLogging>false</SkipLogging>
+                <Sequence>
+                  <WorkFlow xsi:type="ShowScreenWorkflow" BackgroundImageLocation="" Guid="aebb92a1-a206-471c-b01a-137ab2e00721" CanBeExecutedOutOfSequence="false" Name="Show Screen" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/screen64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" ScreenName="Display Error">
+                    <SkipLogging>false</SkipLogging>
+                    <IsSelected>false</IsSelected>
+                  </WorkFlow>
+                </Sequence>
+              </YesBranch>
+              <NoBranch BackgroundImageLocation="" Guid="228fee4d-9588-498d-9342-36283edb18db" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+                <SkipLogging>false</SkipLogging>
+                <Sequence>
+                  <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="pack://application:,,,/BioSero.GreenButtonGo.Base;component/Images/Transparent12x12.png" Guid="f3000ce6-a8eb-4165-b202-62ca8725c201" CanBeExecutedOutOfSequence="false" Name="Set Variable" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/VariableEquals64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+                    <SkipLogging>false</SkipLogging>
+                    <Command xsi:type="SetVariableCommand" Guid="f3000ce6-a8eb-4165-b202-62ca8725c201" IsDisabled="false" IsAsyncronous="false" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="false" ViewKey="BioSero.GreenButtonGo.Commands.SetVariableCommand" Name="Set Variable" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/VariableEquals64.png" BackgroundImageLocation="pack://application:,,,/BioSero.GreenButtonGo.Base;component/Images/Transparent12x12.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="false" SimulateError="false" HasBreakPointSet="false" IsUnaryOperation="true" TargetVariable="Data Services.Identity" Operation="Add" Left="Input.EPH3 Barcode" LeftIsVariable="true" RightIsVariable="false" JavaScript="false" JavaScriptText="">
+                      <SecondsToSimulate>0</SecondsToSimulate>
+                      <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+                      <SimulationOutput />
+                      <SimulatableErrorTexts />
+                      <InputParameters>
+                        <Variables />
+                      </InputParameters>
+                      <OutputParameters>
+                        <Variables />
+                      </OutputParameters>
+                    </Command>
+                  </WorkFlow>
+                  <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="pack://application:,,,/BioSero.GreenButtonGo.Base;component/Images/Transparent12x12.png" Guid="9d3874e5-f8dc-48c3-8b13-c4921b96f973" CanBeExecutedOutOfSequence="false" Name="Set Variable" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/VariableEquals64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+                    <SkipLogging>false</SkipLogging>
+                    <Command xsi:type="SetVariableCommand" Guid="9d3874e5-f8dc-48c3-8b13-c4921b96f973" IsDisabled="false" IsAsyncronous="false" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="false" ViewKey="BioSero.GreenButtonGo.Commands.SetVariableCommand" Name="Set Variable" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/VariableEquals64.png" BackgroundImageLocation="pack://application:,,,/BioSero.GreenButtonGo.Base;component/Images/Transparent12x12.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="false" SimulateError="false" HasBreakPointSet="false" IsUnaryOperation="true" TargetVariable="Data Services.Source" Operation="Add" Left="DragonFly 1" LeftIsVariable="false" RightIsVariable="false" JavaScript="false" JavaScriptText="">
+                      <SecondsToSimulate>0</SecondsToSimulate>
+                      <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+                      <SimulationOutput />
+                      <SimulatableErrorTexts />
+                      <InputParameters>
+                        <Variables />
+                      </InputParameters>
+                      <OutputParameters>
+                        <Variables />
+                      </OutputParameters>
+                    </Command>
+                  </WorkFlow>
+                  <WorkFlow xsi:type="CallProcedureWorkflow" BackgroundImageLocation="" Guid="7c230051-863b-4e4c-8e65-33a0fbe1993c" CanBeExecutedOutOfSequence="false" Name="Run Procedure" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/procedure64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" ProcedureName="Data Services.Accession Sample" ShowVariables="false">
+                    <SkipLogging>false</SkipLogging>
+                    <IsSelected>false</IsSelected>
+                  </WorkFlow>
+                  <WorkFlow xsi:type="EndLoopWorkflow" BackgroundImageLocation="" Guid="89769725-cbce-4011-b0c1-4a6742caaebd" CanBeExecutedOutOfSequence="false" Name="End Loop" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/EndLoop64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+                    <SkipLogging>false</SkipLogging>
+                  </WorkFlow>
+                </Sequence>
+              </NoBranch>
+              <Evaluation Left="Error Text" Right="" LeftType="Variable" RightType="Value" Evaluator="NotEqual" />
+            </WorkFlow>
+          </Sequence>
+        </Sequence>
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+      </WorkFlow>
+      <WorkFlow xsi:type="WhileLoopWorkflow" BackgroundImageLocation="" Guid="144cde5c-e591-42df-842b-919c2c945905" CanBeExecutedOutOfSequence="false" Name="Loop" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/loop64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" LoopCount="5" EvaluateAtEnd="false" LoopType="Forever" CountDown="false" ShowAdvanced="false" StartNumber="0" CountBy="1" ForeachDelimiter=",">
+        <SkipLogging>false</SkipLogging>
+        <Sequence BackgroundImageLocation="" Guid="8bf0662a-51cb-48be-87dd-10eb2d4da092" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+          <SkipLogging>false</SkipLogging>
+          <Sequence>
+            <WorkFlow xsi:type="ShowScreenWorkflow" BackgroundImageLocation="" Guid="c3a64408-c9dc-4de1-94c8-ea30cd67b9c2" CanBeExecutedOutOfSequence="false" Name="Show Screen" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/screen64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" ScreenName="DragonFly Pre Reagents 6">
+              <SkipLogging>false</SkipLogging>
+              <IsSelected>false</IsSelected>
+            </WorkFlow>
+            <WorkFlow xsi:type="BranchingWorkflow" BackgroundImageLocation="" Guid="5d80fd17-85c5-4df4-b91d-e53653afb037" CanBeExecutedOutOfSequence="false" Name="Conditional Branch" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/QuestionYellow.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+              <SkipLogging>false</SkipLogging>
+              <YesBranch BackgroundImageLocation="" Guid="41a61ea4-83d6-4e3f-ba20-a994e641ddbc" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+                <SkipLogging>false</SkipLogging>
+                <Sequence>
+                  <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\Purple.png" Guid="950cb7d5-203b-449e-b9d6-910a75853b2f" CanBeExecutedOutOfSequence="false" Name="Aspirate To Volume" ImageLocation="pack://application:,,,/SPTLabtech.Dragonfly.Driver;component/Images/SPT Dragonfly.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+                    <SkipLogging>false</SkipLogging>
+                    <Command xsi:type="InstrumentCommand" Guid="950cb7d5-203b-449e-b9d6-910a75853b2f" IsDisabled="false" IsAsyncronous="false" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="true" Name="Aspirate To Volume" ImageLocation="pack://application:,,,/SPTLabtech.Dragonfly.Driver;component/Images/SPT Dragonfly.png" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\Purple.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="true" SimulateError="false" HasBreakPointSet="false" AlwaysRunLocal="false" InstrumentInstanceName="Dragonfly 1" WaitForInstrumentToBeReadyBeforeExecution="true" IgnoreBusy="false" DoNotLogUtilization="false">
+                      <SecondsToSimulate>0</SecondsToSimulate>
+                      <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+                      <SimulationOutput />
+                      <SimulatableErrorTexts />
+                      <InputParameters>
+                        <Variables>
+                          <VariableBase xsi:type="StringVariable" Type="String" Name="Volumes" InitialValue="" NotUserChangable="false" SyncWithDataTable="false" BaseValue="0:1500,1:1500,2:1500,3:1500,4:1500,5:1500,6:1500,7:1500,8:1500,9:1500" IsQuery="false" AllowAllVariableTypes="false" ConstrainToOptions="false" CanBeEmpty="true" IsFile="false" IsComPort="false">
+                            <SkipValidation>false</SkipValidation>
+                            <HelpText>A comma-separated list of syringe index and volume values (in ul) that are in turn separated by colons.
+The format is '&lt;index 1&gt;:&lt;volume 1&gt;, &lt;index 2&gt;:&lt;volume 2&gt;, &lt;index 3&gt;:&lt;volume 3&gt;,...'</HelpText>
+                            <CreatedBy>Instrument</CreatedBy>
+                            <Tags>Instrument</Tags>
+                            <Tags>#DarkBlue</Tags>
+                            <ContextInfo>Generated by Dragonfly</ContextInfo>
+                            <Options />
+                          </VariableBase>
+                        </Variables>
+                      </InputParameters>
+                      <OutputParameters>
+                        <Variables />
+                      </OutputParameters>
+                      <HelpText>Aspirate the specified volume of liquid, in μl.
+The volume is specified by a comma-separated list of syringe index and volume values (in ul) that are in turn separated by colons.
+The format is '&lt;index 1&gt;:&lt;volume 1&gt;, &lt;index 2&gt;:&lt;volume 2&gt;, &lt;index 3&gt;:&lt;volume 3&gt;,...'</HelpText>
+                    </Command>
+                  </WorkFlow>
+                  <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="pack://application:,,,/BioSero.GreenButtonGo.Base;component/Images/Transparent12x12.png" Guid="ba38edc1-019a-4cdf-825e-0e3a6f51a0a1" CanBeExecutedOutOfSequence="false" Name="Set Variable" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/VariableEquals64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+                    <SkipLogging>false</SkipLogging>
+                    <Command xsi:type="SetVariableCommand" Guid="ba38edc1-019a-4cdf-825e-0e3a6f51a0a1" IsDisabled="false" IsAsyncronous="false" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="false" ViewKey="BioSero.GreenButtonGo.Commands.SetVariableCommand" Name="Set Variable" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/VariableEquals64.png" BackgroundImageLocation="pack://application:,,,/BioSero.GreenButtonGo.Base;component/Images/Transparent12x12.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="false" SimulateError="false" HasBreakPointSet="false" IsUnaryOperation="true" TargetVariable="Warning Text" Operation="Add" Left="Ensure that all syringes aspirated successfully. Click resolve to replace any syringes and/or autofeed-reservoirs." LeftIsVariable="false" RightIsVariable="false" JavaScript="false" JavaScriptText="">
+                      <SecondsToSimulate>0</SecondsToSimulate>
+                      <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+                      <SimulationOutput />
+                      <SimulatableErrorTexts />
+                      <InputParameters>
+                        <Variables />
+                      </InputParameters>
+                      <OutputParameters>
+                        <Variables />
+                      </OutputParameters>
+                    </Command>
+                  </WorkFlow>
+                  <WorkFlow xsi:type="ShowScreenWorkflow" BackgroundImageLocation="" Guid="a45f15b1-5978-451c-95bb-16a8d5972045" CanBeExecutedOutOfSequence="false" Name="Show Screen" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/screen64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" ScreenName="Display Warning">
+                    <SkipLogging>false</SkipLogging>
+                    <IsSelected>false</IsSelected>
+                  </WorkFlow>
+                  <WorkFlow xsi:type="BranchingWorkflow" BackgroundImageLocation="" Guid="e60bc011-a293-4f1c-9645-dff799085ecb" CanBeExecutedOutOfSequence="false" Name="Conditional Branch" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/QuestionYellow.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+                    <SkipLogging>false</SkipLogging>
+                    <YesBranch BackgroundImageLocation="" Guid="d5fdbb67-4e2e-4dc2-ae2b-1ebf891bca0e" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+                      <SkipLogging>false</SkipLogging>
+                      <Sequence>
+                        <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\Purple.png" Guid="f93b26db-8c27-4a4b-b647-ea1822893393" CanBeExecutedOutOfSequence="false" Name="Purge And Remove All" ImageLocation="pack://application:,,,/SPTLabtech.Dragonfly.Driver;component/Images/SPT Dragonfly.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+                          <SkipLogging>false</SkipLogging>
+                          <Command xsi:type="InstrumentCommand" Guid="f93b26db-8c27-4a4b-b647-ea1822893393" IsDisabled="false" IsAsyncronous="false" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="true" Name="Purge And Remove All" ImageLocation="pack://application:,,,/SPTLabtech.Dragonfly.Driver;component/Images/SPT Dragonfly.png" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\Purple.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="true" SimulateError="false" HasBreakPointSet="false" AlwaysRunLocal="false" InstrumentInstanceName="Dragonfly 1" WaitForInstrumentToBeReadyBeforeExecution="true" IgnoreBusy="false" DoNotLogUtilization="false">
+                            <SecondsToSimulate>0</SecondsToSimulate>
+                            <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+                            <SimulationOutput />
+                            <SimulatableErrorTexts />
+                            <InputParameters>
+                              <Variables />
+                            </InputParameters>
+                            <OutputParameters>
+                              <Variables />
+                            </OutputParameters>
+                            <HelpText>Purges and removes all heads that have a syringe fitted.</HelpText>
+                          </Command>
+                        </WorkFlow>
+                      </Sequence>
+                    </YesBranch>
+                    <NoBranch BackgroundImageLocation="" Guid="602331df-0506-4ed2-9601-2afcc4cd1ea5" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+                      <SkipLogging>false</SkipLogging>
+                      <Sequence>
+                        <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\Purple.png" Guid="e89aea0b-169e-4e87-ad59-a96614be6773" CanBeExecutedOutOfSequence="false" Name="Purge All" ImageLocation="pack://application:,,,/SPTLabtech.Dragonfly.Driver;component/Images/SPT Dragonfly.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+                          <SkipLogging>false</SkipLogging>
+                          <Command xsi:type="InstrumentCommand" Guid="e89aea0b-169e-4e87-ad59-a96614be6773" IsDisabled="false" IsAsyncronous="false" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="true" Name="Purge All" ImageLocation="pack://application:,,,/SPTLabtech.Dragonfly.Driver;component/Images/SPT Dragonfly.png" BackgroundImageLocation="C:\Program Files (x86)\Green Button Go\Backgrounds\Purple.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="true" SimulateError="false" HasBreakPointSet="false" AlwaysRunLocal="false" InstrumentInstanceName="Dragonfly 1" WaitForInstrumentToBeReadyBeforeExecution="true" IgnoreBusy="false" DoNotLogUtilization="false">
+                            <SecondsToSimulate>0</SecondsToSimulate>
+                            <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+                            <SimulationOutput />
+                            <SimulatableErrorTexts />
+                            <InputParameters>
+                              <Variables />
+                            </InputParameters>
+                            <OutputParameters>
+                              <Variables />
+                            </OutputParameters>
+                            <HelpText>Purges all heads that have a syringe fitted.</HelpText>
+                          </Command>
+                        </WorkFlow>
+                        <WorkFlow xsi:type="EndLoopWorkflow" BackgroundImageLocation="" Guid="6be33977-08a6-43b2-8b29-0922b9239bc3" CanBeExecutedOutOfSequence="false" Name="End Loop" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/EndLoop64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+                          <SkipLogging>false</SkipLogging>
+                        </WorkFlow>
+                      </Sequence>
+                    </NoBranch>
+                    <Evaluation Left="Action" Right="Resolve" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+                  </WorkFlow>
+                </Sequence>
+              </YesBranch>
+              <NoBranch BackgroundImageLocation="" Guid="02512258-b023-4824-93f3-2bec821ee77e" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+                <SkipLogging>false</SkipLogging>
+                <Sequence>
+                  <WorkFlow xsi:type="EndLoopWorkflow" BackgroundImageLocation="" Guid="4e57ed77-e141-4c31-bc0f-2d9e61dfdb87" CanBeExecutedOutOfSequence="false" Name="End Loop" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/EndLoop64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+                    <SkipLogging>false</SkipLogging>
+                  </WorkFlow>
+                </Sequence>
+              </NoBranch>
+              <Evaluation Left="Action" Right="Aspirate" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+            </WorkFlow>
+          </Sequence>
+        </Sequence>
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+      </WorkFlow>
+    </Sequence>
+  </WorkFlow>
+  <HasBeenModified>false</HasBeenModified>
+</Procedure>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Procedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" IsStartupProcedure="false" FileName="Setup.Centrifuge Samples.procedure" Id="0c73f263-a4a8-4185-bc5b-c7dc1481f619">
+  <IsBookmarked>false</IsBookmarked>
+  <WorkFlow xsi:type="SequentialWorkflow" BackgroundImageLocation="" Guid="7a34dc3b-86bc-4482-9fec-4c5cebae80c8" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+    <SkipLogging>false</SkipLogging>
+    <Sequence>
+      <WorkFlow xsi:type="ShowScreenWorkflow" BackgroundImageLocation="" Guid="8495848a-74ac-491f-a33e-5f4b6abc0831" CanBeExecutedOutOfSequence="false" Name="Show Screen" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/screen64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" ScreenName="Centrifuge Samples">
+        <SkipLogging>false</SkipLogging>
+        <IsSelected>false</IsSelected>
+      </WorkFlow>
+    </Sequence>
+  </WorkFlow>
+  <HasBeenModified>false</HasBeenModified>
+</Procedure>

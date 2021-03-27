@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" FullScreen="true" RunTime="false" Center="true" X="0" Y="0" FileName="Cytomat Setup 6.screen" Id="8340d8c1-9f4e-4e7a-9504-db590f518e1d" Width="2400" Height="1300" BackgroundColor="#FFD3D3D3" OpenCloseViewOnBoolChange="false">
+  <IsBookmarked>false</IsBookmarked>
+  <ScrollStatus>Disabled</ScrollStatus>
+  <Controls>
+    <Control xsi:type="ButtonControl" Name="Button" X="360" Y="500" Height="24" Width="80" Rotation="0" Text="OK" DisplayText="OK" IsStopButton="false" SetVariable="false" SetVariableValue="" RunScriptOnClick="false" DoNotCloseOnClick="false">
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="ButtonControl" Name="Button" X="360" Y="500" Height="24" Width="80" Rotation="0" Text="OK" DisplayText="OK" IsStopButton="false" SetVariable="false" SetVariableValue="" RunScriptOnClick="false" DoNotCloseOnClick="false">
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="ButtonControl" Name="Button" X="360" Y="500" Height="24" Width="80" Rotation="0" Text="OK" DisplayText="OK" IsStopButton="false" SetVariable="false" SetVariableValue="" RunScriptOnClick="false" DoNotCloseOnClick="false">
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="ButtonControl" Name="Button" X="360" Y="500" Height="24" Width="80" Rotation="0" Text="OK" DisplayText="OK" IsStopButton="false" SetVariable="false" SetVariableValue="" RunScriptOnClick="false" DoNotCloseOnClick="false">
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="ButtonControl" Name="Button" X="360" Y="500" Height="24" Width="80" Rotation="0" Text="OK" DisplayText="OK" IsStopButton="false" SetVariable="false" SetVariableValue="" RunScriptOnClick="false" DoNotCloseOnClick="false">
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="ButtonControl" Name="Button" X="360" Y="500" Height="24" Width="80" Rotation="0" Text="OK" DisplayText="OK" IsStopButton="false" SetVariable="false" SetVariableValue="" RunScriptOnClick="false" DoNotCloseOnClick="false">
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="ButtonControl" Name="Button" X="360" Y="500" Height="24" Width="80" Rotation="0" Text="OK" DisplayText="OK" IsStopButton="false" SetVariable="false" SetVariableValue="" RunScriptOnClick="false" DoNotCloseOnClick="false">
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="ButtonControl" Name="Button" X="360" Y="500" Height="24" Width="80" Rotation="0" Text="OK" DisplayText="OK" IsStopButton="false" SetVariable="false" SetVariableValue="" RunScriptOnClick="false" DoNotCloseOnClick="false">
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="ButtonControl" Name="Button" X="360" Y="500" Height="24" Width="80" Rotation="0" Text="OK" DisplayText="OK" IsStopButton="false" SetVariable="false" SetVariableValue="" RunScriptOnClick="false" DoNotCloseOnClick="false">
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="ButtonControl" Name="Button" X="1269" Y="1233" Height="24" Width="80" Rotation="0" Text="Continue" DisplayText="Continue" IsStopButton="false" SetVariable="false" SetVariableValue="" RunScriptOnClick="false" DoNotCloseOnClick="false">
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="RectangleControl" Name="Rectangle" X="91" Y="90" Height="167" Width="1458" Rotation="0" BorderThickness="1">
+      <BorderColor>#FF000000</BorderColor>
+      <FillColor>#FFFFFFFF</FillColor>
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="LabelControl" Name="Label" X="339" Y="115" Height="128" Width="1112" Rotation="0" Text="Cytomat Setup" DisplayText="Cytomat Setup" TextBold="true" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="100">
+      <TextColor>Black</TextColor>
+      <FontProperties TextBold="true" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="100" TextColor="Black" />
+    </Control>
+    <Control xsi:type="RectangleControl" Name="Rectangle" X="91" Y="90" Height="50" Width="200" Rotation="0" BorderThickness="0">
+      <BorderColor>#FF000000</BorderColor>
+      <FillColor>#FF000000</FillColor>
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="LabelControl" Name="Label" X="103" Y="91" Height="46" Width="173" Rotation="0" Text="Load Stack 8" DisplayText="Load Stack 8" TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="30">
+      <TextColor>White</TextColor>
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="30" TextColor="White" />
+    </Control>
+    <Control xsi:type="RectangleControl" Name="Rectangle" X="92" Y="281" Height="359" Width="1456" Rotation="0" BorderThickness="1">
+      <BorderColor>#FF000000</BorderColor>
+      <FillColor>#FFBABABA</FillColor>
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="RectangleControl" Name="Rectangle" X="93" Y="281" Height="50" Width="200" Rotation="0" BorderThickness="0">
+      <BorderColor>#FF000000</BorderColor>
+      <FillColor>#FF000000</FillColor>
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="LabelControl" Name="Label" X="104" Y="283" Height="43" Width="187" Rotation="0" Text="Instructions" DisplayText="Instructions" TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="30">
+      <TextColor>White</TextColor>
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="30" TextColor="White" />
+    </Control>
+    <Control xsi:type="RichTextBoxControl" Name="Rich Text Box" X="119" Y="353" Height="254" Width="1399" Rotation="0">
+      <Text>&lt;Section xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xml:space="preserve" TextAlignment="Left" LineHeight="Auto" IsHyphenationEnabled="False" xml:lang="en-us" FlowDirection="LeftToRight" NumberSubstitution.CultureSource="User" NumberSubstitution.Substitution="AsCulture" FontFamily="Segoe UI, Lucida Sans Unicode, Verdana" FontStyle="Normal" FontWeight="Normal" FontStretch="Normal" FontSize="12" Foreground="#FF000000" Typography.StandardLigatures="True" Typography.ContextualLigatures="True" Typography.DiscretionaryLigatures="False" Typography.HistoricalLigatures="False" Typography.AnnotationAlternates="0" Typography.ContextualAlternates="True" Typography.HistoricalForms="False" Typography.Kerning="True" Typography.CapitalSpacing="False" Typography.CaseSensitiveForms="False" Typography.StylisticSet1="False" Typography.StylisticSet2="False" Typography.StylisticSet3="False" Typography.StylisticSet4="False" Typography.StylisticSet5="False" Typography.StylisticSet6="False" Typography.StylisticSet7="False" Typography.StylisticSet8="False" Typography.StylisticSet9="False" Typography.StylisticSet10="False" Typography.StylisticSet11="False" Typography.StylisticSet12="False" Typography.StylisticSet13="False" Typography.StylisticSet14="False" Typography.StylisticSet15="False" Typography.StylisticSet16="False" Typography.StylisticSet17="False" Typography.StylisticSet18="False" Typography.StylisticSet19="False" Typography.StylisticSet20="False" Typography.Fraction="Normal" Typography.SlashedZero="False" Typography.MathematicalGreek="False" Typography.EastAsianExpertForms="False" Typography.Variants="Normal" Typography.Capitals="Normal" Typography.NumeralStyle="Normal" Typography.NumeralAlignment="Normal" Typography.EastAsianWidths="Normal" Typography.EastAsianLanguage="Normal" Typography.StandardSwashes="0" Typography.ContextualSwashes="0" Typography.StylisticAlternates="0"&gt;&lt;Paragraph FontFamily="Segoe UI" FontSize="16" Margin="0,0,0,0"&gt;&lt;Run FontSize="24"&gt;1.   Obtain 20x &lt;/Run&gt;&lt;Run FontWeight="Bold" FontSize="24"&gt;384 Well Plates (CDNA) &lt;/Run&gt;&lt;Run FontSize="24"&gt;and verify that all well plates have a valid barcode containing a “VG” followed by a 12-digit value with a “CDNA” suffix, e.g. VG123456789012-CDNA.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph FontFamily="Segoe UI" FontSize="16" Margin="36,0,0,0"&gt;&lt;Run FontSize="24"&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph FontFamily="Segoe UI" FontSize="16" Margin="0,0,0,0"&gt;&lt;Run FontSize="24"&gt;2.   Load all 20 well plates into &lt;/Run&gt;&lt;Run FontWeight="Bold" FontSize="24"&gt;Stack 8&lt;/Run&gt;&lt;Run FontSize="24"&gt; and verify that the barcode is facing outwards.&lt;/Run&gt;&lt;/Paragraph&gt;&lt;Paragraph FontFamily="Segoe UI" FontSize="16" Margin="0,0,0,0"&gt;&lt;Run&gt;&lt;/Run&gt;&lt;/Paragraph&gt;&lt;/Section&gt;</Text>
+    </Control>
+    <Control xsi:type="RectangleControl" Name="Rectangle" X="1589" Y="92" Height="1078" Width="742" Rotation="0" BorderThickness="1">
+      <BorderColor>#FF000000</BorderColor>
+      <FillColor>#FFBABABA</FillColor>
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="RectangleControl" Name="Rectangle" X="93" Y="670" Height="500" Width="1456" Rotation="0" BorderThickness="1">
+      <BorderColor>#FF000000</BorderColor>
+      <FillColor>#FFBABABA</FillColor>
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="RectangleControl" Name="Rectangle" X="94" Y="670" Height="50" Width="200" Rotation="0" BorderThickness="0">
+      <BorderColor>#FF000000</BorderColor>
+      <FillColor>#FF000000</FillColor>
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="LabelControl" Name="Label" X="102" Y="676" Height="45" Width="200" Rotation="0" Text="Setup Images" DisplayText="Setup Images" TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="30">
+      <TextColor>White</TextColor>
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="30" TextColor="White" />
+    </Control>
+    <Control xsi:type="ImageControl" Name="Image" X="162" Y="723" Height="417" Width="1373" Rotation="0" ImageFileName="%datafolder%\Cytomat 5a.png" DisplayImageFileName="C:\Users\INT3926.8 - Illumina\Documents\Green Button Go\CTS Pre-PCR v12 PathGroup\Data\\Cytomat 5a.png" />
+    <Control xsi:type="ImageControl" Name="Image" X="1616" Y="126" Height="1027" Width="687" Rotation="0" ImageFileName="%datafolder%\Cytomat Setup 1b.png" DisplayImageFileName="C:\Users\INT3926.8 - Illumina\Documents\Green Button Go\CTS Pre-PCR v12 PathGroup\Data\\Cytomat Setup 1b.png" />
+    <Control xsi:type="RectangleControl" Name="Rectangle" X="1759" Y="773" Height="39" Width="126" Rotation="0" BorderThickness="0">
+      <BorderColor>#FFFFFFFF</BorderColor>
+      <FillColor>#FF228B22</FillColor>
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="RectangleControl" Name="Rectangle" X="1759" Y="724" Height="41" Width="126" Rotation="0" BorderThickness="0">
+      <BorderColor>#FF000000</BorderColor>
+      <FillColor>#FF228B22</FillColor>
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="RectangleControl" Name="Rectangle" X="1759" Y="820" Height="39" Width="126" Rotation="0" BorderThickness="0">
+      <BorderColor>#FF000000</BorderColor>
+      <FillColor>#FF228B22</FillColor>
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="RectangleControl" Name="Rectangle" X="1759" Y="912" Height="39" Width="126" Rotation="0" BorderThickness="0">
+      <BorderColor>#FF000000</BorderColor>
+      <FillColor>#FF228B22</FillColor>
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="RectangleControl" Name="Rectangle" X="1759" Y="866" Height="40" Width="126" Rotation="0" BorderThickness="0">
+      <BorderColor>#FF000000</BorderColor>
+      <FillColor>#FF228B22</FillColor>
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="RectangleControl" Name="Rectangle" X="1759" Y="958" Height="39" Width="126" Rotation="0" BorderThickness="0">
+      <BorderColor>#FF000000</BorderColor>
+      <FillColor>#FFFF8C00</FillColor>
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="RectangleControl" Name="Rectangle" X="1589" Y="92" Height="50" Width="150" Rotation="0" BorderThickness="0">
+      <BorderColor>#FF000000</BorderColor>
+      <FillColor>#FF000000</FillColor>
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+    <Control xsi:type="LabelControl" Name="Label" X="1604" Y="93" Height="46" Width="200" Rotation="0" Text="Status" DisplayText="Status" TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="30">
+      <TextColor>White</TextColor>
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="30" TextColor="White" />
+    </Control>
+  </Controls>
+  <BooleanVariableNames>
+    <string>{All Workcell Processes Complete}</string>
+    <string>{Any Available}</string>
+    <string>{Is Low On Tips}</string>
+    <string>{Lid Test.Complete}</string>
+    <string>{Load Lid On ODTC 1}</string>
+    <string>{Load Lid On ODTC 2}</string>
+    <string>{Next Set Ready}</string>
+    <string>{Pre-PCR.Complete}</string>
+    <string>{Result}</string>
+    <string>{Workcell Process 1.Complete}</string>
+  </BooleanVariableNames>
+  <IsScaled>true</IsScaled>
+</Screen>

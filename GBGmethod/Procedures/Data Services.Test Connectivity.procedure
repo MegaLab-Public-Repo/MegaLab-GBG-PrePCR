@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<Procedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" IsStartupProcedure="false" FileName="Data Services.Test Connectivity.procedure" Id="b8c4b9fd-3ec9-4d2a-9026-9f7d1d5ce3f8">
+  <IsBookmarked>false</IsBookmarked>
+  <WorkFlow xsi:type="SequentialWorkflow" BackgroundImageLocation="" Guid="2748b28f-8306-4274-8690-c4d51ddcda4d" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+    <SkipLogging>false</SkipLogging>
+    <Sequence>
+      <WorkFlow xsi:type="RunScriptWorkflow" BackgroundImageLocation="" Guid="23942b90-ba05-4725-9107-3a35598a6383" CanBeExecutedOutOfSequence="false" Name="Run Script" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/script64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" ScriptName="Data Services Test Connectivity.cs">
+        <SkipLogging>false</SkipLogging>
+        <InputParameters>
+          <Variables />
+        </InputParameters>
+        <OutputParameters>
+          <Variables />
+        </OutputParameters>
+        <IsSelected>false</IsSelected>
+      </WorkFlow>
+      <WorkFlow xsi:type="BranchingWorkflow" BackgroundImageLocation="" Guid="b8145276-bb56-4de9-a775-5cc0de743ae6" CanBeExecutedOutOfSequence="false" Name="Conditional Branch" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/QuestionYellow.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+        <SkipLogging>false</SkipLogging>
+        <YesBranch BackgroundImageLocation="" Guid="797ce245-02ce-4a8f-b035-97063adbf5ac" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+          <SkipLogging>false</SkipLogging>
+          <Sequence>
+            <WorkFlow xsi:type="ShowScreenWorkflow" BackgroundImageLocation="" Guid="90db1c7b-9fe0-46da-b7ea-09d9c00d016a" CanBeExecutedOutOfSequence="false" Name="Show Screen" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/screen64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" ScreenName="Display Error">
+              <SkipLogging>false</SkipLogging>
+              <IsSelected>false</IsSelected>
+            </WorkFlow>
+          </Sequence>
+        </YesBranch>
+        <NoBranch BackgroundImageLocation="" Guid="e48bc358-11bd-4856-b564-d88fdf117bf9" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+          <SkipLogging>false</SkipLogging>
+          <Sequence>
+            <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="pack://application:,,,/BioSero.GreenButtonGo.Base;component/Images/Transparent12x12.png" Guid="f91026a4-9f25-4c80-8957-c49664f64791" CanBeExecutedOutOfSequence="false" Name="" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/Empty.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+              <SkipLogging>false</SkipLogging>
+              <Command xsi:type="EmptyCommand" Guid="f91026a4-9f25-4c80-8957-c49664f64791" IsDisabled="false" IsAsyncronous="false" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="false" Name="" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/Empty.png" BackgroundImageLocation="pack://application:,,,/BioSero.GreenButtonGo.Base;component/Images/Transparent12x12.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="false" SimulateError="false" HasBreakPointSet="false">
+                <SecondsToSimulate>0</SecondsToSimulate>
+                <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+                <SimulationOutput />
+                <SimulatableErrorTexts />
+                <InputParameters>
+                  <Variables />
+                </InputParameters>
+                <OutputParameters>
+                  <Variables />
+                </OutputParameters>
+              </Command>
+            </WorkFlow>
+          </Sequence>
+        </NoBranch>
+        <Evaluation Left="Error Text" Right="" LeftType="Variable" RightType="Value" Evaluator="NotEqual" />
+      </WorkFlow>
+    </Sequence>
+  </WorkFlow>
+  <HasBeenModified>false</HasBeenModified>
+</Procedure>

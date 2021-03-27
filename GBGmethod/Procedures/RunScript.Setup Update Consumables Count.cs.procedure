@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Procedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" IsStartupProcedure="false" FileName="RunScript.Setup Update Consumables Count.cs.procedure" Id="11001b52-36be-40f1-9367-b1b466cb8640">
+  <IsBookmarked>false</IsBookmarked>
+  <WorkFlow xsi:type="SequentialWorkflow" BackgroundImageLocation="" Guid="6dd64a02-e9b6-4fb8-8e83-1ed58c419f7a" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+    <SkipLogging>false</SkipLogging>
+    <Sequence>
+      <WorkFlow xsi:type="RunScriptWorkflow" BackgroundImageLocation="" Guid="f2de612d-87f8-4658-8c0f-87b2157ed47a" CanBeExecutedOutOfSequence="false" Name="Run Script" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/script64.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false" ScriptName="Setup Update Consumables Count.cs">
+        <SkipLogging>false</SkipLogging>
+        <InputParameters>
+          <Variables />
+        </InputParameters>
+        <OutputParameters>
+          <Variables />
+        </OutputParameters>
+        <IsSelected>false</IsSelected>
+      </WorkFlow>
+    </Sequence>
+  </WorkFlow>
+  <HasBeenModified>false</HasBeenModified>
+</Procedure>

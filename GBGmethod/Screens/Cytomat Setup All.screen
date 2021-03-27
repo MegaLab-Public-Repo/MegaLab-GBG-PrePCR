@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" FullScreen="true" RunTime="false" Center="true" X="0" Y="0" FileName="Cytomat Setup All.screen" Id="f2bf460d-02bd-485d-86d5-414b61f92a9e" Width="2400" Height="1300" BackgroundColor="#FFD3D3D3" OpenCloseViewOnBoolChange="false">
+  <IsBookmarked>false</IsBookmarked>
+  <ScrollStatus>Disabled</ScrollStatus>
+  <Controls>
+    <Control xsi:type="ImageControl" Name="Image" X="0" Y="0" Height="1300" Width="2400" Rotation="0" ImageFileName="%datafolder%\Hotel Test Pre.png" DisplayImageFileName="C:\Users\INT3926.8 - Illumina\Documents\Green Button Go\CTS PRE-PCR V18 PATHGROUP\Data\\Hotel Test Pre.png" />
+    <Control xsi:type="ButtonControl" Name="Button" X="1269" Y="1233" Height="24" Width="80" Rotation="0" Text="OK" DisplayText="OK" IsStopButton="false" SetVariable="false" SetVariableValue="" RunScriptOnClick="false" DoNotCloseOnClick="false">
+      <FontProperties TextBold="false" TextItalics="false" TextUnderlined="false" TextFont="Segoe UI" TextSize="12" TextColor="Black" />
+    </Control>
+  </Controls>
+  <BooleanVariableNames>
+    <string>{All Workcell Processes Complete}</string>
+    <string>{Any Available}</string>
+    <string>{Is Low On Tips}</string>
+    <string>{Lid Test.Complete}</string>
+    <string>{Load Lid On ODTC 1}</string>
+    <string>{Load Lid On ODTC 2}</string>
+    <string>{Next Set Ready}</string>
+    <string>{Pre-PCR.Complete}</string>
+    <string>{Result}</string>
+    <string>{Workcell Process 1.Complete}</string>
+  </BooleanVariableNames>
+  <IsScaled>true</IsScaled>
+</Screen>

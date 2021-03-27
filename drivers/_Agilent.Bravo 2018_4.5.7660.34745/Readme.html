@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Agilent Bravo 2018</title>
+</head>
+<body>
+
+    <h1 id="agilent-bravo-2018">Agilent Bravo 2018</h1>
+<h2 id="driver-user-guide">Driver User Guide</h2>
+<p>Version 4.5.5</p>
+<hr />
+<h2 id="introduction">Introduction:</h2>
+<p>The Agilent Bravo 2018 driver provides an interface to the Agilent Bravo and VPrep for Green Button Go.</p>
+<p>Minimum supported version of Green Button Go:  3.3.6634.15281</p>
+<h2 id="installing-the-driver">Installing the Driver:</h2>
+<p>For automated installation, use the 'Update' feature from within Green Button Go in the 'About' window.</p>
+<p>To manually install the driver, copy the following file(s) to the 'C:\Program Files (x86)\Green Button Go\Drivers' folder:</p>
+<pre><code>Agilent.Bravo2018.Driver.dll  
+BioSero.GreenButtonGo.LiquidHandler.dll  
+Interop.VWorks4Lib.dll  
+VWorks4Lib.dll  
+</code></pre>
+<p>Omit the '(x86)' in the destination folder on 32-bit operating systems. If the file was downloaded from the Internet, it may be necessary to unblock the file. First copy it to a location where you have write privileges (such as the Desktop or My Documents folder), then right click on the dll, select Properties and click or uncheck the 'Unblock' button if it exists.</p>
+<h2 id="connection">Connection:</h2>
+<p>The Bravo must be connected to the computer running Green Button Go (or the Green Button Go Remote Client) which needs to run As Administrator.</p>
+<h2 id="required-hardware">Required Hardware:</h2>
+<p>Agilent Bravo or VPrep.</p>
+<h2 id="required-software">Required Software:</h2>
+<p>VWorks 4 with remote license.</p>
+<h2 id="setup">Setup:</h2>
+<p>If you get a 'Retrieving the COM class factory for component' error when trying to run the 'Initialize' command, you need to register VWorks.exe.</p>
+<p><img src="Content/VWorksRegistryError.png" alt="VWorksRegistryError.png" /></p>
+<p>To register it, run Command Prompt 'As Administrator'.  Navigate to the VWorks folder ('cd C:\Program Files (x86)\Agilent Technologies\VWorks') then register the file using 'VWorks.exe /regserver'.</p>
+<p><img src="Content/VWorksRegistration.png" alt="VWorksRegistration.png" /></p>
+<p>In VWorks, you need to 'Disable Device Initialization Prompt'.</p>
+<p><img src="Content/DisableInitializationWarning.png" alt="DisableInitializationWarning.png" /></p>
+<h2 id="instrument-properties">Instrument Properties:</h2>
+<ol>
+<li><strong>User Name</strong>: VWorks user name to use to log into VWorks. If no users have been setup, use the &quot;administrator&quot; user name with &quot;administrator&quot; password.</li>
+<li><strong>Password</strong>: Password for User Name.</li>
+<li><strong>Default Device File</strong>: Optional.  Will be used to load VWorks Device File for Show Dialog command.</li>
+<li><strong>Error on User Message</strong>: If true, GBG will subscribe to VWorks User Message events.  This will treat VWorks User Message events like errors so that GBG user will be notified that VWorks requires user interaction.  Note, if VWorks is in simulation mode, user messages may not be displayed in VWorks, even though the event is triggered.</li>
+</ol>
+<h2 id="processes">Processes:</h2>
+<ol>
+<li><strong>Run Sequence</strong>
+<ul>
+<li><strong>Default</strong>: Executes the process.
+<ul>
+<li>Parameters
+<ul>
+<li><strong>Sequence Name</strong> - The name of the sequence with which this process is associated.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="commands">Commands:</h2>
+<ol>
+<li><strong>Initialize</strong></li>
+<li><strong>Show VWorks</strong>: Show or Hide VWorks.
+<ul>
+<li>Input Parameters
+<ul>
+<li><strong>Make VWorks Visible</strong> - If true, makes VWorks visible.  If false, hides VWorks.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Kill VWorks</strong>: Kills all processes that are called VWorks.  Only use this if there are is an instance of VWorks that stays alive after closing GBG.</li>
+<li><strong>Show Dialog</strong>: Shows VWorks Diagnostics window.</li>
+<li><strong>Run Runset</strong>: Runs a VWorks runset (.rst file extension).
+<ul>
+<li>Input Parameters
+<ul>
+<li><strong>Runset</strong> - The file name and path of the runset.</li>
+<li><strong>Timeout (min.)</strong> - Time in minutes to allow the runset to run before throwing a timeout error.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Close Protocol</strong>: Close the specified VWorks protocol file.
+<ul>
+<li>Input Parameters
+<ul>
+<li><strong>Protocol</strong> - The protocol path and file name to close (.pro file extension).</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Load Device File</strong>: Load the specified VWorks device file.
+<ul>
+<li>Input Parameters
+<ul>
+<li><strong>Device File</strong> - The path and file name of the device file to load  (.dev file extension).</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<!-- . **Set Parameter** - Modifies a VWorks protocol using the specified parameters.  This will also attempt to close the 'Save As' protocol in VWorks since it needs to be reopened for the changes to take affect.
+    * Input Parameters
+        * **Protocol** - The VWorks protocol to use as a template.
+        * **Process** - The VWorks process in which to change a task parameter.
+        * **Task Description** - The task whose parameter will be changed.  **Note**: If you have more than one task with the same default description, in VWorks, uncheck the 'Use default task description' option so you can modify it to have a unique description.
+        * **Parameter** - The name of the parameter to change.
+        * **New Value** - The new value for the parameter.
+        * **Save As** - The file name to save the protocol as.
+-->
+<ol start="8">
+<li><strong>Get Move Parameters</strong>: Used by the Run Sequence process to determine the next movement in a sequence and output the data required to execute it.
+<ul>
+<li>Input Parameters
+<ul>
+<li><strong>Sequence Name</strong> - The name of the liquid handler Sequence defined in the sequence editor that is being run.</li>
+</ul>
+</li>
+<li>Output Parameters
+<ul>
+<li><strong>Arm Sequence</strong> - The name of the arm sequence defined in the Teach Pendant that the arm should execute in order to move the appropriate plate.</li>
+<li><strong>Nest Variable Name</strong> - Identifies which 'Plate On' variable the barcode will be put into or pulled from.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Run Sequence Activities</strong>: Used by the Run Sequence process to execute all non-movement steps defined in the sequence previous to the next plate movement.
+<ul>
+<li>Input Parameters
+<ul>
+<li><strong>Sequence Name</strong> - The name of the liquid handler Sequence defined in the sequence editor that is being run.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Load Protocol</strong>: Loads the specified protocol.
+<ul>
+<li>Input Parameters
+<ul>
+<li><strong>Protocol Name</strong> - The protocol to run.</li>
+<li><strong>Timeout (min)</strong> - Time in minutes to allow the protocol to load before throwing a timeout error.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Run Protocol</strong>: Runs the protocol that was set using the Load Protocol command.
+<ul>
+<li>Input Parameters
+<ul>
+<li><strong>Timeout (min)</strong> - Time in minutes to allow the protocol to run before throwing a timeout error.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Load and Run Protocol</strong>: Loads and runs the specified protocol.
+<ul>
+<li>Input Parameters
+<ul>
+<li><strong>Protocol Name</strong> - The protocol to run.</li>
+<li><strong>Timeout (min)</strong> - Time in minutes to allow the protocol to run before throwing a timeout error.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<hr />
+<p>For additional information, please contact your local Biosero representative or the Biosero office:</p>
+<p>Biosero<br />
+9560 Waples St<br />
+San Diego, CA 92121</p>
+<p>Online Service Requests: <a href="http://www.biosero.com/servicerequest/">www.biosero.com/servicerequest/</a><br />
+Email: service@biosero.com<br />
+Call Us: 858-880-7376</p>
+
+
+</body>
+</html>

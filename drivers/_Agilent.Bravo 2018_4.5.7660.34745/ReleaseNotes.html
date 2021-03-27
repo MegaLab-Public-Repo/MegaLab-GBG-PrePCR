@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Agilent Bravo Driver (Agilent.Bravo2018.Driver)</title>
+</head>
+<body>
+
+    <h1 id="agilent-bravo-driver-agilent.bravo2018.driver">Agilent Bravo Driver (Agilent.Bravo2018.Driver)</h1>
+<h2 id="release-notes">Release Notes</h2>
+<p><strong>Known Issues</strong></p>
+<ul>
+<li>[Issue] None.</li>
+</ul>
+<hr />
+<h2 id="version-4.5.6-december-21-2020">Version 4.5.6 (December 21, 2020)</h2>
+<p><strong>Fixes</strong></p>
+<ul>
+<li>[Fixed] Fixed issue causing timeout in Green Button Go when some VWorks protocols included shutdown protocol and others did not.</li>
+</ul>
+<hr />
+<h2 id="version-4.5.5-october-7-2020">Version 4.5.5 (October 7, 2020)</h2>
+<p><strong>Improvement</strong></p>
+<ul>
+<li>[Improvement] Updated documentation.</li>
+</ul>
+<hr />
+<h2 id="version-4.5.4-june-11-2020">Version 4.5.4 (June 11, 2020)</h2>
+<p><strong>New</strong></p>
+<ul>
+<li>[Feature] Added 'Set Parameter' command.  This command automates the editing of VWorks protocol files.</li>
+</ul>
+<p><strong>Improved</strong></p>
+<ul>
+<li>[Improvement] Removed 'Get Variable' and 'Set Variable' commands and sequence steps from the instrument.  Those commands would throw a 'This method is not implemented.' exception.  Though they are core Liquid Handler commands, the VWorks API does not support passing variables.</li>
+<li>[Improvement] Added extra documentation on registering VWorks.exe.</li>
+</ul>
+<hr />
+<h2 id="version-4.5.3-may-12-2020">Version 4.5.3 (May 12, 2020)</h2>
+<p><strong>Fixes</strong></p>
+<ul>
+<li>[Fixed] Implemented logic to handle situation where after handling an error through VWorks, the protocol completes while GBG still showing the error screen.</li>
+</ul>
+<p><strong>Improved</strong></p>
+<ul>
+<li>[Improvement] Added check for VWorks log.  Error message will be shown in GBG if VWorks shows 'VWorks is now running in Reduced Speed Mode.' message.  That message box shown in VWorks does not trigger the message box event and so GBG did not notify the user that VWorks was waiting on a user response.</li>
+</ul>
+<h2 id="version-4.5.2-april-8-2020">Version 4.5.2 (April 8, 2020)</h2>
+<p><strong>Fixes</strong></p>
+<ul>
+<li>[Fix] Fixed error message connecting to the Bravo if Green Button Go isn't running as Administrator.</li>
+</ul>
+<hr />
+<h2 id="version-4.5.1-january-9-2020">Version 4.5.1 (January 9, 2020)</h2>
+<p><strong>Fixes</strong></p>
+<ul>
+<li>[Fix] Added capturing of a Shutdown protocol starting so that the GBG will not see the protocol as complete after the Main protocol has finished but a Shutdown protocol has started.  Note, a protocol with only a startup protocol and without a Main or Shutdown protocol will not properly report as complete.</li>
+</ul>
+<p><strong>Improved</strong></p>
+<ul>
+<li>[Improvement] Added Kill VWorks command to force VWorks to shutdown if needed.</li>
+</ul>
+<hr />
+<h2 id="version-4.5-november-19-2019">Version 4.5 (November 19, 2019)</h2>
+<p><strong>New</strong></p>
+<ul>
+<li>[New] Added option to subscribe to User Messages from VWorks.  User Messages will be treated like errors to notify user that VWorks needs user interaction.</li>
+</ul>
+<p><strong>Improved</strong></p>
+<ul>
+<li>[Improvement] Moved all calls to VWorks API to separate thread to better catch VWorks errors.</li>
+</ul>
+<hr />
+<h2 id="version-4.4-november-14-2019">Version 4.4 (November 14, 2019)</h2>
+<p><strong>New</strong></p>
+<ul>
+<li>[New] Added Move Protocol sequence step and instrument command.  Command relies on a VWorks protocol parsing a file to which GBG writes the source and destination nests.</li>
+</ul>
+<p><strong>Improved</strong></p>
+<ul>
+<li>[Improvement] Added code to automatically initialize VWorks if command is called before the Initialize command is called.</li>
+<li>[Improvement] Driver now throws error if VWorks Message contains 'GetController failed for controllerID' to allow GBG to catch VWorks error that is not being properly passed to GBG.</li>
+</ul>
+<hr />
+<h2 id="version-4.3-october-23-2019">Version 4.3 (October 23, 2019)</h2>
+<p><strong>New</strong></p>
+<ul>
+<li>[New] Added Load Device File command.</li>
+</ul>
+<hr />
+<h2 id="version-4.2">Version 4.2</h2>
+<p><strong>Improved</strong></p>
+<ul>
+<li>[Improvement] Removed close protocol call from end of run protocol.</li>
+<li>[Improvement] Implemented Load Protocol and Run Protocol commands instead of notifying user to use Load and Run Protocol command.</li>
+<li>[Improvement] Added Close Protocol command.</li>
+</ul>
+<hr />
+<h2 id="version-4.1.0">Version 4.1.0</h2>
+<p><strong>Fixed</strong></p>
+<ul>
+<li>[Fixed] Fixed reference to Load and Run Protocol when running through sequence.</li>
+</ul>
+<hr />
+<h2 id="version-3.2.x">Version 3.2.x</h2>
+<p><strong>Improved</strong></p>
+<ul>
+<li>[Improvement] Refactored this and base liquid handler project to allow for inheritance of more classes.</li>
+</ul>
+<hr />
+<h2 id="version-3.1.6786">Version 3.1.6786</h2>
+<p><strong>Improved</strong></p>
+<ul>
+<li>[Improvement] Changed &quot;GENERIC&quot; to &quot;ANY&quot;.</li>
+<li>[Improvement] Added &quot;Remove if Present&quot; as an option under conditional steps.</li>
+<li>[Improvement] Referenced new VWorks4Lib.dll for latest version of VWorks.</li>
+</ul>
+<hr />
+<h2 id="version-3.1.6703">Version 3.1.6703</h2>
+<p><strong>New</strong></p>
+<ul>
+<li>[New] Conditional steps</li>
+<li>[New] Enabled &quot;GENERIC&quot; as sequence name in process tab.</li>
+</ul>
+
+
+</body>
+</html>

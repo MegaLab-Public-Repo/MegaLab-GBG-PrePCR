@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Biosero Liquid Handler Driver  (Biosero.GreenButtonGo.LiquidHandler)</title>
+</head>
+<body>
+
+    <h1 id="biosero-liquid-handler-driver-biosero.greenbuttongo.liquidhandler">Biosero Liquid Handler Driver  (Biosero.GreenButtonGo.LiquidHandler)</h1>
+<h2 id="release-notes">Release Notes</h2>
+<h2 id="version-1.6.2-september-23-2020">Version 1.6.2 (September 23, 2020)</h2>
+<p><strong>Improved</strong></p>
+<ul>
+<li>[Improvement]  Better implementation of error handling if the user selects 'Modify', 'Retry', or 'Ignore' on a 'Run Sequence Activities' command error instead of 'Continue'.  On these selections, the step will always start from the beginning.  If 'Ignore' is selected, the step will now increment automatically, ignoring the step that errored.</li>
+</ul>
+<hr />
+<h2 id="version-1.6.1-september-14-2020">Version 1.6.1 (September 14, 2020)</h2>
+<p><strong>Fixed</strong></p>
+<ul>
+<li>[Fix] Better implementation of caching  variable value for Continue action for 'Run Sequence Activities' command.</li>
+</ul>
+<hr />
+<h2 id="version-1.6.0-june-16-2020">Version 1.6.0 (June 16, 2020)</h2>
+<p><strong>Fixed</strong></p>
+<ul>
+<li>[Fix] Fixed cloning of 'Set Current Step' sequence step.</li>
+<li>[Fix] Fixed issue with output variables not being properly synced by 'Run Instrument Command' sequence step.</li>
+<li>[Fix] No longer create a new instance of instrument commands during execution of 'Run Instrument Command' sequence steps.</li>
+</ul>
+<hr />
+<h2 id="version-1.5.11-april-20-2020">Version 1.5.11 (April 20, 2020)</h2>
+<p><strong>New</strong></p>
+<ul>
+<li>[Feature] Added 'Set Current Step' sequence step.  This allows for easy setting current step back to previous step to create a loop, or forward to skip steps.</li>
+</ul>
+<hr />
+<h2 id="version-1.5.10-april-7-2020">Version 1.5.10 (April 7, 2020)</h2>
+<p><strong>Fixed</strong></p>
+<ul>
+<li>[Fix] Fixed  variable value not being passed back to instrument command on Continue action for 'Run Sequence Activities' command.</li>
+<li>[Fix] Fixed issue with cached value for  for error recovery when running multiple Liquid Handlers.</li>
+</ul>
+<hr />
+<h2 id="version-1.5.8-february-21-2020">Version 1.5.8 (February 21, 2020)</h2>
+<p><strong>Improvement</strong></p>
+<ul>
+<li>[Improvement] Improved Get Plate and Put Plate procedures for Liquid Handlers that have extend nest and/or retract nest commands.</li>
+<li>[Improvement] Added extra user warning if anything other than 'Continue' is selected from the error dialog on a Run Sequence Activities command.  This gives the user a second chance to view the Sequence Error Correction window.</li>
+</ul>
+<hr />
+<h2 id="version-1.5.6-january-8-2020">Version 1.5.6 (January 8, 2020)</h2>
+<p><strong>Fixed</strong></p>
+<ul>
+<li>[Fix] Variables values will be passed into command properties for Run Instrument Commands instead of the variable names.</li>
+<li>[Fix] Added &quot;Sequence Name&quot; to the variables automatically created by Run Sequence process.</li>
+</ul>
+<hr />
+<h2 id="version-1.5.4-november-27-2019">Version 1.5.4 (November 27, 2019)</h2>
+<p><strong>Fixed</strong></p>
+<ul>
+<li>[Fix] Fixed 'ProtocolName' variable for data publishing messages.</li>
+<li>[Fix] Fixed cloning of 'Run Instrument Command' steps.</li>
+<li>[Fix] Fixed data publishing to work with remote client.</li>
+</ul>
+<hr />
+<h2 id="version-1.5.1-november-14-2019">Version 1.5.1 (November 14, 2019)</h2>
+<p><strong>Improvement</strong></p>
+<ul>
+<li>[Improved] Renaming of instrument now also renames and modifies sequence file.</li>
+<li>[Improved] Added better error message if driver wasn't initiated before calling instrument commands.</li>
+</ul>
+<p><strong>New</strong></p>
+<ul>
+<li>[New] Added data publishing.</li>
+<li>[New] Added Lock and Unlock sequence steps for Liquid handler to demarcate critical steps and lock the execution of sequences so that only the current sequence can execute.</li>
+</ul>
+<hr />
+<h2 id="version-1.5.0-july-24-2019">Version 1.5.0 (July 24, 2019)</h2>
+<p><strong>Improvement</strong></p>
+<ul>
+<li>[Improved] Added validation to sequence name.</li>
+<li>[Improved] Added HelpText property to sequences and display as ToolTips in sequence editor.</li>
+</ul>
+<hr />
+<h2 id="version-1.4.0-june-27-2019">Version 1.4.0 (June 27, 2019)</h2>
+<p><strong>Improvement</strong></p>
+<ul>
+<li>[Improved] Made the Continue error handling window non-modal so that on an error, other parts of the program can be modified.</li>
+</ul>
+<hr />
+<h2 id="version-1.3.0-june-14-2019">Version 1.3.0 (June 14, 2019)</h2>
+<p><strong>Fixed</strong></p>
+<ul>
+<li>[Fix] Fixed the issue with step counter error on quick stop/start of integration.</li>
+<li>[Fix] Reset stop flag so that simulation times would work correctly after a stop/restart.</li>
+<li>[Fix] Fixed Sequence Number ordering in Sequence Editor.</li>
+<li>[Fix] Fixed the issue with cloned sequence shows 0 for all step numbers.</li>
+</ul>
+<p><strong>New</strong></p>
+<ul>
+<li>[New] Added the Run GBG Script Step.</li>
+<li>[New] Added the Set GBG Variable Step.</li>
+<li>[New] Added conditional option to Run Instrument Command step.</li>
+<li>[New] Allowed sequence name to be specified with variable.</li>
+</ul>
+<hr />
+<h2 id="version-1.2.0-march-26-2019">Version 1.2.0 (March 26, 2019)</h2>
+<p><strong>New</strong></p>
+<ul>
+<li>[New] Added deck layout, sequence process base class, and sequence instrument base class to allow for easier creation of drivers using this base project.</li>
+</ul>
+
+
+</body>
+</html>

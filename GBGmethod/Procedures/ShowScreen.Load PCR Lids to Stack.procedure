@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Procedure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" IsStartupProcedure="false" FileName="ShowScreen.Load PCR Lids to Stack.procedure" Id="c9be6fe9-fedb-4517-8122-e2112f32bc60">
+  <IsBookmarked>false</IsBookmarked>
+  <WorkFlow xsi:type="SequentialWorkflow" BackgroundImageLocation="" Guid="7f1f3dd1-de4f-48de-b0f3-9deb06c20b71" CanBeExecutedOutOfSequence="false" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+    <SkipLogging>false</SkipLogging>
+    <Sequence>
+      <WorkFlow xsi:type="WorkflowCommandHandler" BackgroundImageLocation="pack://application:,,,/BioSero.GreenButtonGo.Base;component/Images/Transparent12x12.png" Guid="a1089b76-cc0e-410c-8903-32b48ab75de8" CanBeExecutedOutOfSequence="false" Name="" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/Empty.png" Scale="1" HasBreakPointSet="false" HaltOnError="true" PublishError="false" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsDisabled="false" sfc="false">
+        <SkipLogging>false</SkipLogging>
+        <Command xsi:type="EmptyCommand" Guid="a1089b76-cc0e-410c-8903-32b48ab75de8" IsDisabled="false" IsAsyncronous="false" HaltOnError="true" MapErrorToVariable="false" RunScriptOnError="false" RunScriptOnComplete="false" IsSimulatable="false" Name="" ImageLocation="/BioSero.GreenButtonGo.Base;component/Images/Empty.png" BackgroundImageLocation="pack://application:,,,/BioSero.GreenButtonGo.Base;component/Images/Transparent12x12.png" EstimatedCommandDuration="00:00:00" AllowErrorSimulation="false" SimulateError="false" HasBreakPointSet="false">
+          <SecondsToSimulate>0</SecondsToSimulate>
+          <UseProcessTimeForEstimatedDuration>false</UseProcessTimeForEstimatedDuration>
+          <SimulationOutput />
+          <SimulatableErrorTexts />
+          <InputParameters>
+            <Variables />
+          </InputParameters>
+          <OutputParameters>
+            <Variables />
+          </OutputParameters>
+        </Command>
+      </WorkFlow>
+    </Sequence>
+  </WorkFlow>
+  <HasBeenModified>false</HasBeenModified>
+</Procedure>

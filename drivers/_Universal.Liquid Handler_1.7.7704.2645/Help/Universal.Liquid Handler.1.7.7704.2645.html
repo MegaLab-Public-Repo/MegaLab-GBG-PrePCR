@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Liquid Handler Driver - By Request</title>
+</head>
+<body>
+
+    <h1 id="liquid-handler-driver-by-request">Liquid Handler Driver - By Request</h1>
+<h2 id="introduction">Introduction</h2>
+<p>The By Request process allows the liquid handler to request the loading and unloading of labware. This is done through a handshake file.  It is assumed that the liquid handler method is running during this process and will use its own internal scripting or file writing capabilities to write and read from the handoff file.</p>
+<h2 id="setup">Setup</h2>
+<p>The By Request process is inserted into the plate process where desired.  The Status File parameter needs to be set to the desired file that will be used for handshaking, and the nest position needs to be specified.</p>
+<p><img src="./Content/ByRequest.png" alt="Layout" /></p>
+<h2 id="operation">Operation</h2>
+<p>To trigger a plate to be loaded into this process the liquid handler needs to write the following text to the file:</p>
+<pre><code>load
+</code></pre>
+<p>Once GBG has loaded the labware onto the specified nest, GBG will overwrite the file with the following text:</p>
+<pre><code>loaded
+</code></pre>
+<p>The liquid handler needs to monitor for this change and can then proceed with processing the labware.</p>
+<p>To remove labware from the nest, the liquid handler needs to write the following text to the file:</p>
+<pre><code>remove
+</code></pre>
+<p>Once GBG had remove the labware from the nest it will overwrite the file with the following text:</p>
+<pre><code>removed
+</code></pre>
+
+
+</body>
+</html>

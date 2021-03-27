@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<ArrayOfSequence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sequence>
+    <Steps>
+      <SequenceStep xsi:type="AddPlateStep">
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+        <IsConditional>false</IsConditional>
+        <TriggeringPlateProcess>cDNA</TriggeringPlateProcess>
+        <TriggeringInstrumentProcess>Run Sequence 2</TriggeringInstrumentProcess>
+        <InstrumentInstanceName>Mosquito</InstrumentInstanceName>
+        <SequenceNumber>1</SequenceNumber>
+        <HelpText>Add a plate to the liquid handler deck.</HelpText>
+        <Position>Position 4</Position>
+      </SequenceStep>
+      <SequenceStep xsi:type="AddPlateStep">
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+        <IsConditional>false</IsConditional>
+        <TriggeringPlateProcess>ART1</TriggeringPlateProcess>
+        <TriggeringInstrumentProcess>Run Sequence 2</TriggeringInstrumentProcess>
+        <InstrumentInstanceName>Mosquito</InstrumentInstanceName>
+        <SequenceNumber>2</SequenceNumber>
+        <HelpText>Add a plate to the liquid handler deck.</HelpText>
+        <Position>Position 3</Position>
+      </SequenceStep>
+      <SequenceStep xsi:type="AddPlateStep">
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+        <IsConditional>false</IsConditional>
+        <TriggeringPlateProcess>ART2</TriggeringPlateProcess>
+        <TriggeringInstrumentProcess>Run Sequence 2</TriggeringInstrumentProcess>
+        <InstrumentInstanceName>Mosquito</InstrumentInstanceName>
+        <SequenceNumber>3</SequenceNumber>
+        <HelpText>Add a plate to the liquid handler deck.</HelpText>
+        <Position>Position 5</Position>
+      </SequenceStep>
+      <SequenceStep xsi:type="LoadAndRunProtocolStep">
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+        <IsConditional>false</IsConditional>
+        <InstrumentInstanceName>Mosquito</InstrumentInstanceName>
+        <SequenceNumber>4</SequenceNumber>
+        <HelpText>Load and run a liquid handler protocol.</HelpText>
+        <ProtocolName>C:\Biosero\Illumina\3rd Party Protocols\Mosquito Protocols\Pre-PCR cDNA Split.protocol</ProtocolName>
+        <TimeoutInMinutes>15</TimeoutInMinutes>
+        <SimulationTimeInSeconds>570</SimulationTimeInSeconds>
+      </SequenceStep>
+      <SequenceStep xsi:type="RunGBGScriptStep">
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+        <IsConditional>false</IsConditional>
+        <InstrumentInstanceName>Mosquito</InstrumentInstanceName>
+        <SequenceNumber>5</SequenceNumber>
+        <HelpText>Run a GBG script.</HelpText>
+        <ScriptName>Data Services Stamp cDNA to ART.cs</ScriptName>
+      </SequenceStep>
+      <SequenceStep xsi:type="RemovePlateStep">
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+        <IsConditional>false</IsConditional>
+        <TriggeringPlateProcess>cDNA</TriggeringPlateProcess>
+        <TriggeringInstrumentProcess>Run Sequence 2</TriggeringInstrumentProcess>
+        <InstrumentInstanceName>Mosquito</InstrumentInstanceName>
+        <SequenceNumber>6</SequenceNumber>
+        <HelpText>Remove a plate from the liquid handler deck.</HelpText>
+        <Position>Position 4</Position>
+        <RemoveIfPresent>false</RemoveIfPresent>
+      </SequenceStep>
+      <SequenceStep xsi:type="RemovePlateStep">
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+        <IsConditional>false</IsConditional>
+        <TriggeringPlateProcess>ART1</TriggeringPlateProcess>
+        <TriggeringInstrumentProcess>Run Sequence 2</TriggeringInstrumentProcess>
+        <InstrumentInstanceName>Mosquito</InstrumentInstanceName>
+        <SequenceNumber>7</SequenceNumber>
+        <HelpText>Remove a plate from the liquid handler deck.</HelpText>
+        <Position>Position 3</Position>
+        <RemoveIfPresent>false</RemoveIfPresent>
+      </SequenceStep>
+      <SequenceStep xsi:type="RemovePlateStep">
+        <Evaluation Left="a4S Sealer.Status" Right="" LeftType="Variable" RightType="Value" Evaluator="Equal" />
+        <IsConditional>false</IsConditional>
+        <TriggeringPlateProcess>ART2</TriggeringPlateProcess>
+        <TriggeringInstrumentProcess>Run Sequence 2</TriggeringInstrumentProcess>
+        <InstrumentInstanceName>Mosquito</InstrumentInstanceName>
+        <SequenceNumber>8</SequenceNumber>
+        <HelpText>Remove a plate from the liquid handler deck.</HelpText>
+        <Position>Position 5</Position>
+        <RemoveIfPresent>false</RemoveIfPresent>
+      </SequenceStep>
+    </Steps>
+    <WorkcellProcessName>Pre-PCR</WorkcellProcessName>
+    <Name>cDNA Split</Name>
+    <InstrumentName>Mosquito</InstrumentName>
+  </Sequence>
+</ArrayOfSequence>
